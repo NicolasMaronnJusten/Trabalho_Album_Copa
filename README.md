@@ -1,4 +1,4 @@
-﻿# Trabalho 2026/1 Programação Orientada a Objeto - Álbum da Copa do Mundo em Java
+��﻿# Trabalho 2026/1 Programação Orientada a Objeto - Álbum da Copa do Mundo em Java
 
 Trabalho Final - Implementação
 
@@ -20,7 +20,7 @@ A solução a ser desenvolvida deverá oferecer estruturas e recursos que auxili
 Considere as principais características presentes num álbum como: Proprietário do Álbum, Seleções/Times, Tipos de Figuras (por exemplo, jogadores, brasões, bandeiras, estádios,
 lendárias, etc..), Identificação numéricas e textuais das figuras, entre outras. Além destas características estruturantes/elementares o sistema deverá oferecer duas funcionalidades básicas de registro: 
 1) “Registrar as figuras já coladas”  
-2) “Registrar as figuras repetidas adquiridas”.
+2“Registrar as figuras repetidas adquiridas”.
 A partir deste cenário estruturado e modelado sob a ótica da Programação Orientada a Objetos, o aplicativo deverá prover funcionalidades para gerar consultas/relatórios/filtros para que o colecionador possa acompanhar de modo mais efetivo e prático o processo de preenchimento do álbum assim como facilitar a troca de figuras com outros colecionadores.
 Para exemplificar seguem algumas sugestões de consultas:
 
@@ -34,7 +34,7 @@ Para exemplificar seguem algumas sugestões de consultas:
 As consultas/listagens exemplificadas devem servir como um ponto de partida. Outras formas e tipos de relatórios podem ser concebidos de acordo com a criatividade de cada grupo
 de trabalho.
 
-- A solução deverá considerar a persistência das informações além da execução em memória. Fica a sugestão de utilizarem arquivo(s) texto para este requisito. Não é necessário
+- A solução deverá considerar a persistência das informações além da execução em memória. Fica a sugestão de utilizarem arquivo(stexto para este requisito. Não é necessário
   armazenar em um SGBD;
 - Modelar e implementar a solução respeitando os critérios e conceitos da orientação a objetos (Polimorfismo, Herança e Encapsulamento, tratamento de exceções, etc...) alinhados
   com os recursos oferecidos pela Linguagem Java;
