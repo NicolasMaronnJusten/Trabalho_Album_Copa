@@ -15,6 +15,7 @@ Desenvolver uma solução em Java para gerenciar a coleção de figuras/cards de
 O seguinte link pode ajudar no processo observação das características (dados e comportamentos) presentes no álbum: https://panini.com.br.copa-do-mundo-2026-album-capa-cartao-fifa-world-cup-2026tm.
 
 *Requisitos de Modelagem e Implementação*
+
 A solução a ser desenvolvida deverá oferecer estruturas e recursos que auxiliem um usuário colecionador de figurinhas a gerir o processo de organização e preenchimento de um álbum.
 Considere as principais características presentes num álbum como: Proprietário do Álbum, Seleções/Times, Tipos de Figuras (por exemplo, jogadores, brasões, bandeiras, estádios,
 lendárias, etc..), Identificação numéricas e textuais das figuras, entre outras. Além destas características estruturantes/elementares o sistema deverá oferecer duas funcionalidades básicas de registro: 
