@@ -1,12 +1,12 @@
 package src;
 
-public class proprietario {
+public class Proprietario {
     //Atributos
     private String nome;
     private String email;
     
     //Inicializador
-    public proprietario(String nome, String email) {
+    public Proprietario(String nome, String email) {
         this.nome = nome;
         this.email = email;
     }

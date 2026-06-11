@@ -1,6 +1,6 @@
 package src;
 
-public enum tipo {
+public enum Tipo {
     JOGADOR,
     BRASAO,
     BANDEIRA,

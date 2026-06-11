@@ -1,8 +1,8 @@
 package src;
 
-public class tipoFigurinha {
+public class TipoFigurinha {
     private Enum tipo;
-    public tipoFigurinha(Enum tipo) {
+    public TipoFigurinha(Enum tipo) {
         this.tipo = tipo;
     }
     
