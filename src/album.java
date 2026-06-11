@@ -11,22 +11,22 @@ public class Album {
         this.lista_figurinhas = lista_figurinhas;
     }
     //Metodos
-    private void registrarFigurinhaColada() {
+    public void registrarFigurinhaColada() {
 
     }
-    private void registrarFigurinhaRepetida() {
+    public void registrarFigurinhaRepetida() {
 
     }
-    private void listarFaltantes() {
+    public void listarFaltantes() {
 
     }
-    private void listarRepetidas() {
+    public void listarRepetidas() {
 
     }
-    private void calcularTotalColadas() {
+    public void calcularTotalColadas() {
 
     }
-    private void calcularTotalRepetidas() {
+    public void calcularTotalRepetidas() {
 
     }
 }
