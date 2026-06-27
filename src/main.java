@@ -143,7 +143,7 @@ public class Main {
                         101,
                         "Escudo Argentina",
                         argentina,
-                        Raridade.RARA
+                        Raridade.BRILHANTE
 
                 )
 
@@ -169,11 +169,51 @@ public class Main {
                         103,
                         "Escudo Portugal",
                         portugal,
-                        Raridade.RARA
+                        Raridade.BRILHANTE
 
                 )
 
         );
+
+        album.adicionarFigurinha(
+
+                new FigurinhaSelecao(
+
+                        200,
+                        brasil,
+                        Raridade.RARA,
+                        "Carlo Ancelotti",
+                        5
+                )
+
+    );
+
+        album.adicionarFigurinha(
+
+                new FigurinhaSelecao(
+
+                        201,
+                        argentina,
+                        Raridade.COMUM,
+                        "Lionel Scaloni",
+                        3
+                )
+
+    );
+
+        album.adicionarFigurinha(
+
+                new FigurinhaSelecao(
+
+                        202,
+                        portugal,
+                        Raridade.COMUM,
+                        "Roberto Martínez",
+                        0
+
+    )
+
+);
 
         int opcao = -1;
 

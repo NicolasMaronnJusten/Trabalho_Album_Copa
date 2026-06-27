@@ -1,6 +1,10 @@
 package src;
 
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class ArquivoAlbum {
 
@@ -22,13 +26,13 @@ public class ArquivoAlbum {
 
                             jogador.getId() + ";" +
 
-                            jogador.getNome() + ";" +
-
                             jogador.getTipo() + ";" +
 
-                            jogador.getRaridade() + ";" +
+                            jogador.getNome() + ";" +
 
                             jogador.getSelecao().getNome() + ";" +
+
+                            jogador.getRaridade() + ";" +
 
                             jogador.getClube() + ";" +
 
@@ -58,29 +62,45 @@ public class ArquivoAlbum {
 
                             brasao.getId() + ";" +
 
-                            brasao.getNome() + ";" +
-
                             brasao.getTipo() + ";" +
 
-                            brasao.getRaridade() + ";" +
+                            brasao.getNome() + ";" +
 
                             brasao.getSelecao().getNome() + ";" +
 
-                            "-" + ";" +
-
-                            "-" + ";" +
-
-                            "-" + ";" +
-
-                            "-" + ";" +
-
-                            "-" + ";" +
-
-                            "-" + ";" +
+                            brasao.getRaridade() + ";" +
 
                             brasao.isColada() + ";" +
 
                             brasao.getQuantidadeRepetida()
+
+                    );
+
+                }
+
+                else if (f instanceof FigurinhaSelecao) {
+
+                    FigurinhaSelecao selecao = (FigurinhaSelecao) f;
+
+                    bw.write(
+
+                            selecao.getId() + ";" +
+
+                            selecao.getTipo() + ";" +
+
+                            selecao.getNome() + ";" +
+
+                            selecao.getSelecao().getNome() + ";" +
+
+                            selecao.getRaridade() + ";" +
+
+                            selecao.getTecnico() + ";" +
+
+                            selecao.getTitulos() + ";" +
+
+                            selecao.isColada() + ";" +
+
+                            selecao.getQuantidadeRepetida()
 
                     );
 
@@ -92,11 +112,11 @@ public class ArquivoAlbum {
 
             bw.close();
 
-            System.out.println("Álbum salvo com sucesso.");
+            System.out.println("Álbum salvo com sucesso!");
 
         }
 
-        catch(IOException e){
+        catch (IOException e) {
 
             System.out.println("Erro ao salvar arquivo.");
 
@@ -104,15 +124,15 @@ public class ArquivoAlbum {
 
     }
 
-    public static void mostrarArquivo(){
+    public static void mostrarArquivo() {
 
-        try{
+        try {
 
             BufferedReader br = new BufferedReader(new FileReader(ARQUIVO));
 
             String linha;
 
-            while((linha = br.readLine()) != null){
+            while ((linha = br.readLine()) != null) {
 
                 System.out.println(linha);
 
@@ -122,9 +142,9 @@ public class ArquivoAlbum {
 
         }
 
-        catch(IOException e){
+        catch (IOException e) {
 
-            System.out.println("Arquivo inexistente.");
+            System.out.println("Arquivo não encontrado.");
 
         }
 
