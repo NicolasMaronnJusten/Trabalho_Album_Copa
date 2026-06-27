@@ -1,20 +1,34 @@
 package src;
 
-public class Figurinha {
-    private int id;
-    private String nome;
-    private TipoFigurinha tipo;
-    private Selecao selecao;
-    private boolean colada;
-    private int quantidadeRepetida;
+public abstract class Figurinha {
 
-    public Figurinha(int id, String nome, String tipo, Selecao selecao) {
+    protected int id;
+    protected String nome;
+
+    protected Tipo tipo;
+    protected Raridade raridade;
+
+    protected Selecao selecao;
+
+    protected boolean colada;
+
+    protected int quantidadeRepetida;
+
+    public Figurinha(int id,
+                     String nome,
+                     Tipo tipo,
+                     Selecao selecao,
+                     Raridade raridade) {
+
         this.id = id;
         this.nome = nome;
-        this.tipo = new TipoFigurinha(Tipo.valueOf(tipo.toUpperCase()));
+        this.tipo = tipo;
         this.selecao = selecao;
+        this.raridade = raridade;
+
         this.colada = false;
         this.quantidadeRepetida = 0;
+
     }
 
     public int getId() {
@@ -25,8 +39,12 @@ public class Figurinha {
         return nome;
     }
 
-    public TipoFigurinha getTipo() {
+    public Tipo getTipo() {
         return tipo;
+    }
+
+    public Raridade getRaridade() {
+        return raridade;
     }
 
     public Selecao getSelecao() {
@@ -42,21 +60,24 @@ public class Figurinha {
     }
 
     public void colar() {
-        this.colada = true;
+
+        colada = true;
+
     }
 
     public void adicionarRepetida() {
-        this.quantidadeRepetida++;
+
+        quantidadeRepetida++;
+
     }
 
     public boolean pertenceASelecao(String nomeSelecao) {
+
         return selecao.getNome().equalsIgnoreCase(nomeSelecao);
+
     }
 
     @Override
-    public String toString() {
-        return id + " - " + nome + " | " + tipo + " | " + selecao.getNome()
-                + " | Colada: " + colada
-                + " | Repetidas: " + quantidadeRepetida;
-    }
+    public abstract String toString();
+
 }
