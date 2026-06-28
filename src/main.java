@@ -233,8 +233,10 @@ public class Main {
             System.out.println("8 - Listar por raridade");
             System.out.println("9 - Buscar figurinha pelo nome");
             System.out.println("10 - Mostrar resumo");
-            System.out.println("11 - Salvar álbum");
-            System.out.println("12 - Mostrar arquivo");
+            System.out.println("11 - Salvar álbum em TXT");
+            System.out.println("12 - Mostrar arquivo TXT");
+            System.out.println("13 - Salvar álbum em JSON");
+            System.out.println("14 - Mostrar arquivo JSON");
             System.out.println("0 - Sair");
 
             System.out.print("\nEscolha: ");
@@ -412,6 +414,18 @@ public class Main {
                     case 12:
 
                         ArquivoAlbum.mostrarArquivo();
+
+                        break;
+
+                    case 13:
+
+                        ArquivoAlbumJson.salvar(album);
+
+                        break;
+
+                    case 14:
+
+                        ArquivoAlbumJson.mostrarArquivo();
 
                         break;
 

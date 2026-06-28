@@ -1,0 +1,196 @@
+{
+  "proprietario": {
+    "nome": "Maicon-Amelio",
+    "email": "maiconenriqueamelio@gmail.com"
+  },
+  "figurinhas": [
+    {
+      "tipo": "JOGADOR",
+      "id": 1,
+      "nome": "Vinicius Jr",
+      "selecao": {
+        "nome": "Brasil",
+        "pais": "Brasil"
+      },
+      "raridade": "RARA",
+      "colada": false,
+      "quantidadeRepetida": 0,
+      "altura": 1.76,
+      "peso": 73.0,
+      "clube": "Real Madrid",
+      "posicao": "Atacante",
+      "idade": 25,
+      "numeroCamisa": 7
+    },
+    {
+      "tipo": "JOGADOR",
+      "id": 2,
+      "nome": "Rodrygo",
+      "selecao": {
+        "nome": "Brasil",
+        "pais": "Brasil"
+      },
+      "raridade": "COMUM",
+      "colada": false,
+      "quantidadeRepetida": 0,
+      "altura": 1.74,
+      "peso": 65.0,
+      "clube": "Real Madrid",
+      "posicao": "Atacante",
+      "idade": 24,
+      "numeroCamisa": 11
+    },
+    {
+      "tipo": "JOGADOR",
+      "id": 3,
+      "nome": "Messi",
+      "selecao": {
+        "nome": "Argentina",
+        "pais": "Argentina"
+      },
+      "raridade": "LENDARIA",
+      "colada": false,
+      "quantidadeRepetida": 0,
+      "altura": 1.7,
+      "peso": 72.0,
+      "clube": "Inter Miami",
+      "posicao": "Atacante",
+      "idade": 39,
+      "numeroCamisa": 10
+    },
+    {
+      "tipo": "JOGADOR",
+      "id": 4,
+      "nome": "Mbappé",
+      "selecao": {
+        "nome": "França",
+        "pais": "França"
+      },
+      "raridade": "EPICA",
+      "colada": false,
+      "quantidadeRepetida": 0,
+      "altura": 1.78,
+      "peso": 75.0,
+      "clube": "Real Madrid",
+      "posicao": "Atacante",
+      "idade": 27,
+      "numeroCamisa": 9
+    },
+    {
+      "tipo": "JOGADOR",
+      "id": 5,
+      "nome": "Cristiano Ronaldo",
+      "selecao": {
+        "nome": "Portugal",
+        "pais": "Portugal"
+      },
+      "raridade": "LENDARIA",
+      "colada": false,
+      "quantidadeRepetida": 0,
+      "altura": 1.87,
+      "peso": 83.0,
+      "clube": "Al-Nassr",
+      "posicao": "Atacante",
+      "idade": 41,
+      "numeroCamisa": 7
+    },
+
+    //Escudo das seleções
+
+    {
+      "tipo": "BRASAO",
+      "id": 100,
+      "nome": "Escudo Brasil",
+      "selecao": {
+        "nome": "Brasil",
+        "pais": "Brasil"
+      },
+      "raridade": "COMUM",
+      "colada": false,
+      "quantidadeRepetida": 0
+    },
+    {
+      "tipo": "BRASAO",
+      "id": 101,
+      "nome": "Escudo Argentina",
+      "selecao": {
+        "nome": "Argentina",
+        "pais": "Argentina"
+      },
+      "raridade": "BRILHANTE",
+      "colada": false,
+      "quantidadeRepetida": 0
+    },
+
+    {
+      "tipo": "BRASAO",
+      "id": 102,
+      "nome": "Escudo França",
+      "selecao": {
+        "nome": "França",
+        "pais": "França"
+      },
+      "raridade": "COMUM",
+      "colada": false,
+      "quantidadeRepetida": 0
+    },
+
+    {
+      "tipo": "BRASAO",
+      "id": 103,
+      "nome": "Escudo Portugal",
+      "selecao": {
+        "nome": "Portugal",
+        "pais": "Portugal"
+      },
+      "raridade": "BRILHANTE",
+      "colada": false,
+      "quantidadeRepetida": 0
+    },
+
+    {
+      "tipo": "SELECAO",
+      "id": 200,
+      "nome": "Brasil",
+      "selecao": {
+        "nome": "Brasil",
+        "pais": "Brasil"
+      },
+      "raridade": "RARA",
+      "colada": false,
+      "quantidadeRepetida": 0,
+      "tecnico": "Carlo Ancelotti",
+      "titulos": 5
+    },
+
+    {
+      "tipo": "SELECAO",
+      "id": 201,
+      "nome": "Argentina",
+      "selecao": {
+        "nome": "Argentina",
+        "pais": "Argentina"
+      },
+      "raridade": "COMUM",
+      "colada": false,
+      "quantidadeRepetida": 0,
+      "tecnico": "Lionel Scaloni",
+      "titulos": 3
+    },
+
+    {
+      "tipo": "SELECAO",
+      "id": 202,
+      "nome": "Portugal",
+      "selecao": {
+        "nome": "Portugal",
+        "pais": "Portugal"
+      },
+      "raridade": "COMUM",
+      "colada": false,
+      "quantidadeRepetida": 0,
+      "tecnico": "Roberto Martínez",
+      "titulos": 0
+    }
+  ]
+}
