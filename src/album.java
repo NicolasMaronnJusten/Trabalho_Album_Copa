@@ -2,7 +2,7 @@ package src;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//album da copa
 public class Album {
 
     private Proprietario proprietario;
