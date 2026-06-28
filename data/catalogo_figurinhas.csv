@@ -1,0 +1,1361 @@
+codigo;id;nome;selecao;tipo;clube;posicao;raridade
+ALG001;1;MASTIL Melvin;Algeria;JOGADOR;FC Stade Nyonnais (SUI);Goleiro;COMUM
+ALG002;2;MANDI Aissa;Algeria;JOGADOR;Lille OSC (FRA);Defensor;COMUM
+ALG003;3;ABADA Achref;Algeria;JOGADOR;USM Alger (ALG);Defensor;COMUM
+ALG004;4;TOUGAI Mohamed Amine;Algeria;JOGADOR;Espérance De Tunisie (TUN);Defensor;COMUM
+ALG005;5;BELAID Zineddine;Algeria;JOGADOR;JS Kabylie (ALG);Defensor;COMUM
+ALG006;6;ZERROUKI Ramiz;Algeria;JOGADOR;FC Twente (NED);Meio-campo;COMUM
+ALG007;7;MAHREZ Riyad;Algeria;JOGADOR;Al Ahli FC (KSA);Atacante;COMUM
+ALG008;8;AOUAR Houssem;Algeria;JOGADOR;Al Ittihad (KSA);Meio-campo;COMUM
+ALG009;9;GOUIRI Amine;Algeria;JOGADOR;Olympique Marseille (FRA);Atacante;COMUM
+ALG010;10;CHAIBI Fares;Algeria;JOGADOR;Eintracht Frankfurt (GER);Meio-campo;COMUM
+ALG011;11;HADJ MOUSSA Anis;Algeria;JOGADOR;Feyenoord Rotterdam (NED);Atacante;COMUM
+ALG012;12;BENBOUALI Nadhir;Algeria;JOGADOR;Györi ETO FC (HUN);Atacante;COMUM
+ALG013;13;HADJAM Jaouen;Algeria;JOGADOR;BSC Young Boys (SUI);Defensor;COMUM
+ALG014;14;BOUDAOUI Hicham;Algeria;JOGADOR;OGC Nice (FRA);Meio-campo;COMUM
+ALG015;15;AIT-NOURI Rayan;Algeria;JOGADOR;Manchester City FC (ENG);Defensor;COMUM
+ALG016;16;BENBOT Oussama;Algeria;JOGADOR;USM Alger (ALG);Goleiro;COMUM
+ALG017;17;BELGHALI;Algeria;JOGADOR;Hellas Verona FC (ITA);Defensor;COMUM
+ALG018;18;AMOURA Mohamed;Algeria;JOGADOR;VfL Wolfsburg (GER);Atacante;COMUM
+ALG019;19;BENTALEB Nabil;Algeria;JOGADOR;Lille OSC (FRA);Meio-campo;RARA
+ALG020;20;BOULBINA Adil;Algeria;JOGADOR;Al Duhail SC (QAT);Atacante;RARA
+ALG021;21;BENSEBAINI Ramy;Algeria;JOGADOR;Borussia Dortmund (GER);Defensor;RARA
+ALG022;22;MAZA Ibrahim;Algeria;JOGADOR;Bayer 04 Leverkusen (GER);Meio-campo;RARA
+ALG023;23;ZIDANE Luca;Algeria;JOGADOR;Granada CF (ESP);Goleiro;RARA
+ALG024;24;TITRAOUI Yassine;Algeria;JOGADOR;Sporting Charleroi (BEL);Meio-campo;EPICA
+ALG025;25;GHEDJEMIS Fares;Algeria;JOGADOR;Frosinone (ITA);Atacante;EPICA
+ALG026;26;CHERGUI Samir;Algeria;JOGADOR;Paris FC (FRA);Defensor;LENDARIA
+ARG001;27;MUSSO Juan;Argentina;JOGADOR;Atlético De Madrid (ESP);Goleiro;COMUM
+ARG002;28;SENESI Marcos;Argentina;JOGADOR;AFC Bournemouth (ENG);Defensor;COMUM
+ARG003;29;TAGLIAFICO Nicolas;Argentina;JOGADOR;Olympique Lyonnais (FRA);Defensor;COMUM
+ARG004;30;MONTIEL Gonzalo;Argentina;JOGADOR;CA River Plate (ARG);Defensor;COMUM
+ARG005;31;PAREDES Leandro;Argentina;JOGADOR;CA Boca Juniors (ARG);Meio-campo;COMUM
+ARG006;32;MARTINEZ Lisandro;Argentina;JOGADOR;Manchester United FC (ENG);Defensor;COMUM
+ARG007;33;DE PAUL Rodrigo;Argentina;JOGADOR;Inter Miami CF (USA);Meio-campo;COMUM
+ARG008;34;BARCO Valentin;Argentina;JOGADOR;RC Strasbourg (FRA);Meio-campo;COMUM
+ARG009;35;ALVAREZ Julian;Argentina;JOGADOR;Atlético De Madrid (ESP);Atacante;COMUM
+ARG010;36;MESSI Lionel;Argentina;JOGADOR;Inter Miami CF (USA);Atacante;COMUM
+ARG011;37;LO CELSO Giovani;Argentina;JOGADOR;Real Betis (ESP);Meio-campo;COMUM
+ARG012;38;RULLI Geronimo;Argentina;JOGADOR;Olympique Marseille (FRA);Goleiro;COMUM
+ARG013;39;ROMERO Cristian;Argentina;JOGADOR;Tottenham Hotspur FC (ENG);Defensor;COMUM
+ARG014;40;PALACIOS Exequiel;Argentina;JOGADOR;Bayer 04 Leverkusen (GER);Meio-campo;COMUM
+ARG015;41;GONZALEZ Nico;Argentina;JOGADOR;Atlético De Madrid (ESP);Meio-campo;COMUM
+ARG016;42;ALMADA Thiago;Argentina;JOGADOR;Atlético De Madrid (ESP);Atacante;COMUM
+ARG017;43;SIMEONE Giuliano;Argentina;JOGADOR;Atlético De Madrid (ESP);Atacante;COMUM
+ARG018;44;PAZ Nico;Argentina;JOGADOR;Como (ITA);Atacante;COMUM
+ARG019;45;OTAMENDI Nicolas;Argentina;JOGADOR;SL Benfica (POR);Defensor;RARA
+ARG020;46;MAC ALLISTER Alexis;Argentina;JOGADOR;Liverpool FC (ENG);Meio-campo;RARA
+ARG021;47;LOPEZ Jose Manuel;Argentina;JOGADOR;SE Palmeiras (BRA);Atacante;RARA
+ARG022;48;MARTINEZ Lautaro;Argentina;JOGADOR;FC Internazionale Milano (ITA);Atacante;RARA
+ARG023;49;MARTINEZ Emiliano;Argentina;JOGADOR;Aston Villa FC (ENG);Goleiro;RARA
+ARG024;50;FERNANDEZ Enzo;Argentina;JOGADOR;Chelsea FC (ENG);Meio-campo;EPICA
+ARG025;51;MEDINA Facundo;Argentina;JOGADOR;Olympique Marseille (FRA);Defensor;EPICA
+ARG026;52;MOLINA Nahuel;Argentina;JOGADOR;Atlético De Madrid (ESP);Defensor;LENDARIA
+AUS001;53;RYAN Mathew;Australia;JOGADOR;Levante UD (ESP);Goleiro;COMUM
+AUS002;54;DEGENEK Milos;Australia;JOGADOR;APOEL FC (CYP);Defensor;COMUM
+AUS003;55;CIRCATI Alessandro;Australia;JOGADOR;Parma (ITA);Defensor;COMUM
+AUS004;56;ITALIANO Jacob;Australia;JOGADOR;Grazer AK (AUT);Defensor;COMUM
+AUS005;57;BOS Jordan;Australia;JOGADOR;Feyenoord Rotterdam (NED);Defensor;COMUM
+AUS006;58;GERIA Jason;Australia;JOGADOR;Albirex Niigata (JPN);Defensor;COMUM
+AUS007;59;LECKIE Mathew;Australia;JOGADOR;Melbourne City FC (AUS);Atacante;COMUM
+AUS008;60;METCALFE Connor;Australia;JOGADOR;FC St. Pauli (GER);Meio-campo;COMUM
+AUS009;61;TOURE Mohamed;Australia;JOGADOR;Norwich City FC (ENG);Atacante;COMUM
+AUS010;62;HRUSTIC Ajdin;Australia;JOGADOR;SC Heracles Almelo (NED);Atacante;COMUM
+AUS011;63;MABIL Awer;Australia;JOGADOR;CD Castellón (ESP);Atacante;COMUM
+AUS012;64;IZZO Paul;Australia;JOGADOR;Randers FC (DEN);Goleiro;COMUM
+AUS013;65;ONEILL Aiden;Australia;JOGADOR;New York City FC (USA);Meio-campo;COMUM
+AUS014;66;DEVLIN Cameron;Australia;JOGADOR;Heart Of Midlothian FC (SCO);Meio-campo;COMUM
+AUS015;67;TREWIN Kai;Australia;JOGADOR;New York City FC (USA);Defensor;COMUM
+AUS016;68;BEHICH Aziz;Australia;JOGADOR;Melbourne City FC (AUS);Defensor;COMUM
+AUS017;69;IRANKUNDA Nestory;Australia;JOGADOR;Watford FC (ENG);Atacante;COMUM
+AUS018;70;BEACH Patrick;Australia;JOGADOR;Melbourne City FC (AUS);Goleiro;COMUM
+AUS019;71;SOUTTAR Harry;Australia;JOGADOR;Leicester City FC (ENG);Defensor;RARA
+AUS020;72;VOLPATO Cristian;Australia;JOGADOR;US Sassuolo (ITA);Atacante;RARA
+AUS021;73;BURGESS Cameron;Australia;JOGADOR;Swansea City AFC (WAL);Defensor;RARA
+AUS022;74;IRVINE Jackson;Australia;JOGADOR;FC St. Pauli (GER);Meio-campo;RARA
+AUS023;75;VELUPILLAY Nishan;Australia;JOGADOR;Melbourne Victory FC (AUS);Atacante;RARA
+AUS024;76;OKON-ENGSTLER Paul;Australia;JOGADOR;Sydney FC (AUS);Meio-campo;EPICA
+AUS025;77;HERRINGTON Lucas;Australia;JOGADOR;Colorado Rapids (USA);Defensor;EPICA
+AUS026;78;YENGI Tete;Australia;JOGADOR;FC Machida Zelvia (JPN);Atacante;LENDARIA
+AUT001;79;SCHLAGER Alexander;Austria;JOGADOR;FC Red Bull Salzburg (AUT);Goleiro;COMUM
+AUT002;80;AFFENGRUBER David;Austria;JOGADOR;Elche CF (ESP);Defensor;COMUM
+AUT003;81;DANSO Kevin;Austria;JOGADOR;Tottenham Hotspur FC (ENG);Defensor;COMUM
+AUT004;82;SCHLAGER Xaver;Austria;JOGADOR;RB Leipzig (GER);Meio-campo;COMUM
+AUT005;83;POSCH Stefan;Austria;JOGADOR;1. FSV Mainz 05 (GER);Defensor;COMUM
+AUT006;84;SEIWALD Nicolas;Austria;JOGADOR;RB Leipzig (GER);Meio-campo;COMUM
+AUT007;85;ARNAUTOVIC Marko;Austria;JOGADOR;FK Crvena Zvezda (SRB);Atacante;COMUM
+AUT008;86;ALABA David;Austria;JOGADOR;Real Madrid C. F. (ESP);Defensor;COMUM
+AUT009;87;SABITZER Marcel;Austria;JOGADOR;Borussia Dortmund (GER);Meio-campo;COMUM
+AUT010;88;GRILLITSCH Florian;Austria;JOGADOR;SC Braga (POR);Meio-campo;COMUM
+AUT011;89;GREGORITSCH Michael;Austria;JOGADOR;FC Augsburg (GER);Atacante;COMUM
+AUT012;90;WIEGELE Florian;Austria;JOGADOR;FC Viktoria Plzeň (CZE);Goleiro;COMUM
+AUT013;91;PENTZ Patrick;Austria;JOGADOR;Brøndby IF (DEN);Goleiro;COMUM
+AUT014;92;KALAJDZIC Sasa;Austria;JOGADOR;LASK Linz (AUT);Atacante;COMUM
+AUT015;93;LIENHART Philipp;Austria;JOGADOR;SC Freiburg (GER);Defensor;COMUM
+AUT016;94;MWENE Phillip;Austria;JOGADOR;1. FSV Mainz 05 (GER);Defensor;COMUM
+AUT017;95;CHUKWUEMEKA Carney;Austria;JOGADOR;Borussia Dortmund (GER);Meio-campo;COMUM
+AUT018;96;SCHMID Romano;Austria;JOGADOR;SV Werder Bremen (GER);Meio-campo;COMUM
+AUT019;97;LJUBICIC Dejan;Austria;JOGADOR;FC Schalke 04 (GER);Meio-campo;RARA
+AUT020;98;LAIMER Konrad;Austria;JOGADOR;FC Bayern München (GER);Meio-campo;RARA
+AUT021;99;WIMMER Patrick;Austria;JOGADOR;VfL Wolfsburg (GER);Atacante;RARA
+AUT022;100;PRASS Alexander;Austria;JOGADOR;TSG Hoffenheim (GER);Meio-campo;RARA
+AUT023;101;FRIEDL Marco;Austria;JOGADOR;SV Werder Bremen (GER);Defensor;RARA
+AUT024;102;WANNER Paul;Austria;JOGADOR;PSV Eindhoven (NED);Meio-campo;EPICA
+AUT025;103;SVOBODA Michael;Austria;JOGADOR;Venezia FC (ITA);Defensor;EPICA
+AUT026;104;SCHOEPF Alessandro;Austria;JOGADOR;Wolfsberger AC (AUT);Meio-campo;LENDARIA
+BEL001;105;COURTOIS Thibaut;Belgium;JOGADOR;Real Madrid C. F. (ESP);Goleiro;COMUM
+BEL002;106;DEBAST Zeno;Belgium;JOGADOR;Sporting CP (POR);Defensor;COMUM
+BEL003;107;THEATE Arthur;Belgium;JOGADOR;Eintracht Frankfurt (GER);Defensor;COMUM
+BEL004;108;MECHELE Brandon;Belgium;JOGADOR;Club Brugge (BEL);Defensor;COMUM
+BEL005;109;DE CUYPER Maxim;Belgium;JOGADOR;Brighton & Hove Albion FC (ENG);Defensor;COMUM
+BEL006;110;WITSEL Axel;Belgium;JOGADOR;Girona FC (ESP);Meio-campo;COMUM
+BEL007;111;DE BRUYNE Kevin;Belgium;JOGADOR;SSC Napoli (ITA);Meio-campo;COMUM
+BEL008;112;TIELEMANS Youri;Belgium;JOGADOR;Aston Villa FC (ENG);Meio-campo;COMUM
+BEL009;113;LUKAKU Romelu;Belgium;JOGADOR;SSC Napoli (ITA);Atacante;COMUM
+BEL010;114;TROSSARD Leandro;Belgium;JOGADOR;Arsenal FC (ENG);Atacante;COMUM
+BEL011;115;DOKU Jeremy;Belgium;JOGADOR;Manchester City FC (ENG);Atacante;COMUM
+BEL012;116;LAMMENS Senne;Belgium;JOGADOR;Manchester United FC (ENG);Goleiro;COMUM
+BEL013;117;PENDERS Mike;Belgium;JOGADOR;RC Strasbourg (FRA);Goleiro;COMUM
+BEL014;118;LUKEBAKIO Dodi;Belgium;JOGADOR;SL Benfica (POR);Atacante;COMUM
+BEL015;119;MEUNIER Thomas;Belgium;JOGADOR;Lille OSC (FRA);Defensor;COMUM
+BEL016;120;DE WINTER Koni;Belgium;JOGADOR;AC Milan (ITA);Defensor;COMUM
+BEL017;121;DE KETELAERE Charles;Belgium;JOGADOR;Atalanta Bergamo (ITA);Atacante;COMUM
+BEL018;122;SEYS Joaquin;Belgium;JOGADOR;Club Brugge (BEL);Defensor;COMUM
+BEL019;123;MOREIRA Diego;Belgium;JOGADOR;RC Strasbourg (FRA);Meio-campo;RARA
+BEL020;124;VANAKEN Hans;Belgium;JOGADOR;Club Brugge (BEL);Meio-campo;RARA
+BEL021;125;CASTAGNE Timothy;Belgium;JOGADOR;Fulham FC (ENG);Defensor;RARA
+BEL022;126;SAELEMAEKERS Alexis;Belgium;JOGADOR;AC Milan (ITA);Meio-campo;RARA
+BEL023;127;RASKIN Nicolas;Belgium;JOGADOR;Rangers FC (SCO);Meio-campo;RARA
+BEL024;128;ONANA Amadou;Belgium;JOGADOR;Aston Villa FC (ENG);Meio-campo;EPICA
+BEL025;129;NGOY Nathan;Belgium;JOGADOR;Lille OSC (FRA);Defensor;EPICA
+BEL026;130;FERNANDEZ-PARDO Matias;Belgium;JOGADOR;Lille OSC (FRA);Atacante;LENDARIA
+BIH001;131;VASILJ Nikola;Bosnia And Herzegovina;JOGADOR;FC St. Pauli (GER);Goleiro;COMUM
+BIH002;132;MUJAKIC Nihad;Bosnia And Herzegovina;JOGADOR;Gaziantep FK (TUR);Defensor;COMUM
+BIH003;133;HADZIKADUNIC Dennis;Bosnia And Herzegovina;JOGADOR;UC Sampdoria (ITA);Defensor;COMUM
+BIH004;134;MUHAREMOVIC Tarik;Bosnia And Herzegovina;JOGADOR;US Sassuolo (ITA);Defensor;COMUM
+BIH005;135;KOLASINAC Sead;Bosnia And Herzegovina;JOGADOR;Atalanta Bergamo (ITA);Defensor;COMUM
+BIH006;136;TAHIROVIC Benjamin;Bosnia And Herzegovina;JOGADOR;Brøndby IF (DEN);Meio-campo;COMUM
+BIH007;137;DEDIC Amar;Bosnia And Herzegovina;JOGADOR;SL Benfica (POR);Defensor;COMUM
+BIH008;138;GIGOVIC Armin;Bosnia And Herzegovina;JOGADOR;BSC Young Boys (SUI);Meio-campo;COMUM
+BIH009;139;BAZDAR Samed;Bosnia And Herzegovina;JOGADOR;Jagiellonia Białystok (POL);Atacante;COMUM
+BIH010;140;DEMIROVIC Ermedin;Bosnia And Herzegovina;JOGADOR;VfB Stuttgart (GER);Atacante;COMUM
+BIH011;141;DZEKO Edin;Bosnia And Herzegovina;JOGADOR;FC Schalke 04 (GER);Atacante;COMUM
+BIH012;142;JURKAS Mladen;Bosnia And Herzegovina;JOGADOR;FK Borac Banja Luka (BIH);Goleiro;COMUM
+BIH013;143;BASIC Ivan;Bosnia And Herzegovina;JOGADOR;FC Astana (KAZ);Meio-campo;COMUM
+BIH014;144;SUNJIC Ivan;Bosnia And Herzegovina;JOGADOR;Pafos FC (CYP);Meio-campo;COMUM
+BIH015;145;MEMIC Amar;Bosnia And Herzegovina;JOGADOR;FC Viktoria Plzeň (CZE);Meio-campo;COMUM
+BIH016;146;HADZIAHMETOVIC Amir;Bosnia And Herzegovina;JOGADOR;Hull City FC (ENG);Meio-campo;COMUM
+BIH017;147;BURNIC Dzenis;Bosnia And Herzegovina;JOGADOR;Karlsruher SC (GER);Meio-campo;COMUM
+BIH018;148;KATIC Nikola;Bosnia And Herzegovina;JOGADOR;FC Schalke 04 (GER);Defensor;COMUM
+BIH019;149;ALAJBEGOVIC Kerim;Bosnia And Herzegovina;JOGADOR;FC Red Bull Salzburg (AUT);Atacante;RARA
+BIH020;150;BAJRAKTAREVIC Esmir;Bosnia And Herzegovina;JOGADOR;PSV Eindhoven (NED);Atacante;RARA
+BIH021;151;RADELJIC Stjepan;Bosnia And Herzegovina;JOGADOR;HNK Rijeka (CRO);Defensor;RARA
+BIH022;152;ZLOMISLIC Martin;Bosnia And Herzegovina;JOGADOR;HNK Rijeka (CRO);Goleiro;RARA
+BIH023;153;TABAKOVIC Haris;Bosnia And Herzegovina;JOGADOR;Borussia Mönchengladbach (GER);Atacante;RARA
+BIH024;154;MALIC Arjan;Bosnia And Herzegovina;JOGADOR;SK Sturm Graz (AUT);Defensor;EPICA
+BIH025;155;LUKIC Jovo;Bosnia And Herzegovina;JOGADOR;Universitatea Cluj (ROU);Atacante;EPICA
+BIH026;156;MAHMIC Ermin;Bosnia And Herzegovina;JOGADOR;FC Slovan Liberec (CZE);Meio-campo;LENDARIA
+BRA001;157;ALISSON;Brazil;JOGADOR;Liverpool FC (ENG);Goleiro;COMUM
+BRA002;158;EDERSON SILVA;Brazil;JOGADOR;Atalanta Bergamo (ITA);Meio-campo;COMUM
+BRA003;159;GABRIEL MAGALHAES;Brazil;JOGADOR;Arsenal FC (ENG);Defensor;COMUM
+BRA004;160;MARQUINHOS;Brazil;JOGADOR;Paris Saint-Germain (FRA);Defensor;COMUM
+BRA005;161;CASEMIRO;Brazil;JOGADOR;Manchester United FC (ENG);Meio-campo;COMUM
+BRA006;162;ALEX SANDRO;Brazil;JOGADOR;CR Flamengo (BRA);Defensor;COMUM
+BRA007;163;VINICIUS JUNIOR;Brazil;JOGADOR;Real Madrid C. F. (ESP);Atacante;COMUM
+BRA008;164;BRUNO GUIMARAES;Brazil;JOGADOR;Newcastle United FC (ENG);Meio-campo;COMUM
+BRA009;165;MATHEUS CUNHA;Brazil;JOGADOR;Manchester United FC (ENG);Atacante;COMUM
+BRA010;166;NEYMAR JR;Brazil;JOGADOR;Santos FC (BRA);Atacante;COMUM
+BRA011;167;RAPHINHA;Brazil;JOGADOR;FC Barcelona (ESP);Atacante;COMUM
+BRA012;168;WEVERTON;Brazil;JOGADOR;Grêmio FBPA (BRA);Goleiro;COMUM
+BRA013;169;DANILO;Brazil;JOGADOR;CR Flamengo (BRA);Defensor;COMUM
+BRA014;170;BREMER;Brazil;JOGADOR;Juventus FC (ITA);Defensor;COMUM
+BRA015;171;LEO PEREIRA;Brazil;JOGADOR;CR Flamengo (BRA);Defensor;COMUM
+BRA016;172;DOUGLAS SANTOS;Brazil;JOGADOR;FC Zenit St. Petersburg (RUS);Defensor;COMUM
+BRA017;173;FABINHO;Brazil;JOGADOR;Al Ittihad (KSA);Meio-campo;COMUM
+BRA018;174;DANILO SANTOS;Brazil;JOGADOR;Botafogo (BRA);Meio-campo;COMUM
+BRA019;175;ENDRICK;Brazil;JOGADOR;Olympique Lyonnais (FRA);Atacante;RARA
+BRA020;176;LUCAS PAQUETA;Brazil;JOGADOR;CR Flamengo (BRA);Meio-campo;RARA
+BRA021;177;LUIZ HENRIQUE;Brazil;JOGADOR;FC Zenit St. Petersburg (RUS);Atacante;RARA
+BRA022;178;GABRIEL MARTINELLI;Brazil;JOGADOR;Arsenal FC (ENG);Atacante;RARA
+BRA023;179;EDERSON;Brazil;JOGADOR;Fenerbahçe SK (TUR);Goleiro;RARA
+BRA024;180;ROGER IBANEZ;Brazil;JOGADOR;Al Ahli FC (KSA);Defensor;EPICA
+BRA025;181;IGOR THIAGO;Brazil;JOGADOR;Brentford FC (ENG);Atacante;EPICA
+BRA026;182;RAYAN;Brazil;JOGADOR;AFC Bournemouth (ENG);Atacante;LENDARIA
+CPV001;183;VOZINHA;Cabo Verde;JOGADOR;GD Chaves (POR);Goleiro;COMUM
+CPV002;184;STOPIRA;Cabo Verde;JOGADOR;SCU Torreense (POR);Defensor;COMUM
+CPV003;185;DINEY BORGES;Cabo Verde;JOGADOR;Al Bataeh Club (UAE);Defensor;COMUM
+CPV004;186;PICO LOPES;Cabo Verde;JOGADOR;Shamrock Rovers FC (IRL);Defensor;COMUM
+CPV005;187;LOGAN COSTA;Cabo Verde;JOGADOR;Villarreal CF (ESP);Defensor;COMUM
+CPV006;188;KEVIN PINA;Cabo Verde;JOGADOR;FC Krasnodar (RUS);Meio-campo;COMUM
+CPV007;189;JOVANE CABRAL;Cabo Verde;JOGADOR;CF Estrela Da Amadora (POR);Meio-campo;COMUM
+CPV008;190;JOAO PAULO;Cabo Verde;JOGADOR;FC FCSB (ROU);Meio-campo;COMUM
+CPV009;191;GILSON BENCHIMOL;Cabo Verde;JOGADOR;FC Akron Tolyatti (RUS);Atacante;COMUM
+CPV010;192;JAMIRO MONTEIRO;Cabo Verde;JOGADOR;PEC Zwolle (NED);Meio-campo;COMUM
+CPV011;193;GARRY RODRIGUES;Cabo Verde;JOGADOR;Apollon Limassol (CYP);Meio-campo;COMUM
+CPV012;194;MARCIO ROSA;Cabo Verde;JOGADOR;PFC Montana (BUL);Goleiro;COMUM
+CPV013;195;SIDNY LOPES CABRAL;Cabo Verde;JOGADOR;SL Benfica (POR);Defensor;COMUM
+CPV014;196;DEROY DUARTE;Cabo Verde;JOGADOR;PFC Ludogorets Razgrad (BUL);Meio-campo;COMUM
+CPV015;197;LAROS DUARTE;Cabo Verde;JOGADOR;Puskás Akadémia FC (HUN);Meio-campo;COMUM
+CPV016;198;YANNICK SEMEDO;Cabo Verde;JOGADOR;SC Farense (POR);Meio-campo;COMUM
+CPV017;199;WILLY SEMEDO;Cabo Verde;JOGADOR;AC Omonia (CYP);Meio-campo;COMUM
+CPV018;200;TELMO ARCANJO;Cabo Verde;JOGADOR;Vitória SC (POR);Meio-campo;COMUM
+CPV019;201;DAILON LIVRAMENTO;Cabo Verde;JOGADOR;Casa Pia AC (POR);Atacante;RARA
+CPV020;202;RYAN MENDES;Cabo Verde;JOGADOR;Iğdır FK (TUR);Atacante;RARA
+CPV021;203;NUNO DA COSTA;Cabo Verde;JOGADOR;Başakşehir FK (TUR);Meio-campo;RARA
+CPV022;204;STEVEN MOREIRA;Cabo Verde;JOGADOR;Columbus Crew (USA);Defensor;RARA
+CPV023;205;CJ DOS SANTOS;Cabo Verde;JOGADOR;San Diego FC (USA);Goleiro;RARA
+CPV024;206;WAGNER PINA;Cabo Verde;JOGADOR;Trabzonspor (TUR);Defensor;EPICA
+CPV025;207;KELVIN PIRES;Cabo Verde;JOGADOR;SJK (FIN);Defensor;EPICA
+CPV026;208;HELIO VARELA;Cabo Verde;JOGADOR;Maccabi Tel-Aviv FC (ISR);Meio-campo;LENDARIA
+CAN001;209;ST. CLAIR Dayne;Canada;JOGADOR;Inter Miami CF (USA);Goleiro;COMUM
+CAN002;210;JOHNSTON Alistair;Canada;JOGADOR;Celtic FC (SCO);Defensor;COMUM
+CAN003;211;JONES;Canada;JOGADOR;Middlesbrough FC (ENG);Defensor;COMUM
+CAN004;212;DE FOUGEROLLES Luc;Canada;JOGADOR;FCV Dender EH (BEL);Defensor;COMUM
+CAN005;213;WATERMAN Joel;Canada;JOGADOR;Chicago Fire FC (USA);Defensor;COMUM
+CAN006;214;CHOINIERE Mathieu;Canada;JOGADOR;LAFC (USA);Meio-campo;COMUM
+CAN007;215;EUSTAQUIO Stephen;Canada;JOGADOR;LAFC (USA);Meio-campo;COMUM
+CAN008;216;KONE Ismael;Canada;JOGADOR;US Sassuolo (ITA);Meio-campo;COMUM
+CAN009;217;LARIN Cyle;Canada;JOGADOR;Southampton FC (ENG);Atacante;COMUM
+CAN010;218;DAVID Jonathan;Canada;JOGADOR;Juventus FC (ITA);Atacante;COMUM
+CAN011;219;MILLAR Liam;Canada;JOGADOR;Hull City FC (ENG);Meio-campo;COMUM
+CAN012;220;OLUWASEYI Tani;Canada;JOGADOR;Villarreal CF (ESP);Atacante;COMUM
+CAN013;221;CORNELIUS Derek;Canada;JOGADOR;Rangers FC (SCO);Defensor;COMUM
+CAN014;222;SHAFFELBURG Jacob;Canada;JOGADOR;LAFC (USA);Meio-campo;COMUM
+CAN015;223;BOMBITO Moise;Canada;JOGADOR;OGC Nice (FRA);Defensor;COMUM
+CAN016;224;CREPEAU Maxime;Canada;JOGADOR;Orlando City SC (USA);Goleiro;COMUM
+CAN017;225;BUCHANAN Tajon;Canada;JOGADOR;Villarreal CF (ESP);Atacante;COMUM
+CAN018;226;GOODMAN Owen;Canada;JOGADOR;Barnsley (ENG);Goleiro;COMUM
+CAN019;227;DAVIES Alphonso;Canada;JOGADOR;FC Bayern München (GER);Defensor;RARA
+CAN020;228;AHMED Ali;Canada;JOGADOR;Norwich City FC (ENG);Atacante;RARA
+CAN021;229;OSORIO Jonathan;Canada;JOGADOR;Toronto FC (CAN);Meio-campo;RARA
+CAN022;230;LARYEA Richie;Canada;JOGADOR;Toronto FC (CAN);Defensor;RARA
+CAN023;231;SIGUR Niko;Canada;JOGADOR;HNK Hajduk Split (CRO);Defensor;RARA
+CAN024;232;DAVID Promise;Canada;JOGADOR;Royale Union Saint-Gilloise (BEL);Atacante;EPICA
+CAN025;233;SALIBA Nathan;Canada;JOGADOR;RSC Anderlecht (BEL);Meio-campo;EPICA
+CAN026;234;NELSON Jayden;Canada;JOGADOR;Austin FC (USA);Atacante;LENDARIA
+COL001;235;OSPINA David;Colombia;JOGADOR;Atlético Nacional (COL);Goleiro;COMUM
+COL002;236;MUNOZ Daniel;Colombia;JOGADOR;Crystal Palace FC (ENG);Defensor;COMUM
+COL003;237;LUCUMI Jhon;Colombia;JOGADOR;Bologna FC (ITA);Defensor;COMUM
+COL004;238;ARIAS Santiago;Colombia;JOGADOR;CA Independiente (ARG);Defensor;COMUM
+COL005;239;CASTANO Kevin;Colombia;JOGADOR;CA River Plate (ARG);Meio-campo;COMUM
+COL006;240;RIOS Richard;Colombia;JOGADOR;SL Benfica (POR);Meio-campo;COMUM
+COL007;241;DIAZ Luis;Colombia;JOGADOR;FC Bayern München (GER);Atacante;COMUM
+COL008;242;CARRASCAL Jorge;Colombia;JOGADOR;CR Flamengo (BRA);Meio-campo;COMUM
+COL009;243;CORDOBA Jhon;Colombia;JOGADOR;FC Krasnodar (RUS);Atacante;COMUM
+COL010;244;RODRIGUEZ James;Colombia;JOGADOR;Minnesota United FC (USA);Meio-campo;COMUM
+COL011;245;ARIAS Jhon;Colombia;JOGADOR;SE Palmeiras (BRA);Meio-campo;COMUM
+COL012;246;VARGAS Camilo;Colombia;JOGADOR;Atlas FC (MEX);Goleiro;COMUM
+COL013;247;MINA Yerry;Colombia;JOGADOR;Cagliari (ITA);Defensor;COMUM
+COL014;248;PUERTA Gustavo;Colombia;JOGADOR;Racing Santander (ESP);Defensor;COMUM
+COL015;249;PORTILLA Juan;Colombia;JOGADOR;Athletico Paranaense (BRA);Meio-campo;COMUM
+COL016;250;LERMA Jefferson;Colombia;JOGADOR;Crystal Palace FC (ENG);Meio-campo;COMUM
+COL017;251;MOJICA Johan;Colombia;JOGADOR;RCD Mallorca (ESP);Defensor;COMUM
+COL018;252;DITTA Willer;Colombia;JOGADOR;CF Cruz Azul (MEX);Defensor;COMUM
+COL019;253;HERNANDEZ Cucho;Colombia;JOGADOR;Real Betis (ESP);Atacante;RARA
+COL020;254;QUINTERO Juan;Colombia;JOGADOR;CA River Plate (ARG);Meio-campo;RARA
+COL021;255;CAMPAZ Jaminton;Colombia;JOGADOR;CA Rosario Central (ARG);Atacante;RARA
+COL022;256;MACHADO Deiver;Colombia;JOGADOR;FC Nantes (FRA);Defensor;RARA
+COL023;257;SANCHEZ Davinson;Colombia;JOGADOR;Galatasaray SK (TUR);Defensor;RARA
+COL024;258;MONTERO Alvaro;Colombia;JOGADOR;CA Vélez (ARG);Goleiro;EPICA
+COL025;259;SUAREZ Luis;Colombia;JOGADOR;Sporting CP (POR);Atacante;EPICA
+COL026;260;GOMEZ Andres;Colombia;JOGADOR;CR Vasco Da Gama (BRA);Atacante;LENDARIA
+COD001;261;MPASI Lionel;Congo DR;JOGADOR;Le Havre AC (FRA);Goleiro;COMUM
+COD002;262;WAN-BISSAKA Aaron;Congo DR;JOGADOR;West Ham United FC (ENG);Defensor;COMUM
+COD003;263;KAPUADI Steve;Congo DR;JOGADOR;Widzew Łódź (POL);Defensor;COMUM
+COD004;264;TUANZEBE Axel;Congo DR;JOGADOR;Burnley FC (ENG);Defensor;COMUM
+COD005;265;BATUBINSIKA Dylan;Congo DR;JOGADOR;AEL FC (GRE);Defensor;COMUM
+COD006;266;MUKAU Ngalayel;Congo DR;JOGADOR;Lille OSC (FRA);Meio-campo;COMUM
+COD007;267;MBUKU Nathanael;Congo DR;JOGADOR;Montpellier HSC (FRA);Meio-campo;COMUM
+COD008;268;MOUTOUSSAMY Samuel;Congo DR;JOGADOR;Atromitos FC (GRE);Meio-campo;COMUM
+COD009;269;CIPENGA Brian;Congo DR;JOGADOR;CD Castellón (ESP);Atacante;COMUM
+COD010;270;BONGONDA Theo;Congo DR;JOGADOR;FC Spartak Moscow (RUS);Meio-campo;COMUM
+COD011;271;KAKUTA Gael;Congo DR;JOGADOR;AEL FC (GRE);Atacante;COMUM
+COD012;272;KAYEMBE Joris;Congo DR;JOGADOR;KRC Genk (BEL);Defensor;COMUM
+COD013;273;ELIA Meschack;Congo DR;JOGADOR;Alanyaspor (TUR);Atacante;COMUM
+COD014;274;SADIKI Noah;Congo DR;JOGADOR;Sunderland AFC (ENG);Meio-campo;COMUM
+COD015;275;TSHIBOLA Aaron;Congo DR;JOGADOR;Kilmarnock FC (SCO);Meio-campo;COMUM
+COD016;276;FAYULU Timothy;Congo DR;JOGADOR;FC Noah (ARM);Goleiro;COMUM
+COD017;277;BAKAMBU Cedric;Congo DR;JOGADOR;Real Betis (ESP);Atacante;COMUM
+COD018;278;PICKEL Charles;Congo DR;JOGADOR;RCD Espanyol (ESP);Meio-campo;COMUM
+COD019;279;MAYELE Fiston;Congo DR;JOGADOR;Pyramids FC (EGY);Atacante;RARA
+COD020;280;WISSA Yoane;Congo DR;JOGADOR;Newcastle United FC (ENG);Atacante;RARA
+COD021;281;EPOLO Matthieu;Congo DR;JOGADOR;Standard Liège (BEL);Goleiro;RARA
+COD022;282;MBEMBA Chancel;Congo DR;JOGADOR;Lille OSC (FRA);Defensor;RARA
+COD023;283;BANZA Simon;Congo DR;JOGADOR;Al Jazira (UAE);Atacante;RARA
+COD024;284;KALULU Gedeon;Congo DR;JOGADOR;Aris Limassol FC (CYP);Defensor;EPICA
+COD025;285;KAYEMBE Edo;Congo DR;JOGADOR;Watford FC (ENG);Meio-campo;EPICA
+COD026;286;MASUAKU Arthur;Congo DR;JOGADOR;RC Lens (FRA);Defensor;LENDARIA
+CIV001;287;FOFANA Yahia;Côte D'Ivoire;JOGADOR;Çaykur Rizespor (TUR);Goleiro;COMUM
+CIV002;288;DIOMANDE Ousmane;Côte D'Ivoire;JOGADOR;Sporting CP (POR);Defensor;COMUM
+CIV003;289;KONAN Ghislain;Côte D'Ivoire;JOGADOR;Gil Vicente FC (POR);Defensor;COMUM
+CIV004;290;SERI Jean Michael;Côte D'Ivoire;JOGADOR;NK Maribor (SVN);Meio-campo;COMUM
+CIV005;291;SINGO Wilfried;Côte D'Ivoire;JOGADOR;Galatasaray SK (TUR);Defensor;COMUM
+CIV006;292;FOFANA Seko;Côte D'Ivoire;JOGADOR;FC Porto (POR);Meio-campo;COMUM
+CIV007;293;KOSSOUNOU Odilon;Côte D'Ivoire;JOGADOR;Atalanta Bergamo (ITA);Defensor;COMUM
+CIV008;294;KESSIE Franck;Côte D'Ivoire;JOGADOR;Al Ahli FC (KSA);Meio-campo;COMUM
+CIV009;295;BONNY Ange-Yoan;Côte D'Ivoire;JOGADOR;FC Internazionale Milano (ITA);Atacante;COMUM
+CIV010;296;ADINGRA Simon;Côte D'Ivoire;JOGADOR;AS Monaco (FRA);Atacante;COMUM
+CIV011;297;DIOMANDE Yan;Côte D'Ivoire;JOGADOR;RB Leipzig (GER);Atacante;COMUM
+CIV012;298;WAHI Elye;Côte D'Ivoire;JOGADOR;OGC Nice (FRA);Atacante;COMUM
+CIV013;299;OPERI Christopher;Côte D'Ivoire;JOGADOR;Başakşehir FK (TUR);Defensor;COMUM
+CIV014;300;DIAKITE Oumar;Côte D'Ivoire;JOGADOR;Cercle Brugge (BEL);Atacante;COMUM
+CIV015;301;DIALLO Amad;Côte D'Ivoire;JOGADOR;Manchester United FC (ENG);Atacante;COMUM
+CIV016;302;KONE Mohamed;Côte D'Ivoire;JOGADOR;Sporting Charleroi (BEL);Goleiro;COMUM
+CIV017;303;DOUE Guela;Côte D'Ivoire;JOGADOR;RC Strasbourg (FRA);Defensor;COMUM
+CIV018;304;SANGARE Ibrahim;Côte D'Ivoire;JOGADOR;Nottingham Forest FC (ENG);Meio-campo;COMUM
+CIV019;305;PEPE Nicolas;Côte D'Ivoire;JOGADOR;Villarreal CF (ESP);Atacante;RARA
+CIV020;306;AGBADOU Emmanuel;Côte D'Ivoire;JOGADOR;Beşiktaş JK (TUR);Defensor;RARA
+CIV021;307;NDICKA Evan;Côte D'Ivoire;JOGADOR;AS Roma (ITA);Defensor;RARA
+CIV022;308;GUESSAND Evann;Côte D'Ivoire;JOGADOR;Crystal Palace FC (ENG);Atacante;RARA
+CIV023;309;LAFONT Alban;Côte D'Ivoire;JOGADOR;Panathinaikos FC (GRE);Goleiro;RARA
+CIV024;310;TOURE Bazoumana;Côte D'Ivoire;JOGADOR;TSG Hoffenheim (GER);Atacante;EPICA
+CIV025;311;GUIAGON Parfait;Côte D'Ivoire;JOGADOR;Sporting Charleroi (BEL);Meio-campo;EPICA
+CIV026;312;OULAI Christ Inao;Côte D'Ivoire;JOGADOR;Trabzonspor (TUR);Meio-campo;LENDARIA
+CRO001;313;LIVAKOVIC Dominik;Croatia;JOGADOR;GNK Dinamo Zagreb (CRO);Goleiro;COMUM
+CRO002;314;STANISIC Josip;Croatia;JOGADOR;FC Bayern München (GER);Defensor;COMUM
+CRO003;315;PONGRACIC Marin;Croatia;JOGADOR;ACF Fiorentina (ITA);Defensor;COMUM
+CRO004;316;GVARDIOL Josko;Croatia;JOGADOR;Manchester City FC (ENG);Defensor;COMUM
+CRO005;317;CALETA-CAR Duje;Croatia;JOGADOR;Real Sociedad (ESP);Defensor;COMUM
+CRO006;318;SUTALO Josip;Croatia;JOGADOR;AFC Ajax (NED);Defensor;COMUM
+CRO007;319;MORO Nikola;Croatia;JOGADOR;Bologna FC (ITA);Meio-campo;COMUM
+CRO008;320;KOVACIC Mateo;Croatia;JOGADOR;Manchester City FC (ENG);Meio-campo;COMUM
+CRO009;321;KRAMARIC Andrej;Croatia;JOGADOR;TSG Hoffenheim (GER);Atacante;COMUM
+CRO010;322;MODRIC Luka;Croatia;JOGADOR;AC Milan (ITA);Meio-campo;COMUM
+CRO011;323;BUDIMIR Ante;Croatia;JOGADOR;CA Osasuna (ESP);Atacante;COMUM
+CRO012;324;PANDUR Ivor;Croatia;JOGADOR;Hull City FC (ENG);Goleiro;COMUM
+CRO013;325;VLASIC Nikola;Croatia;JOGADOR;Torino FC (ITA);Meio-campo;COMUM
+CRO014;326;PERISIC Ivan;Croatia;JOGADOR;PSV Eindhoven (NED);Atacante;COMUM
+CRO015;327;PASALIC Mario;Croatia;JOGADOR;Atalanta Bergamo (ITA);Meio-campo;COMUM
+CRO016;328;BATURINA Martin;Croatia;JOGADOR;Como (ITA);Meio-campo;COMUM
+CRO017;329;SUCIC Petar;Croatia;JOGADOR;FC Internazionale Milano (ITA);Meio-campo;COMUM
+CRO018;330;JAKIC Kristijan;Croatia;JOGADOR;FC Augsburg (GER);Defensor;COMUM
+CRO019;331;FRUK Toni;Croatia;JOGADOR;HNK Rijeka (CRO);Meio-campo;RARA
+CRO020;332;MATANOVIC Igor;Croatia;JOGADOR;SC Freiburg (GER);Atacante;RARA
+CRO021;333;SUCIC Luka;Croatia;JOGADOR;Real Sociedad (ESP);Meio-campo;RARA
+CRO022;334;VUSKOVIC Luka;Croatia;JOGADOR;Hamburger SV (GER);Defensor;RARA
+CRO023;335;KOTARSKI Dominik;Croatia;JOGADOR;FC København (DEN);Goleiro;RARA
+CRO024;336;PASALIC Marco;Croatia;JOGADOR;Orlando City SC (USA);Atacante;EPICA
+CRO025;337;ERLIC Martin;Croatia;JOGADOR;FC Midtjylland (DEN);Defensor;EPICA
+CRO026;338;MUSA Petar;Croatia;JOGADOR;FC Dallas (USA);Atacante;LENDARIA
+CUW001;339;ROOM Eloy;Curaçao;JOGADOR;Miami FC (USA);Goleiro;COMUM
+CUW002;340;SAMBO Shurandy;Curaçao;JOGADOR;Sparta Rotterdam (NED);Defensor;COMUM
+CUW003;341;GAARI Jurien;Curaçao;JOGADOR;Abha Club (KSA);Defensor;COMUM
+CUW004;342;VAN EIJMA Roshon;Curaçao;JOGADOR;RKC Waalwijk (NED);Defensor;COMUM
+CUW005;343;FLORANUS Sherel;Curaçao;JOGADOR;PEC Zwolle (NED);Defensor;COMUM
+CUW006;344;ROEMERATOE Godfried;Curaçao;JOGADOR;RKC Waalwijk (NED);Meio-campo;COMUM
+CUW007;345;BACUNA Juninho;Curaçao;JOGADOR;FC Volendam (NED);Meio-campo;COMUM
+CUW008;346;COMENENCIA Livano;Curaçao;JOGADOR;FC Zürich (SUI);Meio-campo;COMUM
+CUW009;347;LOCADIA Juergen;Curaçao;JOGADOR;Miami FC (USA);Atacante;COMUM
+CUW010;348;BACUNA Leandro;Curaçao;JOGADOR;Iğdır FK (TUR);Meio-campo;COMUM
+CUW011;349;ANTONISSE Jeremy;Curaçao;JOGADOR;AE Kifisia FC (GRE);Atacante;COMUM
+CUW012;350;HANSEN Sontje;Curaçao;JOGADOR;Middlesbrough FC (ENG);Atacante;COMUM
+CUW013;351;NOSLIN Tyrese;Curaçao;JOGADOR;SC Telstar (NED);Atacante;COMUM
+CUW014;352;GORRE Kenji;Curaçao;JOGADOR;Maccabi Haifa FC (ISR);Atacante;COMUM
+CUW015;353;MARTHA Arjany;Curaçao;JOGADOR;Rotherham United FC (ENG);Meio-campo;COMUM
+CUW016;354;MARGARITHA Jearl;Curaçao;JOGADOR;SK Beveren (BEL);Atacante;COMUM
+CUW017;355;KUWAS Brandley;Curaçao;JOGADOR;FC Volendam (NED);Atacante;COMUM
+CUW018;356;OBISPO Armando;Curaçao;JOGADOR;PSV Eindhoven (NED);Defensor;COMUM
+CUW019;357;KASTANEER Gervane;Curaçao;JOGADOR;Terengganu FC (MAS);Atacante;RARA
+CUW020;358;BRENET Joshua;Curaçao;JOGADOR;Kayserispor (TUR);Defensor;RARA
+CUW021;359;CHONG Tahith;Curaçao;JOGADOR;Sheffield United FC (ENG);Meio-campo;RARA
+CUW022;360;FELIDA Kevin;Curaçao;JOGADOR;FC Den Bosch (NED);Meio-campo;RARA
+CUW023;361;BAZOER Riechedly;Curaçao;JOGADOR;Konyaspor (TUR);Defensor;RARA
+CUW024;362;FONVILLE Deveron;Curaçao;JOGADOR;NEC Nijmegen (NED);Defensor;EPICA
+CUW025;363;BODAK Tyrick;Curaçao;JOGADOR;SC Telstar (NED);Goleiro;EPICA
+CUW026;364;DOORNBUSCH Trevor;Curaçao;JOGADOR;VVV Venlo (NED);Goleiro;LENDARIA
+CZE001;365;KOVAR Matej;Czechia;JOGADOR;PSV Eindhoven (NED);Goleiro;COMUM
+CZE002;366;ZIMA David;Czechia;JOGADOR;SK Slavia Praha (CZE);Defensor;COMUM
+CZE003;367;HOLES Tomas;Czechia;JOGADOR;SK Slavia Praha (CZE);Defensor;COMUM
+CZE004;368;HRANAC Robin;Czechia;JOGADOR;TSG Hoffenheim (GER);Defensor;COMUM
+CZE005;369;COUFAL Vladimir;Czechia;JOGADOR;TSG Hoffenheim (GER);Defensor;COMUM
+CZE006;370;CHALOUPEK Stepan;Czechia;JOGADOR;SK Slavia Praha (CZE);Defensor;COMUM
+CZE007;371;KREJCI Ladislav;Czechia;JOGADOR;Wolverhampton Wanderers FC (ENG);Defensor;COMUM
+CZE008;372;DARIDA Vladimir;Czechia;JOGADOR;FC Hradec Králové (CZE);Meio-campo;COMUM
+CZE009;373;HLOZEK Adam;Czechia;JOGADOR;TSG Hoffenheim (GER);Atacante;COMUM
+CZE010;374;SCHICK Patrik;Czechia;JOGADOR;Bayer 04 Leverkusen (GER);Atacante;COMUM
+CZE011;375;KUCHTA Jan;Czechia;JOGADOR;AC Sparta Praha (CZE);Atacante;COMUM
+CZE012;376;CERV Lukas;Czechia;JOGADOR;FC Viktoria Plzeň (CZE);Meio-campo;COMUM
+CZE013;377;CHYTIL Mojmir;Czechia;JOGADOR;SK Slavia Praha (CZE);Atacante;COMUM
+CZE014;378;JURASEK David;Czechia;JOGADOR;SK Slavia Praha (CZE);Defensor;COMUM
+CZE015;379;SULC Pavel;Czechia;JOGADOR;Olympique Lyonnais (FRA);Atacante;COMUM
+CZE016;380;STANEK Jindrich;Czechia;JOGADOR;SK Slavia Praha (CZE);Goleiro;COMUM
+CZE017;381;PROVOD Lukas;Czechia;JOGADOR;SK Slavia Praha (CZE);Meio-campo;COMUM
+CZE018;382;SADILEK Michal;Czechia;JOGADOR;SK Slavia Praha (CZE);Meio-campo;COMUM
+CZE019;383;CHORY Tomas;Czechia;JOGADOR;SK Slavia Praha (CZE);Atacante;RARA
+CZE020;384;ZELENY Jaroslav;Czechia;JOGADOR;AC Sparta Praha (CZE);Defensor;RARA
+CZE021;385;DOUDERA David;Czechia;JOGADOR;SK Slavia Praha (CZE);Defensor;RARA
+CZE022;386;SOUCEK Tomas;Czechia;JOGADOR;West Ham United FC (ENG);Meio-campo;RARA
+CZE023;387;HORNICEK Lukas;Czechia;JOGADOR;SC Braga (POR);Goleiro;RARA
+CZE024;388;SOJKA Alexandr;Czechia;JOGADOR;FC Viktoria Plzeň (CZE);Meio-campo;EPICA
+CZE025;389;SOCHUREK Hugo;Czechia;JOGADOR;AC Sparta Praha (CZE);Meio-campo;EPICA
+CZE026;390;VISINSKY Denis;Czechia;JOGADOR;FC Viktoria Plzeň (CZE);Atacante;LENDARIA
+ECU001;391;GALINDEZ Hernan;Ecuador;JOGADOR;CA Huracán (ARG);Goleiro;COMUM
+ECU002;392;TORRES Felix;Ecuador;JOGADOR;SC Internacional (BRA);Defensor;COMUM
+ECU003;393;HINCAPIE Piero;Ecuador;JOGADOR;Arsenal FC (ENG);Defensor;COMUM
+ECU004;394;ORDONEZ Joel;Ecuador;JOGADOR;Club Brugge (BEL);Defensor;COMUM
+ECU005;395;ALCIVAR Jordy;Ecuador;JOGADOR;Independiente Del Valle (ECU);Meio-campo;COMUM
+ECU006;396;PACHO Willian;Ecuador;JOGADOR;Paris Saint-Germain (FRA);Defensor;COMUM
+ECU007;397;ESTUPINAN Pervis;Ecuador;JOGADOR;AC Milan (ITA);Defensor;COMUM
+ECU008;398;VALENCIA Anthony;Ecuador;JOGADOR;Royal Antwerp FC (BEL);Meio-campo;COMUM
+ECU009;399;YEBOAH John;Ecuador;JOGADOR;Venezia FC (ITA);Atacante;COMUM
+ECU010;400;PAEZ Kendry;Ecuador;JOGADOR;CA River Plate (ARG);Meio-campo;COMUM
+ECU011;401;RODRIGUEZ Kevin;Ecuador;JOGADOR;Royale Union Saint-Gilloise (BEL);Atacante;COMUM
+ECU012;402;RAMIREZ Moises;Ecuador;JOGADOR;AE Kifisia FC (GRE);Goleiro;COMUM
+ECU013;403;VALENCIA Enner;Ecuador;JOGADOR;CF Pachuca (MEX);Atacante;COMUM
+ECU014;404;MINDA Alan;Ecuador;JOGADOR;Atlético Mineiro (BRA);Meio-campo;COMUM
+ECU015;405;VITE Pedro;Ecuador;JOGADOR;Pumas UNAM (MEX);Meio-campo;COMUM
+ECU016;406;CAICEDO Jordy;Ecuador;JOGADOR;CA Huracán (ARG);Atacante;COMUM
+ECU017;407;PRECIADO Angelo;Ecuador;JOGADOR;Atlético Mineiro (BRA);Defensor;COMUM
+ECU018;408;CASTILLO Denil;Ecuador;JOGADOR;FC Midtjylland (DEN);Meio-campo;COMUM
+ECU019;409;PLATA Gonzalo;Ecuador;JOGADOR;CR Flamengo (BRA);Atacante;RARA
+ECU020;410;ANGULO Nilson;Ecuador;JOGADOR;Sunderland AFC (ENG);Atacante;RARA
+ECU021;411;FRANCO Alan;Ecuador;JOGADOR;Atlético Mineiro (BRA);Meio-campo;RARA
+ECU022;412;VALLE Gonzalo;Ecuador;JOGADOR;LDU Quito (ECU);Goleiro;RARA
+ECU023;413;CAICEDO Moises;Ecuador;JOGADOR;Chelsea FC (ENG);Meio-campo;RARA
+ECU024;414;AREVALO Jeremy;Ecuador;JOGADOR;VfB Stuttgart (GER);Atacante;EPICA
+ECU025;415;POROZO Jackson;Ecuador;JOGADOR;Club Tijuana (MEX);Defensor;EPICA
+ECU026;416;MEDINA Yaimar;Ecuador;JOGADOR;KRC Genk (BEL);Defensor;LENDARIA
+EGY001;417;MOHAMED ELSHENAWY;Egypt;JOGADOR;Al Ahly FC (EGY);Goleiro;COMUM
+EGY002;418;YASSER IBRAHIM;Egypt;JOGADOR;Al Ahly FC (EGY);Defensor;COMUM
+EGY003;419;MOHAMED HANY;Egypt;JOGADOR;Al Ahly FC (EGY);Defensor;COMUM
+EGY004;420;HOSSAM ABDELMAGUID;Egypt;JOGADOR;Zamalek SC (EGY);Defensor;COMUM
+EGY005;421;RAMY RABIA;Egypt;JOGADOR;Al Ain FC (UAE);Defensor;COMUM
+EGY006;422;MOHAMED ABDELMONEIM;Egypt;JOGADOR;OGC Nice (FRA);Defensor;COMUM
+EGY007;423;TREZEGUET;Egypt;JOGADOR;Al Ahly FC (EGY);Atacante;COMUM
+EGY008;424;EMAM ASHOUR;Egypt;JOGADOR;Al Ahly FC (EGY);Meio-campo;COMUM
+EGY009;425;HAMZA ABDELKARIM;Egypt;JOGADOR;FC Barcelona (ESP);Atacante;COMUM
+EGY010;426;MOHAMED SALAH;Egypt;JOGADOR;Liverpool FC (ENG);Atacante;COMUM
+EGY011;427;MOSTAFA ZICO;Egypt;JOGADOR;Pyramids FC (EGY);Meio-campo;COMUM
+EGY012;428;HAISSEM HASSAN;Egypt;JOGADOR;Real Oviedo (ESP);Atacante;COMUM
+EGY013;429;AHMED FATOUH;Egypt;JOGADOR;Zamalek SC (EGY);Defensor;COMUM
+EGY014;430;HAMDY FATHY;Egypt;JOGADOR;Al Wakrah SC (QAT);Meio-campo;COMUM
+EGY015;431;KARIM HAFEZ;Egypt;JOGADOR;Pyramids FC (EGY);Defensor;COMUM
+EGY016;432;MAHDY SOLIMAN;Egypt;JOGADOR;Zamalek SC (EGY);Goleiro;COMUM
+EGY017;433;MOHANAD LASHIN;Egypt;JOGADOR;Pyramids FC (EGY);Meio-campo;COMUM
+EGY018;434;NABIL DONGA;Egypt;JOGADOR;Al Najmah SC (KSA);Meio-campo;COMUM
+EGY019;435;MARAWAN ATTIA;Egypt;JOGADOR;Al Ahly FC (EGY);Meio-campo;RARA
+EGY020;436;IBRAHIM ADEL;Egypt;JOGADOR;FC Nordsjælland (DEN);Atacante;RARA
+EGY021;437;MAHMOUD SABER;Egypt;JOGADOR;ZED FC (EGY);Meio-campo;RARA
+EGY022;438;OMAR MARMOUSH;Egypt;JOGADOR;Manchester City FC (ENG);Atacante;RARA
+EGY023;439;MOSTAFA SHOUBIR;Egypt;JOGADOR;Al Ahly FC (EGY);Goleiro;RARA
+EGY024;440;TAREK ALAA;Egypt;JOGADOR;ZED FC (EGY);Defensor;EPICA
+EGY025;441;ZIZO;Egypt;JOGADOR;Al Ahly FC (EGY);Atacante;EPICA
+EGY026;442;MOHAMED ALAA;Egypt;JOGADOR;El Gouna FC (EGY);Goleiro;LENDARIA
+ENG001;443;PICKFORD Jordan;England;JOGADOR;Everton FC (ENG);Goleiro;COMUM
+ENG002;444;KONSA Ezri;England;JOGADOR;Aston Villa FC (ENG);Defensor;COMUM
+ENG003;445;OREILLY Nico;England;JOGADOR;Manchester City FC (ENG);Defensor;COMUM
+ENG004;446;RICE Declan;England;JOGADOR;Arsenal FC (ENG);Meio-campo;COMUM
+ENG005;447;STONES John;England;JOGADOR;Manchester City FC (ENG);Defensor;COMUM
+ENG006;448;GUEHI Marc;England;JOGADOR;Manchester City FC (ENG);Defensor;COMUM
+ENG007;449;SAKA Bukayo;England;JOGADOR;Arsenal FC (ENG);Atacante;COMUM
+ENG008;450;ANDERSON Elliot;England;JOGADOR;Nottingham Forest FC (ENG);Meio-campo;COMUM
+ENG009;451;KANE Harry;England;JOGADOR;FC Bayern München (GER);Atacante;COMUM
+ENG010;452;BELLINGHAM Jude;England;JOGADOR;Real Madrid C. F. (ESP);Meio-campo;COMUM
+ENG011;453;RASHFORD Marcus;England;JOGADOR;FC Barcelona (ESP);Atacante;COMUM
+ENG012;454;CHALOBAH Trevoh;England;JOGADOR;Chelsea FC (ENG);Defensor;COMUM
+ENG013;455;HENDERSON Dean;England;JOGADOR;Crystal Palace FC (ENG);Goleiro;COMUM
+ENG014;456;HENDERSON Jordan;England;JOGADOR;Brentford FC (ENG);Meio-campo;COMUM
+ENG015;457;BURN Dan;England;JOGADOR;Newcastle United FC (ENG);Defensor;COMUM
+ENG016;458;MAINOO Kobbie;England;JOGADOR;Manchester United FC (ENG);Meio-campo;COMUM
+ENG017;459;ROGERS Morgan;England;JOGADOR;Aston Villa FC (ENG);Meio-campo;COMUM
+ENG018;460;GORDON Anthony;England;JOGADOR;Newcastle United FC (ENG);Atacante;COMUM
+ENG019;461;WATKINS Ollie;England;JOGADOR;Aston Villa FC (ENG);Atacante;RARA
+ENG020;462;MADUEKE Noni;England;JOGADOR;Arsenal FC (ENG);Atacante;RARA
+ENG021;463;EZE Eberechi;England;JOGADOR;Arsenal FC (ENG);Meio-campo;RARA
+ENG022;464;TONEY Ivan;England;JOGADOR;Al Ahli FC (KSA);Atacante;RARA
+ENG023;465;TRAFFORD James;England;JOGADOR;Manchester City FC (ENG);Goleiro;RARA
+ENG024;466;JAMES Reece;England;JOGADOR;Chelsea FC (ENG);Defensor;EPICA
+ENG025;467;SPENCE Djed;England;JOGADOR;Tottenham Hotspur FC (ENG);Defensor;EPICA
+ENG026;468;QUANSAH Jarell;England;JOGADOR;Bayer 04 Leverkusen (GER);Defensor;LENDARIA
+FRA001;469;SAMBA Brice;France;JOGADOR;Stade Rennais FC (FRA);Goleiro;COMUM
+FRA002;470;GUSTO Malo;France;JOGADOR;Chelsea FC (ENG);Defensor;COMUM
+FRA003;471;DIGNE Lucas;France;JOGADOR;Aston Villa FC (ENG);Defensor;COMUM
+FRA004;472;UPAMECANO Dayot;France;JOGADOR;FC Bayern München (GER);Defensor;COMUM
+FRA005;473;KOUNDE Jules;France;JOGADOR;FC Barcelona (ESP);Defensor;COMUM
+FRA006;474;KONE Manu;France;JOGADOR;AS Roma (ITA);Meio-campo;COMUM
+FRA007;475;DEMBELE Ousmane;France;JOGADOR;Paris Saint-Germain (FRA);Atacante;COMUM
+FRA008;476;TCHOUAMENI Aurelien;France;JOGADOR;Real Madrid C. F. (ESP);Meio-campo;COMUM
+FRA009;477;THURAM Marcus;France;JOGADOR;FC Internazionale Milano (ITA);Atacante;COMUM
+FRA010;478;MBAPPE Kylian;France;JOGADOR;Real Madrid C. F. (ESP);Atacante;COMUM
+FRA011;479;OLISE Michael;France;JOGADOR;FC Bayern München (GER);Atacante;COMUM
+FRA012;480;BARCOLA Bradley;France;JOGADOR;Paris Saint-Germain (FRA);Atacante;COMUM
+FRA013;481;KANTE Ngolo;France;JOGADOR;Fenerbahçe SK (TUR);Meio-campo;COMUM
+FRA014;482;RABIOT Adrien;France;JOGADOR;AC Milan (ITA);Meio-campo;COMUM
+FRA015;483;KONATE Ibrahima;France;JOGADOR;Liverpool FC (ENG);Defensor;COMUM
+FRA016;484;MAIGNAN Mike;France;JOGADOR;AC Milan (ITA);Goleiro;COMUM
+FRA017;485;SALIBA William;France;JOGADOR;Arsenal FC (ENG);Defensor;COMUM
+FRA018;486;ZAIRE-EMERY Warren;France;JOGADOR;Paris Saint-Germain (FRA);Meio-campo;COMUM
+FRA019;487;HERNANDEZ Theo;France;JOGADOR;Al Hilal SC (KSA);Defensor;RARA
+FRA020;488;DOUE Desire;France;JOGADOR;Paris Saint-Germain (FRA);Atacante;RARA
+FRA021;489;HERNANDEZ Lucas;France;JOGADOR;Paris Saint-Germain (FRA);Defensor;RARA
+FRA022;490;MATETA Jean-Philippe;France;JOGADOR;Crystal Palace FC (ENG);Atacante;RARA
+FRA023;491;RISSER Robin;France;JOGADOR;RC Lens (FRA);Goleiro;RARA
+FRA024;492;CHERKI Rayan;France;JOGADOR;Manchester City FC (ENG);Meio-campo;EPICA
+FRA025;493;AKLIOUCHE Maghnes;France;JOGADOR;AS Monaco (FRA);Meio-campo;EPICA
+FRA026;494;LACROIX Maxence;France;JOGADOR;Crystal Palace FC (ENG);Defensor;LENDARIA
+GER001;495;NEUER Manuel;Germany;JOGADOR;FC Bayern München (GER);Goleiro;COMUM
+GER002;496;RUEDIGER Antonio;Germany;JOGADOR;Real Madrid C. F. (ESP);Defensor;COMUM
+GER003;497;ANTON Waldemar;Germany;JOGADOR;Borussia Dortmund (GER);Defensor;COMUM
+GER004;498;TAH Jonathan;Germany;JOGADOR;FC Bayern München (GER);Defensor;COMUM
+GER005;499;PAVLOVIC Aleksandar;Germany;JOGADOR;FC Bayern München (GER);Meio-campo;COMUM
+GER006;500;KIMMICH Joshua;Germany;JOGADOR;FC Bayern München (GER);Defensor;COMUM
+GER007;501;HAVERTZ Kai;Germany;JOGADOR;Arsenal FC (ENG);Atacante;COMUM
+GER008;502;GORETZKA Leon;Germany;JOGADOR;FC Bayern München (GER);Meio-campo;COMUM
+GER009;503;LEWELING Jamie;Germany;JOGADOR;VfB Stuttgart (GER);Meio-campo;COMUM
+GER010;504;MUSIALA Jamal;Germany;JOGADOR;FC Bayern München (GER);Meio-campo;COMUM
+GER011;505;WOLTEMADE Nick;Germany;JOGADOR;Newcastle United FC (ENG);Atacante;COMUM
+GER012;506;BAUMANN Oliver;Germany;JOGADOR;TSG Hoffenheim (GER);Goleiro;COMUM
+GER013;507;GROSS Pascal;Germany;JOGADOR;Brighton & Hove Albion FC (ENG);Meio-campo;COMUM
+GER014;508;BEIER Maximilian;Germany;JOGADOR;Borussia Dortmund (GER);Atacante;COMUM
+GER015;509;SCHLOTTERBECK Nico;Germany;JOGADOR;Borussia Dortmund (GER);Defensor;COMUM
+GER016;510;STILLER Angelo;Germany;JOGADOR;VfB Stuttgart (GER);Meio-campo;COMUM
+GER017;511;WIRTZ Florian;Germany;JOGADOR;Liverpool FC (ENG);Meio-campo;COMUM
+GER018;512;BROWN Nathaniel;Germany;JOGADOR;Eintracht Frankfurt (GER);Defensor;COMUM
+GER019;513;SANE Leroy;Germany;JOGADOR;Galatasaray SK (TUR);Meio-campo;RARA
+GER020;514;AMIRI Nadiem;Germany;JOGADOR;1. FSV Mainz 05 (GER);Meio-campo;RARA
+GER021;515;NUEBEL Alexander;Germany;JOGADOR;VfB Stuttgart (GER);Goleiro;RARA
+GER022;516;RAUM David;Germany;JOGADOR;RB Leipzig (GER);Defensor;RARA
+GER023;517;NMECHA Felix;Germany;JOGADOR;Borussia Dortmund (GER);Meio-campo;RARA
+GER024;518;THIAW Malick;Germany;JOGADOR;Newcastle United FC (ENG);Defensor;EPICA
+GER025;519;OUEDRAOGO Assan;Germany;JOGADOR;RB Leipzig (GER);Meio-campo;EPICA
+GER026;520;UNDAV Deniz;Germany;JOGADOR;VfB Stuttgart (GER);Atacante;LENDARIA
+GHA001;521;ZIGI Lawrence Ati;Ghana;JOGADOR;FC St. Gallen (SUI);Goleiro;COMUM
+GHA002;522;SEIDU Alidu;Ghana;JOGADOR;Stade Rennais FC (FRA);Defensor;COMUM
+GHA003;523;YIRENKYI Caleb;Ghana;JOGADOR;FC Nordsjælland (DEN);Meio-campo;COMUM
+GHA004;524;ADJETEY Jonas;Ghana;JOGADOR;VfL Wolfsburg (GER);Defensor;COMUM
+GHA005;525;PARTEY Thomas;Ghana;JOGADOR;Villarreal CF (ESP);Meio-campo;COMUM
+GHA006;526;MUMIN Abdul;Ghana;JOGADOR;Rayo Vallecano (ESP);Defensor;COMUM
+GHA007;527;FATAWU Abdul;Ghana;JOGADOR;Leicester City FC (ENG);Atacante;COMUM
+GHA008;528;SIBO Kwasi;Ghana;JOGADOR;Real Oviedo (ESP);Meio-campo;COMUM
+GHA009;529;AYEW Jordan;Ghana;JOGADOR;Leicester City FC (ENG);Atacante;COMUM
+GHA010;530;THOMAS-ASANTE Brandon;Ghana;JOGADOR;Coventry City FC (ENG);Atacante;COMUM
+GHA011;531;SEMENYO Antoine;Ghana;JOGADOR;Manchester City FC (ENG);Meio-campo;COMUM
+GHA012;532;ANANG Joseph;Ghana;JOGADOR;St Patrick's Athletic FC (IRL);Goleiro;COMUM
+GHA013;533;BONSU BAAH Christopher;Ghana;JOGADOR;Al Qadsiah FC (KSA);Atacante;COMUM
+GHA014;534;MENSAH Gideon;Ghana;JOGADOR;AJ Auxerre (FRA);Defensor;COMUM
+GHA015;535;OWUSU Elisha;Ghana;JOGADOR;AJ Auxerre (FRA);Meio-campo;COMUM
+GHA016;536;ASARE Benjamin;Ghana;JOGADOR;Hearts Of Oak SC (GHA);Goleiro;COMUM
+GHA017;537;RAHMAN Baba;Ghana;JOGADOR;PAOK Saloniki (GRE);Defensor;COMUM
+GHA018;538;OPOKU Jerome;Ghana;JOGADOR;Başakşehir FK (TUR);Defensor;COMUM
+GHA019;539;WILLIAMS Inaki;Ghana;JOGADOR;Athletic Club (ESP);Atacante;RARA
+GHA020;540;BOAKYE Augustine;Ghana;JOGADOR;AS Saint-Etienne (FRA);Meio-campo;RARA
+GHA021;541;OPPONG Kojo Peprah;Ghana;JOGADOR;OGC Nice (FRA);Defensor;RARA
+GHA022;542;SULEMANA Kamaldeen;Ghana;JOGADOR;Atalanta Bergamo (ITA);Atacante;RARA
+GHA023;543;LUCKASSEN Derrick;Ghana;JOGADOR;Pafos FC (CYP);Defensor;RARA
+GHA024;544;NUAMAH Ernest;Ghana;JOGADOR;Olympique Lyonnais (FRA);Atacante;EPICA
+GHA025;545;ADU Prince;Ghana;JOGADOR;FC Viktoria Plzeň (CZE);Atacante;EPICA
+GHA026;546;SENAYA Marvin;Ghana;JOGADOR;AJ Auxerre (FRA);Defensor;LENDARIA
+HAI001;547;PLACIDE Johny;Haiti;JOGADOR;SC Bastia (FRA);Goleiro;COMUM
+HAI002;548;ARCUS Carlens;Haiti;JOGADOR;Angers SCO (FRA);Defensor;COMUM
+HAI003;549;THERMONCY Keeto;Haiti;JOGADOR;BSC Young Boys (SUI);Defensor;COMUM
+HAI004;550;ADE Ricardo;Haiti;JOGADOR;LDU Quito (ECU);Defensor;COMUM
+HAI005;551;DELCROIX Hannes;Haiti;JOGADOR;FC Lugano (SUI);Defensor;COMUM
+HAI006;552;SAINTE Carl;Haiti;JOGADOR;El Paso Locomotive FC (USA);Meio-campo;COMUM
+HAI007;553;ETIENNE Derrick;Haiti;JOGADOR;Toronto FC (CAN);Atacante;COMUM
+HAI008;554;EXPERIENCE Martin;Haiti;JOGADOR;AS Nancy (FRA);Defensor;COMUM
+HAI009;555;NAZON Duckens;Haiti;JOGADOR;Esteghlal Tehran FC (IRN);Atacante;COMUM
+HAI010;556;BELLEGARDE Jean-Ricner;Haiti;JOGADOR;Wolverhampton Wanderers FC (ENG);Meio-campo;COMUM
+HAI011;557;DEEDSON Louicius;Haiti;JOGADOR;FC Dallas (USA);Atacante;COMUM
+HAI012;558;PIERRE Alexandre;Haiti;JOGADOR;FC Sochaux-Montbéliard (FRA);Goleiro;COMUM
+HAI013;559;LACROIX Markhus;Haiti;JOGADOR;Colorado Springs Switchbacks FC (USA);Defensor;COMUM
+HAI014;560;METUSALA Garven;Haiti;JOGADOR;Colorado Springs Switchbacks FC (USA);Defensor;COMUM
+HAI015;561;PROVIDENCE Ruben;Haiti;JOGADOR;Almere City FC (NED);Atacante;COMUM
+HAI016;562;JOSEPH Lenny;Haiti;JOGADOR;Ferencvárosi TC (HUN);Atacante;COMUM
+HAI017;563;JEAN JACQUES Danley;Haiti;JOGADOR;Philadelphia Union (USA);Meio-campo;COMUM
+HAI018;564;ISIDOR Wilson;Haiti;JOGADOR;Sunderland AFC (ENG);Atacante;COMUM
+HAI019;565;FORTUNE Yassin;Haiti;JOGADOR;FC Vizela (POR);Atacante;RARA
+HAI020;566;PIERROT Frantzdy;Haiti;JOGADOR;Çaykur Rizespor (TUR);Atacante;RARA
+HAI021;567;CASIMIR Josue;Haiti;JOGADOR;AJ Auxerre (FRA);Atacante;RARA
+HAI022;568;DUVERNE Jean-Kevin;Haiti;JOGADOR;KAA Gent (BEL);Defensor;RARA
+HAI023;569;DUVERGER Josue;Haiti;JOGADOR;FC Cosmos Koblenz (GER);Goleiro;RARA
+HAI024;570;PAUGAIN Wilguens;Haiti;JOGADOR;SV Zulte Waregem (BEL);Defensor;EPICA
+HAI025;571;SIMON Dominique;Haiti;JOGADOR;FC Tatran Prešov (SVK);Meio-campo;EPICA
+HAI026;572;PIERRE Woodensky;Haiti;JOGADOR;Violette AC (HAI);Meio-campo;LENDARIA
+IRN001;573;BEIRANVAND Alireza;IR Iran;JOGADOR;Tractor Sazi Tabriz FC (IRN);Goleiro;COMUM
+IRN002;574;HARDANI Saleh;IR Iran;JOGADOR;Esteghlal Tehran FC (IRN);Defensor;COMUM
+IRN003;575;HAJISAFI Ehsan;IR Iran;JOGADOR;Sepahan SC (IRN);Defensor;COMUM
+IRN004;576;KHALILZADEH Shoja;IR Iran;JOGADOR;Tractor Sazi Tabriz FC (IRN);Defensor;COMUM
+IRN005;577;MOHAMMADI Milad;IR Iran;JOGADOR;Persepolis FC (IRN);Defensor;COMUM
+IRN006;578;EZATOLAHI Saeid;IR Iran;JOGADOR;Shabab Al Ahli Club (UAE);Meio-campo;COMUM
+IRN007;579;JAHANBAKHSH Alireza;IR Iran;JOGADOR;FCV Dender EH (BEL);Meio-campo;COMUM
+IRN008;580;MOHEBBI Mohammad;IR Iran;JOGADOR;FC Rostov (RUS);Meio-campo;COMUM
+IRN009;581;TAREMI Mehdi;IR Iran;JOGADOR;Olympiacos FC (GRE);Atacante;COMUM
+IRN010;582;GHAYEDI Mehdi;IR Iran;JOGADOR;Al Nasr SC (UAE);Atacante;COMUM
+IRN011;583;ALIPOUR Ali;IR Iran;JOGADOR;Persepolis FC (IRN);Atacante;COMUM
+IRN012;584;NIAZMAND Payam;IR Iran;JOGADOR;Persepolis FC (IRN);Goleiro;COMUM
+IRN013;585;KANANI Hossein;IR Iran;JOGADOR;Persepolis FC (IRN);Defensor;COMUM
+IRN014;586;GHODDOS Saman;IR Iran;JOGADOR;Al Ittihad Kalba SCC (UAE);Meio-campo;COMUM
+IRN015;587;CHESHMI Roozbeh;IR Iran;JOGADOR;Esteghlal Tehran FC (IRN);Meio-campo;COMUM
+IRN016;588;TORABI Mehdi;IR Iran;JOGADOR;Tractor Sazi Tabriz FC (IRN);Meio-campo;COMUM
+IRN017;589;YOUSEFI Arya;IR Iran;JOGADOR;Sepahan SC (IRN);Defensor;COMUM
+IRN018;590;HOSSEINZADEH Amirhossein;IR Iran;JOGADOR;Tractor Sazi Tabriz FC (IRN);Atacante;COMUM
+IRN019;591;NEMATI Ali;IR Iran;JOGADOR;Foolad Khuzestan FC (IRN);Defensor;RARA
+IRN020;592;MOGHANLOO Shahriyar;IR Iran;JOGADOR;Al Ittihad Kalba SCC (UAE);Atacante;RARA
+IRN021;593;GHORBANI Mohammad;IR Iran;JOGADOR;Al Wahda SC (UAE);Meio-campo;RARA
+IRN022;594;HOSSEINI Hossein;IR Iran;JOGADOR;Sepahan SC (IRN);Goleiro;RARA
+IRN023;595;REZAEIAN Ramin;IR Iran;JOGADOR;Foolad Khuzestan FC (IRN);Defensor;RARA
+IRN024;596;DARGAHI Dennis;IR Iran;JOGADOR;Standard Liège (BEL);Atacante;EPICA
+IRN025;597;IRI Danial;IR Iran;JOGADOR;Malavan Anzali FC (IRN);Defensor;EPICA
+IRN026;598;RAZAGHINIA Amirmohammad;IR Iran;JOGADOR;Esteghlal Tehran FC (IRN);Meio-campo;LENDARIA
+IRQ001;599;FAHAD TALIB;Iraq;JOGADOR;Al Talaba SC (IRQ);Goleiro;COMUM
+IRQ002;600;REBIN SULAKA;Iraq;JOGADOR;Port FC (THA);Defensor;COMUM
+IRQ003;601;HUSSEIN ALI;Iraq;JOGADOR;Pogoń Szczecin (POL);Defensor;COMUM
+IRQ004;602;ZAID TAHSEEN;Iraq;JOGADOR;Pakhtakor Tashkent FK (UZB);Defensor;COMUM
+IRQ005;603;AKAM HASHIM;Iraq;JOGADOR;Al Zawra'a SC (IRQ);Defensor;COMUM
+IRQ006;604;MUNAF YOUNUS;Iraq;JOGADOR;Al Shorta SC (IRQ);Defensor;COMUM
+IRQ007;605;YOUSSEF AMYN;Iraq;JOGADOR;AEK Larnaca FC (CYP);Meio-campo;COMUM
+IRQ008;606;IBRAHIM BAYESH;Iraq;JOGADOR;Al Dhafra SCC (UAE);Meio-campo;COMUM
+IRQ009;607;ALI ALHAMADI;Iraq;JOGADOR;Luton Town FC (ENG);Atacante;COMUM
+IRQ010;608;MOHANAD ALI;Iraq;JOGADOR;Dibba FC (UAE);Atacante;COMUM
+IRQ011;609;AHMED QASEM;Iraq;JOGADOR;Nashville SC (USA);Atacante;COMUM
+IRQ012;610;JALAL HASSAN;Iraq;JOGADOR;Al Zawra'a SC (IRQ);Goleiro;COMUM
+IRQ013;611;ALI YOUSIF;Iraq;JOGADOR;Al Talaba SC (IRQ);Atacante;COMUM
+IRQ014;612;ZIDANE IQBAL;Iraq;JOGADOR;FC Utrecht (NED);Meio-campo;COMUM
+IRQ015;613;AHMED MAKNAZI;Iraq;JOGADOR;Al Karma SC (IRQ);Defensor;COMUM
+IRQ016;614;AMIR ALAMMARI;Iraq;JOGADOR;KS Cracovia (POL);Meio-campo;COMUM
+IRQ017;615;ALI JASIM;Iraq;JOGADOR;Al Najmah SC (KSA);Atacante;COMUM
+IRQ018;616;AYMEN HUSSEIN;Iraq;JOGADOR;Al Karma SC (IRQ);Atacante;COMUM
+IRQ019;617;KEVIN YAKOB;Iraq;JOGADOR;Aarhus GF (DEN);Meio-campo;RARA
+IRQ020;618;AIMAR SHER;Iraq;JOGADOR;Sarpsborg 08 FF (NOR);Meio-campo;RARA
+IRQ021;619;MARKO FARJI;Iraq;JOGADOR;Venezia FC (ITA);Atacante;RARA
+IRQ022;620;AHMED BASIL;Iraq;JOGADOR;Al Shorta SC (IRQ);Goleiro;RARA
+IRQ023;621;MERCHAS DOSKI;Iraq;JOGADOR;FC Viktoria Plzeň (CZE);Defensor;RARA
+IRQ024;622;ZAID ISMAEL;Iraq;JOGADOR;Al Talaba SC (IRQ);Meio-campo;EPICA
+IRQ025;623;MUSTAFA SAADOON;Iraq;JOGADOR;Al Shorta SC (IRQ);Defensor;EPICA
+IRQ026;624;FRANS PUTROS;Iraq;JOGADOR;Persib Bandung (IDN);Defensor;LENDARIA
+JPN001;625;SUZUKI Zion;Japan;JOGADOR;Parma (ITA);Goleiro;COMUM
+JPN002;626;SUGAWARA Yukinari;Japan;JOGADOR;SV Werder Bremen (GER);Defensor;COMUM
+JPN003;627;TANIGUCHI Shogo;Japan;JOGADOR;Sint-Truiden VV (BEL);Defensor;COMUM
+JPN004;628;ITAKURA Kou;Japan;JOGADOR;AFC Ajax (NED);Defensor;COMUM
+JPN005;629;NAGATOMO Yuto;Japan;JOGADOR;FC Tokyo (JPN);Defensor;COMUM
+JPN006;630;MACHINO Shuto;Japan;JOGADOR;Borussia Mönchengladbach (GER);Atacante;COMUM
+JPN007;631;TANAKA Ao;Japan;JOGADOR;Leeds United FC (ENG);Meio-campo;COMUM
+JPN008;632;KUBO Takefusa;Japan;JOGADOR;Real Sociedad (ESP);Meio-campo;COMUM
+JPN009;633;GOTO Keisuke;Japan;JOGADOR;Sint-Truiden VV (BEL);Atacante;COMUM
+JPN010;634;DOAN Ritsu;Japan;JOGADOR;Eintracht Frankfurt (GER);Meio-campo;COMUM
+JPN011;635;MAEDA Daizen;Japan;JOGADOR;Celtic FC (SCO);Meio-campo;COMUM
+JPN012;636;OSAKO Keisuke;Japan;JOGADOR;Sanfrecce Hiroshima (JPN);Goleiro;COMUM
+JPN013;637;NAKAMURA Keito;Japan;JOGADOR;Stade Reims (FRA);Meio-campo;COMUM
+JPN014;638;ITO Junya;Japan;JOGADOR;KRC Genk (BEL);Meio-campo;COMUM
+JPN015;639;KAMADA Daichi;Japan;JOGADOR;Crystal Palace FC (ENG);Meio-campo;COMUM
+JPN016;640;WATANABE Tsuyoshi;Japan;JOGADOR;Feyenoord Rotterdam (NED);Defensor;COMUM
+JPN017;641;SUZUKI Yuito;Japan;JOGADOR;SC Freiburg (GER);Meio-campo;COMUM
+JPN018;642;UEDA Ayase;Japan;JOGADOR;Feyenoord Rotterdam (NED);Atacante;COMUM
+JPN019;643;OGAWA Koki;Japan;JOGADOR;NEC Nijmegen (NED);Atacante;RARA
+JPN020;644;SEKO Ayumu;Japan;JOGADOR;Le Havre AC (FRA);Defensor;RARA
+JPN021;645;ITO Hiroki;Japan;JOGADOR;FC Bayern München (GER);Defensor;RARA
+JPN022;646;TOMIYASU Takehiro;Japan;JOGADOR;AFC Ajax (NED);Defensor;RARA
+JPN023;647;HAYAKAWA Tomoki;Japan;JOGADOR;Kashima Antlers (JPN);Goleiro;RARA
+JPN024;648;SANO Kaishu;Japan;JOGADOR;1. FSV Mainz 05 (GER);Meio-campo;EPICA
+JPN025;649;SUZUKI Junnosuke;Japan;JOGADOR;FC København (DEN);Defensor;EPICA
+JPN026;650;SHIOGAI Kento;Japan;JOGADOR;VfL Wolfsburg (GER);Atacante;LENDARIA
+JOR001;651;YAZEED ABULAILA;Jordan;JOGADOR;Al Hussein SC (JOR);Goleiro;COMUM
+JOR002;652;MOHAMMAD ABUHASHEESH;Jordan;JOGADOR;Al Karma SC (IRQ);Defensor;COMUM
+JOR003;653;ABDALLAH NASIB;Jordan;JOGADOR;Al Zawra'a SC (IRQ);Defensor;COMUM
+JOR004;654;HUSAM ABUDAHAB;Jordan;JOGADOR;Al Faisaly SC (JOR);Defensor;COMUM
+JOR005;655;YAZAN ALARAB;Jordan;JOGADOR;FC Seoul (KOR);Defensor;COMUM
+JOR006;656;AMER JAMOUS;Jordan;JOGADOR;Al Zawra'a SC (IRQ);Meio-campo;COMUM
+JOR007;657;MOHAMMAD ABUZRAIQ;Jordan;JOGADOR;Raja Casablanca (MAR);Atacante;COMUM
+JOR008;658;NOOR ALRAWABDEH;Jordan;JOGADOR;Selangor FC (MAS);Meio-campo;COMUM
+JOR009;659;ALI OLWAN;Jordan;JOGADOR;Al Sailiya SC (QAT);Atacante;COMUM
+JOR010;660;MOUSA ALTAMARI;Jordan;JOGADOR;Stade Rennais FC (FRA);Atacante;COMUM
+JOR011;661;ODEH FAKHOURY;Jordan;JOGADOR;Pyramids FC (EGY);Atacante;COMUM
+JOR012;662;NOUR BANIATEYAH;Jordan;JOGADOR;Al Faisaly SC (JOR);Goleiro;COMUM
+JOR013;663;MAHMOUD ALMARDI;Jordan;JOGADOR;Al Hussein SC (JOR);Atacante;COMUM
+JOR014;664;RAJAEI AYED;Jordan;JOGADOR;Al Hussein SC (JOR);Meio-campo;COMUM
+JOR015;665;IBRAHIM SADEH;Jordan;JOGADOR;Al Karma SC (IRQ);Meio-campo;COMUM
+JOR016;666;MOHAMMAD ABUALNADI;Jordan;JOGADOR;Selangor FC (MAS);Defensor;COMUM
+JOR017;667;SALEEM OBAID;Jordan;JOGADOR;Al Hussein SC (JOR);Defensor;COMUM
+JOR018;668;MOHAMMAD ABUGHOUSH;Jordan;JOGADOR;Al Hussein SC (JOR);Meio-campo;COMUM
+JOR019;669;SAED ALROSAN;Jordan;JOGADOR;Al Hussein SC (JOR);Defensor;RARA
+JOR020;670;MOHANNAD ABUTAHA;Jordan;JOGADOR;Al-Quwa Al-Jawiya (IRQ);Meio-campo;RARA
+JOR021;671;NIZAR ALRASHDAN;Jordan;JOGADOR;Qatar SC (QAT);Meio-campo;RARA
+JOR022;672;ABDALLAH ALFAKHORI;Jordan;JOGADOR;Al Wahdat SC (JOR);Goleiro;RARA
+JOR023;673;EHSAN HADDAD;Jordan;JOGADOR;Al Hussein SC (JOR);Defensor;RARA
+JOR024;674;ALI AZAIZEH;Jordan;JOGADOR;Al Shabab FC (KSA);Atacante;EPICA
+JOR025;675;MOHAMMAD ALDAOUD;Jordan;JOGADOR;Al Wahdat SC (JOR);Meio-campo;EPICA
+JOR026;676;ANAS BADAWI;Jordan;JOGADOR;Al Faisaly SC (JOR);Defensor;LENDARIA
+KOR001;677;KIM Seunggyu;Korea Republic;JOGADOR;FC Tokyo (JPN);Goleiro;COMUM
+KOR002;678;LEE Hanbeom;Korea Republic;JOGADOR;FC Midtjylland (DEN);Defensor;COMUM
+KOR003;679;LEE Gihyuk;Korea Republic;JOGADOR;Gangwon FC (KOR);Meio-campo;COMUM
+KOR004;680;KIM Minjae;Korea Republic;JOGADOR;FC Bayern München (GER);Defensor;COMUM
+KOR005;681;KIM Taehyeon;Korea Republic;JOGADOR;Kashima Antlers (JPN);Defensor;COMUM
+KOR006;682;HWANG Inbeom;Korea Republic;JOGADOR;Feyenoord Rotterdam (NED);Meio-campo;COMUM
+KOR007;683;SON Heungmin;Korea Republic;JOGADOR;LAFC (USA);Atacante;COMUM
+KOR008;684;PAIK Seungho;Korea Republic;JOGADOR;Birmingham City FC (ENG);Meio-campo;COMUM
+KOR009;685;CHO Guesung;Korea Republic;JOGADOR;FC Midtjylland (DEN);Atacante;COMUM
+KOR010;686;LEE Jaesung;Korea Republic;JOGADOR;1. FSV Mainz 05 (GER);Meio-campo;COMUM
+KOR011;687;HWANG Heechan;Korea Republic;JOGADOR;Wolverhampton Wanderers FC (ENG);Meio-campo;COMUM
+KOR012;688;SONG Bumkeun;Korea Republic;JOGADOR;Jeonbuk Hyundai Motors FC (KOR);Goleiro;COMUM
+KOR013;689;LEE Taeseok;Korea Republic;JOGADOR;FK Austria Wien (AUT);Defensor;COMUM
+KOR014;690;CHO Wije;Korea Republic;JOGADOR;Jeonbuk Hyundai Motors FC (KOR);Defensor;COMUM
+KOR015;691;KIM Moonhwan;Korea Republic;JOGADOR;Daejeon Hana Citizen FC (KOR);Defensor;COMUM
+KOR016;692;PARK Jinseob;Korea Republic;JOGADOR;Zhejiang FC (CHN);Defensor;COMUM
+KOR017;693;BAE Junho;Korea Republic;JOGADOR;Stoke City FC (ENG);Meio-campo;COMUM
+KOR018;694;OH Hyeongyu;Korea Republic;JOGADOR;Beşiktaş JK (TUR);Atacante;COMUM
+KOR019;695;LEE Kangin;Korea Republic;JOGADOR;Paris Saint-Germain (FRA);Meio-campo;RARA
+KOR020;696;YANG Hyunjun;Korea Republic;JOGADOR;Celtic FC (SCO);Meio-campo;RARA
+KOR021;697;JO Hyeonwoo;Korea Republic;JOGADOR;Ulsan HD (KOR);Goleiro;RARA
+KOR022;698;SEOL Youngwoo;Korea Republic;JOGADOR;FK Crvena Zvezda (SRB);Defensor;RARA
+KOR023;699;CASTROP Jens;Korea Republic;JOGADOR;Borussia Mönchengladbach (GER);Defensor;RARA
+KOR024;700;KIM Jingyu;Korea Republic;JOGADOR;Jeonbuk Hyundai Motors FC (KOR);Meio-campo;EPICA
+KOR025;701;EOM Jisung;Korea Republic;JOGADOR;Swansea City AFC (WAL);Meio-campo;EPICA
+KOR026;702;LEE Donggyeong;Korea Republic;JOGADOR;Ulsan HD (KOR);Meio-campo;LENDARIA
+MEX001;703;RANGEL Raul;Mexico;JOGADOR;CD Guadalajara (MEX);Goleiro;COMUM
+MEX002;704;SANCHEZ Jorge;Mexico;JOGADOR;PAOK Saloniki (GRE);Defensor;COMUM
+MEX003;705;MONTES Cesar;Mexico;JOGADOR;FC Lokomotiv Moscow (RUS);Defensor;COMUM
+MEX004;706;ALVAREZ Edson;Mexico;JOGADOR;Fenerbahçe SK (TUR);Defensor;COMUM
+MEX005;707;VASQUEZ Johan;Mexico;JOGADOR;Genoa CFC (ITA);Defensor;COMUM
+MEX006;708;LIRA Erik;Mexico;JOGADOR;CF Cruz Azul (MEX);Meio-campo;COMUM
+MEX007;709;ROMO Luis;Mexico;JOGADOR;CD Guadalajara (MEX);Meio-campo;COMUM
+MEX008;710;FIDALGO Alvaro;Mexico;JOGADOR;Real Betis (ESP);Meio-campo;COMUM
+MEX009;711;JIMENEZ Raul;Mexico;JOGADOR;Fulham FC (ENG);Atacante;COMUM
+MEX010;712;VEGA Alexis;Mexico;JOGADOR;Deportivo Toluca FC (MEX);Atacante;COMUM
+MEX011;713;GIMENEZ Santiago;Mexico;JOGADOR;AC Milan (ITA);Atacante;COMUM
+MEX012;714;ACEVEDO Carlos;Mexico;JOGADOR;Club Santos Laguna (MEX);Goleiro;COMUM
+MEX013;715;OCHOA Guillermo;Mexico;JOGADOR;AEL Limassol (CYP);Goleiro;COMUM
+MEX014;716;GONZALEZ Armando;Mexico;JOGADOR;CD Guadalajara (MEX);Atacante;COMUM
+MEX015;717;REYES Israel;Mexico;JOGADOR;Club América (MEX);Defensor;COMUM
+MEX016;718;QUINONES Julian;Mexico;JOGADOR;Al Qadsiah FC (KSA);Atacante;COMUM
+MEX017;719;PINEDA Orbelin;Mexico;JOGADOR;AEK Athens (GRE);Meio-campo;COMUM
+MEX018;720;VARGAS Obed;Mexico;JOGADOR;Atlético De Madrid (ESP);Meio-campo;COMUM
+MEX019;721;MORA Gilberto;Mexico;JOGADOR;Club Tijuana (MEX);Meio-campo;RARA
+MEX020;722;CHAVEZ Mateo;Mexico;JOGADOR;AZ Alkmaar (NED);Defensor;RARA
+MEX021;723;HUERTA Cesar;Mexico;JOGADOR;RSC Anderlecht (BEL);Atacante;RARA
+MEX022;724;MARTINEZ Guillermo;Mexico;JOGADOR;Pumas UNAM (MEX);Atacante;RARA
+MEX023;725;GALLARDO Jesus;Mexico;JOGADOR;Deportivo Toluca FC (MEX);Defensor;RARA
+MEX024;726;CHAVEZ Luis;Mexico;JOGADOR;FC Dynamo Moscow (RUS);Meio-campo;EPICA
+MEX025;727;ALVARADO Roberto;Mexico;JOGADOR;CD Guadalajara (MEX);Atacante;EPICA
+MEX026;728;GUTIERREZ Brian;Mexico;JOGADOR;CD Guadalajara (MEX);Meio-campo;LENDARIA
+MAR001;729;BOUNOU Yassine;Morocco;JOGADOR;Al Hilal SC (KSA);Goleiro;COMUM
+MAR002;730;HAKIMI Achraf;Morocco;JOGADOR;Paris Saint-Germain (FRA);Defensor;COMUM
+MAR003;731;MAZRAOUI Noussair;Morocco;JOGADOR;Manchester United FC (ENG);Defensor;COMUM
+MAR004;732;AMRABAT Sofyan;Morocco;JOGADOR;Real Betis (ESP);Meio-campo;COMUM
+MAR005;733;SAADANE Marwane;Morocco;JOGADOR;Al Fateh SC (KSA);Defensor;COMUM
+MAR006;734;BOUADDI Ayyoub;Morocco;JOGADOR;Lille OSC (FRA);Meio-campo;COMUM
+MAR007;735;TALBI Chemsdine;Morocco;JOGADOR;Sunderland AFC (ENG);Meio-campo;COMUM
+MAR008;736;OUNAHI Azzedine;Morocco;JOGADOR;Girona FC (ESP);Meio-campo;COMUM
+MAR009;737;RAHIMI Soufiane;Morocco;JOGADOR;Al Ain FC (UAE);Atacante;COMUM
+MAR010;738;DIAZ Brahim;Morocco;JOGADOR;Real Madrid C. F. (ESP);Atacante;COMUM
+MAR011;739;SAIBARI Ismael;Morocco;JOGADOR;PSV Eindhoven (NED);Meio-campo;COMUM
+MAR012;740;EL KAJOUI Munir;Morocco;JOGADOR;RS Berkane (MAR);Goleiro;COMUM
+MAR013;741;EL OUAHDI Zakaria;Morocco;JOGADOR;KRC Genk (BEL);Defensor;COMUM
+MAR014;742;DIOP Issa;Morocco;JOGADOR;Fulham FC (ENG);Defensor;COMUM
+MAR015;743;EL MOURABET Samir;Morocco;JOGADOR;RC Strasbourg (FRA);Meio-campo;COMUM
+MAR016;744;YASSINE Gessime;Morocco;JOGADOR;RC Strasbourg (FRA);Meio-campo;COMUM
+MAR017;745;SBAI Amine;Morocco;JOGADOR;Angers SCO (FRA);Atacante;COMUM
+MAR018;746;RIAD Chadi;Morocco;JOGADOR;Crystal Palace FC (ENG);Defensor;COMUM
+MAR019;747;BELAMMARI Youssef;Morocco;JOGADOR;Al Ahly FC (EGY);Defensor;RARA
+MAR020;748;EL KAABI Ayoub;Morocco;JOGADOR;Olympiacos FC (GRE);Atacante;RARA
+MAR021;749;AMAIMOUNI Ayoube;Morocco;JOGADOR;Eintracht Frankfurt (GER);Atacante;RARA
+MAR022;750;TAGNAOUTI Ahmed Reda;Morocco;JOGADOR;ASFAR (MAR);Goleiro;RARA
+MAR023;751;EL KHANNOUSS Bilal;Morocco;JOGADOR;VfB Stuttgart (GER);Meio-campo;RARA
+MAR024;752;EL AYNAOUI Neil;Morocco;JOGADOR;AS Roma (ITA);Meio-campo;EPICA
+MAR025;753;HALHAL Redouane;Morocco;JOGADOR;KV Mechelen (BEL);Defensor;EPICA
+MAR026;754;SALAH EDDINE Anass;Morocco;JOGADOR;PSV Eindhoven (NED);Defensor;LENDARIA
+NED001;755;VERBRUGGEN Bart;Netherlands;JOGADOR;Brighton & Hove Albion FC (ENG);Goleiro;COMUM
+NED002;756;GEERTRUIDA Lutsharel;Netherlands;JOGADOR;Sunderland AFC (ENG);Defensor;COMUM
+NED003;757;DE ROON Marten;Netherlands;JOGADOR;Atalanta Bergamo (ITA);Meio-campo;COMUM
+NED004;758;VAN DIJK Virgil;Netherlands;JOGADOR;Liverpool FC (ENG);Defensor;COMUM
+NED005;759;AKE Nathan;Netherlands;JOGADOR;Manchester City FC (ENG);Defensor;COMUM
+NED006;760;VAN HECKE Jan Paul;Netherlands;JOGADOR;Brighton & Hove Albion FC (ENG);Defensor;COMUM
+NED007;761;KLUIVERT Justin;Netherlands;JOGADOR;AFC Bournemouth (ENG);Meio-campo;COMUM
+NED008;762;GRAVENBERCH Ryan;Netherlands;JOGADOR;Liverpool FC (ENG);Meio-campo;COMUM
+NED009;763;WEGHORST Wout;Netherlands;JOGADOR;AFC Ajax (NED);Atacante;COMUM
+NED010;764;DEPAY Memphis;Netherlands;JOGADOR;SC Corinthians (BRA);Atacante;COMUM
+NED011;765;GAKPO Cody;Netherlands;JOGADOR;Liverpool FC (ENG);Atacante;COMUM
+NED012;766;WIEFFER Mats;Netherlands;JOGADOR;Brighton & Hove Albion FC (ENG);Defensor;COMUM
+NED013;767;ROEFS Robin;Netherlands;JOGADOR;Sunderland AFC (ENG);Goleiro;COMUM
+NED014;768;REIJNDERS Tijjani;Netherlands;JOGADOR;Manchester City FC (ENG);Meio-campo;COMUM
+NED015;769;VAN DE VEN Micky;Netherlands;JOGADOR;Tottenham Hotspur FC (ENG);Defensor;COMUM
+NED016;770;TIL Guus;Netherlands;JOGADOR;PSV Eindhoven (NED);Meio-campo;COMUM
+NED017;771;LANG Noa;Netherlands;JOGADOR;Galatasaray SK (TUR);Atacante;COMUM
+NED018;772;MALEN Donyell;Netherlands;JOGADOR;AS Roma (ITA);Atacante;COMUM
+NED019;773;BROBBEY Brian;Netherlands;JOGADOR;Sunderland AFC (ENG);Atacante;RARA
+NED020;774;KOOPMEINERS Teun;Netherlands;JOGADOR;Juventus FC (ITA);Meio-campo;RARA
+NED021;775;DE JONG Frenkie;Netherlands;JOGADOR;FC Barcelona (ESP);Meio-campo;RARA
+NED022;776;DUMFRIES Denzel;Netherlands;JOGADOR;FC Internazionale Milano (ITA);Defensor;RARA
+NED023;777;FLEKKEN Mark;Netherlands;JOGADOR;Bayer 04 Leverkusen (GER);Goleiro;RARA
+NED024;778;SUMMERVILLE Crysencio;Netherlands;JOGADOR;West Ham United FC (ENG);Atacante;EPICA
+NED025;779;HATO Jorrel;Netherlands;JOGADOR;Chelsea FC (ENG);Defensor;EPICA
+NED026;780;TIMBER Quinten;Netherlands;JOGADOR;Olympique Marseille (FRA);Meio-campo;LENDARIA
+NZL001;781;CROCOMBE Max;New Zealand;JOGADOR;Millwall FC (ENG);Goleiro;COMUM
+NZL002;782;PAYNE Tim;New Zealand;JOGADOR;Wellington Phoenix FC (NZL);Defensor;COMUM
+NZL003;783;DE VRIES Francis;New Zealand;JOGADOR;Auckland FC (NZL);Defensor;COMUM
+NZL004;784;BINDON Tyler;New Zealand;JOGADOR;Sheffield United FC (ENG);Defensor;COMUM
+NZL005;785;BOXALL Michael;New Zealand;JOGADOR;Minnesota United FC (USA);Defensor;COMUM
+NZL006;786;BELL Joe;New Zealand;JOGADOR;Viking Stavanger (NOR);Meio-campo;COMUM
+NZL007;787;ROGERSON Logan;New Zealand;JOGADOR;Auckland FC (NZL);Atacante;COMUM
+NZL008;788;STAMENIC Marko;New Zealand;JOGADOR;Swansea City AFC (WAL);Meio-campo;COMUM
+NZL009;789;WOOD Chris;New Zealand;JOGADOR;Nottingham Forest FC (ENG);Atacante;COMUM
+NZL010;790;SINGH Sarpreet;New Zealand;JOGADOR;Wellington Phoenix FC (NZL);Meio-campo;COMUM
+NZL011;791;JUST Elijah;New Zealand;JOGADOR;Motherwell FC (SCO);Meio-campo;COMUM
+NZL012;792;PAULSEN Alex;New Zealand;JOGADOR;Lechia Gdańsk (POL);Goleiro;COMUM
+NZL013;793;CACACE Liberato;New Zealand;JOGADOR;Wrexham AFC (WAL);Defensor;COMUM
+NZL014;794;RUFER Alex;New Zealand;JOGADOR;Wellington Phoenix FC (NZL);Meio-campo;COMUM
+NZL015;795;PIJNAKER Nando;New Zealand;JOGADOR;Auckland FC (NZL);Defensor;COMUM
+NZL016;796;SURMAN Finn;New Zealand;JOGADOR;Portland Timbers (USA);Defensor;COMUM
+NZL017;797;BARBAROUSES Kosta;New Zealand;JOGADOR;WS Wanderers FC (AUS);Atacante;COMUM
+NZL018;798;WAINE Ben;New Zealand;JOGADOR;Port Vale FC (ENG);Atacante;COMUM
+NZL019;799;OLD Ben;New Zealand;JOGADOR;AS Saint-Etienne (FRA);Meio-campo;RARA
+NZL020;800;McCOWATT Callum;New Zealand;JOGADOR;Silkeborg IF (DEN);Meio-campo;RARA
+NZL021;801;RANDALL Jesse;New Zealand;JOGADOR;Auckland FC (NZL);Atacante;RARA
+NZL022;802;WOUD Michael;New Zealand;JOGADOR;Auckland FC (NZL);Goleiro;RARA
+NZL023;803;THOMAS Ryan;New Zealand;JOGADOR;PEC Zwolle (NED);Meio-campo;RARA
+NZL024;804;ELLIOT Callan;New Zealand;JOGADOR;Auckland FC (NZL);Defensor;EPICA
+NZL025;805;BAYLISS Lachlan;New Zealand;JOGADOR;Newcastle United Jets FC (AUS);Meio-campo;EPICA
+NZL026;806;SMITH Tommy;New Zealand;JOGADOR;Braintree Town FC (ENG);Defensor;LENDARIA
+NOR001;807;NYLAND Orjan;Norway;JOGADOR;Sevilla FC (ESP);Goleiro;COMUM
+NOR002;808;THORSBY Morten;Norway;JOGADOR;US Cremonese (ITA);Meio-campo;COMUM
+NOR003;809;AJER Kristoffer;Norway;JOGADOR;Brentford FC (ENG);Defensor;COMUM
+NOR004;810;OSTIGARD Leo;Norway;JOGADOR;Genoa CFC (ITA);Defensor;COMUM
+NOR005;811;MOLLER WOLFE David;Norway;JOGADOR;Wolverhampton Wanderers FC (ENG);Defensor;COMUM
+NOR006;812;BERG Patrick;Norway;JOGADOR;FK Bodø/Glimt (NOR);Meio-campo;COMUM
+NOR007;813;SORLOTH Alexander;Norway;JOGADOR;Atlético De Madrid (ESP);Atacante;COMUM
+NOR008;814;BERGE Sander;Norway;JOGADOR;Fulham FC (ENG);Meio-campo;COMUM
+NOR009;815;HAALAND Erling;Norway;JOGADOR;Manchester City FC (ENG);Atacante;COMUM
+NOR010;816;ODEGAARD Martin;Norway;JOGADOR;Arsenal FC (ENG);Meio-campo;COMUM
+NOR011;817;STRAND LARSEN Jorgen;Norway;JOGADOR;Crystal Palace FC (ENG);Atacante;COMUM
+NOR012;818;TANGVIK Sander;Norway;JOGADOR;Hamburger SV (GER);Goleiro;COMUM
+NOR013;819;SELVIK Egil;Norway;JOGADOR;Watford FC (ENG);Goleiro;COMUM
+NOR014;820;AURSNES Fredrik;Norway;JOGADOR;SL Benfica (POR);Meio-campo;COMUM
+NOR015;821;BJORKAN Fredrik Andre;Norway;JOGADOR;FK Bodø/Glimt (NOR);Defensor;COMUM
+NOR016;822;HOLMGREN PEDERSEN Marcus;Norway;JOGADOR;Torino FC (ITA);Defensor;COMUM
+NOR017;823;HEGGEM Torbjorn;Norway;JOGADOR;Bologna FC (ITA);Defensor;COMUM
+NOR018;824;THORSTVEDT Kristian;Norway;JOGADOR;US Sassuolo (ITA);Meio-campo;COMUM
+NOR019;825;AASGAARD Thelo;Norway;JOGADOR;Rangers FC (SCO);Meio-campo;RARA
+NOR020;826;NUSA Antonio;Norway;JOGADOR;RB Leipzig (GER);Atacante;RARA
+NOR021;827;SCHJELDERUP Andreas;Norway;JOGADOR;SL Benfica (POR);Meio-campo;RARA
+NOR022;828;BOBB Oscar;Norway;JOGADOR;Fulham FC (ENG);Meio-campo;RARA
+NOR023;829;HAUGE Jens Petter;Norway;JOGADOR;FK Bodø/Glimt (NOR);Meio-campo;RARA
+NOR024;830;LANGAS Sondre;Norway;JOGADOR;Derby County FC (ENG);Defensor;EPICA
+NOR025;831;FALCHENER Henrik;Norway;JOGADOR;Viking Stavanger (NOR);Defensor;EPICA
+NOR026;832;RYERSON Julian;Norway;JOGADOR;Borussia Dortmund (GER);Atacante;LENDARIA
+PAN001;833;MEJIA Luis;Panama;JOGADOR;Club Nacional (URU);Goleiro;COMUM
+PAN002;834;BLACKMAN Cesar;Panama;JOGADOR;ŠK Slovan Bratislava (SVK);Defensor;COMUM
+PAN003;835;CORDOBA Jose;Panama;JOGADOR;Norwich City FC (ENG);Defensor;COMUM
+PAN004;836;ESCOBAR Fidel;Panama;JOGADOR;Deportivo Saprissa (CRC);Defensor;COMUM
+PAN005;837;FARINA Edgardo;Panama;JOGADOR;FC Pari Nizhny Novgorod (RUS);Defensor;COMUM
+PAN006;838;MARTINEZ Cristian;Panama;JOGADOR;Hapoel Kiryat Shmona FC (ISR);Meio-campo;COMUM
+PAN007;839;RODRIGUEZ Jose Luis;Panama;JOGADOR;FC Juárez (MEX);Meio-campo;COMUM
+PAN008;840;CARRASQUILLA Adalberto;Panama;JOGADOR;Pumas UNAM (MEX);Meio-campo;COMUM
+PAN009;841;RODRIGUEZ Tomas;Panama;JOGADOR;Deportivo Saprissa (CRC);Atacante;COMUM
+PAN010;842;DIAZ Ismael;Panama;JOGADOR;Club León (MEX);Meio-campo;COMUM
+PAN011;843;BARCENAS Edgar Yoel;Panama;JOGADOR;Mazatlán FC (MEX);Meio-campo;COMUM
+PAN012;844;SAMUDIO Cesar;Panama;JOGADOR;CD Marathón (HON);Goleiro;COMUM
+PAN013;845;RAMOS Jiovany;Panama;JOGADOR;Puerto Cabello CF (VEN);Defensor;COMUM
+PAN014;846;HARVEY Carlos;Panama;JOGADOR;Minnesota United FC (USA);Defensor;COMUM
+PAN015;847;DAVIS Eric;Panama;JOGADOR;CD Plaza Amador (PAN);Defensor;COMUM
+PAN016;848;ANDRADE Andres;Panama;JOGADOR;LASK Linz (AUT);Defensor;COMUM
+PAN017;849;FAJARDO Jose;Panama;JOGADOR;CD Universidad Católica (ECU);Atacante;COMUM
+PAN018;850;WATERMAN Cecilio;Panama;JOGADOR;CD Universidad De Concepción (CHI);Atacante;COMUM
+PAN019;851;QUINTERO Alberto;Panama;JOGADOR;CD Plaza Amador (PAN);Meio-campo;RARA
+PAN020;852;GODOY Anibal;Panama;JOGADOR;San Diego FC (USA);Meio-campo;RARA
+PAN021;853;YANIS Cesar;Panama;JOGADOR;CD Cobresal (CHI);Meio-campo;RARA
+PAN022;854;MOSQUERA Orlando;Panama;JOGADOR;Al Fayha FC (KSA);Goleiro;RARA
+PAN023;855;MURILLO Amir;Panama;JOGADOR;Beşiktaş JK (TUR);Defensor;RARA
+PAN024;856;LONDONO Azarias;Panama;JOGADOR;CD Universidad Católica (ECU);Atacante;EPICA
+PAN025;857;MILLER Roderick;Panama;JOGADOR;Turan Tovuz (AZE);Defensor;EPICA
+PAN026;858;GUTIERREZ Jorge;Panama;JOGADOR;Deportivo La Guaira (VEN);Defensor;LENDARIA
+PAR001;859;FERNANDEZ Gatito;Paraguay;JOGADOR;Cerro Porteño (PAR);Goleiro;COMUM
+PAR002;860;VELAZQUEZ Gustavo;Paraguay;JOGADOR;Cerro Porteño (PAR);Defensor;COMUM
+PAR003;861;ALDERETE Omar;Paraguay;JOGADOR;Sunderland AFC (ENG);Defensor;COMUM
+PAR004;862;CACERES Juan Jose;Paraguay;JOGADOR;FC Dynamo Moscow (RUS);Defensor;COMUM
+PAR005;863;BALBUENA Fabian;Paraguay;JOGADOR;Grêmio FBPA (BRA);Defensor;COMUM
+PAR006;864;ALONSO Junior;Paraguay;JOGADOR;Atlético Mineiro (BRA);Defensor;COMUM
+PAR007;865;SOSA Ramon;Paraguay;JOGADOR;SE Palmeiras (BRA);Meio-campo;COMUM
+PAR008;866;GOMEZ Diego;Paraguay;JOGADOR;Brighton & Hove Albion FC (ENG);Meio-campo;COMUM
+PAR009;867;SANABRIA Antonio;Paraguay;JOGADOR;US Cremonese (ITA);Atacante;COMUM
+PAR010;868;ALMIRON Miguel;Paraguay;JOGADOR;Atlanta United FC (USA);Meio-campo;COMUM
+PAR011;869;MAURICIO;Paraguay;JOGADOR;SE Palmeiras (BRA);Meio-campo;COMUM
+PAR012;870;GILL Orlando;Paraguay;JOGADOR;CA San Lorenzo (ARG);Goleiro;COMUM
+PAR013;871;CANALE Jose;Paraguay;JOGADOR;CA Lanús (ARG);Defensor;COMUM
+PAR014;872;CUBAS Andres;Paraguay;JOGADOR;Vancouver Whitecaps FC (CAN);Meio-campo;COMUM
+PAR015;873;GOMEZ Gustavo;Paraguay;JOGADOR;SE Palmeiras (BRA);Defensor;COMUM
+PAR016;874;BOBADILLA Damian;Paraguay;JOGADOR;São Paulo FC (BRA);Meio-campo;COMUM
+PAR017;875;ROMERO GAMARRA Alejandro;Paraguay;JOGADOR;Al Ain FC (UAE);Atacante;COMUM
+PAR018;876;ARCE Alex;Paraguay;JOGADOR;CS Independiente Rivadavia (ARG);Atacante;COMUM
+PAR019;877;ENCISO Julio;Paraguay;JOGADOR;RC Strasbourg (FRA);Atacante;RARA
+PAR020;878;OJEDA Braian;Paraguay;JOGADOR;Orlando City SC (USA);Meio-campo;RARA
+PAR021;879;AVALOS Gabriel;Paraguay;JOGADOR;CA Independiente (ARG);Atacante;RARA
+PAR022;880;OLVEIRA Gaston;Paraguay;JOGADOR;Club Olimpia (PAR);Goleiro;RARA
+PAR023;881;GALARZA Matias;Paraguay;JOGADOR;Atlanta United FC (USA);Meio-campo;RARA
+PAR024;882;CABALLERO Gustavo;Paraguay;JOGADOR;Portsmouth FC (ENG);Meio-campo;EPICA
+PAR025;883;PITTA Isidro;Paraguay;JOGADOR;Red Bull Bragantino (BRA);Atacante;EPICA
+PAR026;884;MAIDANA Alexandro;Paraguay;JOGADOR;CA Talleres (ARG);Defensor;LENDARIA
+POR001;885;DIOGO COSTA;Portugal;JOGADOR;FC Porto (POR);Goleiro;COMUM
+POR002;886;NELSON SEMEDO;Portugal;JOGADOR;Fenerbahçe SK (TUR);Defensor;COMUM
+POR003;887;RUBEN DIAS;Portugal;JOGADOR;Manchester City FC (ENG);Defensor;COMUM
+POR004;888;TOMAS ARAUJO;Portugal;JOGADOR;SL Benfica (POR);Defensor;COMUM
+POR005;889;DIOGO DALOT;Portugal;JOGADOR;Manchester United FC (ENG);Defensor;COMUM
+POR006;890;MATHEUS NUNES;Portugal;JOGADOR;Manchester City FC (ENG);Meio-campo;COMUM
+POR007;891;CRISTIANO RONALDO;Portugal;JOGADOR;Al Nassr FC (KSA);Atacante;COMUM
+POR008;892;BRUNO FERNANDES;Portugal;JOGADOR;Manchester United FC (ENG);Meio-campo;COMUM
+POR009;893;GONCALO RAMOS;Portugal;JOGADOR;Paris Saint-Germain (FRA);Atacante;COMUM
+POR010;894;BERNARDO SILVA;Portugal;JOGADOR;Manchester City FC (ENG);Meio-campo;COMUM
+POR011;895;JOAO FELIX;Portugal;JOGADOR;Al Nassr FC (KSA);Atacante;COMUM
+POR012;896;JOSE SA;Portugal;JOGADOR;Wolverhampton Wanderers FC (ENG);Goleiro;COMUM
+POR013;897;RENATO VEIGA;Portugal;JOGADOR;Villarreal CF (ESP);Defensor;COMUM
+POR014;898;GONCALO INACIO;Portugal;JOGADOR;Sporting CP (POR);Defensor;COMUM
+POR015;899;JOAO NEVES;Portugal;JOGADOR;Paris Saint-Germain (FRA);Meio-campo;COMUM
+POR016;900;FRANCISCO TRINCAO;Portugal;JOGADOR;Sporting CP (POR);Atacante;COMUM
+POR017;901;RAFAEL LEAO;Portugal;JOGADOR;AC Milan (ITA);Atacante;COMUM
+POR018;902;PEDRO NETO;Portugal;JOGADOR;Chelsea FC (ENG);Atacante;COMUM
+POR019;903;GONCALO GUEDES;Portugal;JOGADOR;Real Sociedad (ESP);Atacante;RARA
+POR020;904;JOAO CANCELO;Portugal;JOGADOR;FC Barcelona (ESP);Defensor;RARA
+POR021;905;RUBEN NEVES;Portugal;JOGADOR;Al Hilal SC (KSA);Meio-campo;RARA
+POR022;906;RUI SILVA;Portugal;JOGADOR;Sporting CP (POR);Goleiro;RARA
+POR023;907;VITINHA;Portugal;JOGADOR;Paris Saint-Germain (FRA);Meio-campo;RARA
+POR024;908;SAMU COSTA;Portugal;JOGADOR;RCD Mallorca (ESP);Defensor;EPICA
+POR025;909;NUNO MENDES;Portugal;JOGADOR;Paris Saint-Germain (FRA);Defensor;EPICA
+POR026;910;FRANCISCO CONCEICAO;Portugal;JOGADOR;Juventus FC (ITA);Atacante;LENDARIA
+QAT001;911;MAHMOUD ABUNADA;Qatar;JOGADOR;Al Rayyan SC (QAT);Goleiro;COMUM
+QAT002;912;PEDRO MIGUEL;Qatar;JOGADOR;Al Sadd SC (QAT);Defensor;COMUM
+QAT003;913;LUCAS MENDES;Qatar;JOGADOR;Al Wakrah SC (QAT);Defensor;COMUM
+QAT004;914;ISSA LAYE;Qatar;JOGADOR;Al Arabi SC (QAT);Defensor;COMUM
+QAT005;915;JASSEM GABER;Qatar;JOGADOR;Al Rayyan SC (QAT);Defensor;COMUM
+QAT006;916;ABDULAZIZ HATEM;Qatar;JOGADOR;Al Rayyan SC (QAT);Meio-campo;COMUM
+QAT007;917;AHMED ALAAELDIN;Qatar;JOGADOR;Al Rayyan SC (QAT);Atacante;COMUM
+QAT008;918;EDMILSON JUNIOR;Qatar;JOGADOR;Al Duhail SC (QAT);Atacante;COMUM
+QAT009;919;MOHAMMED MUNTARI;Qatar;JOGADOR;Al Gharafa SC (QAT);Atacante;COMUM
+QAT010;920;HASSAN ALHAYDOS;Qatar;JOGADOR;Al Sadd SC (QAT);Atacante;COMUM
+QAT011;921;AKRAM AFIF;Qatar;JOGADOR;Al Sadd SC (QAT);Atacante;COMUM
+QAT012;922;KARIM BOUDIAF;Qatar;JOGADOR;Al Duhail SC (QAT);Meio-campo;COMUM
+QAT013;923;AYOUB ALOUI;Qatar;JOGADOR;Al Gharafa SC (QAT);Defensor;COMUM
+QAT014;924;HOMAM AHMED;Qatar;JOGADOR;Cultural Leonesa (ESP);Defensor;COMUM
+QAT015;925;YUSUF ABDURISAG;Qatar;JOGADOR;Al Wakrah SC (QAT);Atacante;COMUM
+QAT016;926;BOUALEM KHOUKHI;Qatar;JOGADOR;Al Sadd SC (QAT);Defensor;COMUM
+QAT017;927;AHMED ALGANEHI;Qatar;JOGADOR;Al Gharafa SC (QAT);Meio-campo;COMUM
+QAT018;928;SULTAN ALBRAKE;Qatar;JOGADOR;Al Duhail SC (QAT);Defensor;COMUM
+QAT019;929;ALMOEZ ALI;Qatar;JOGADOR;Al Duhail SC (QAT);Atacante;RARA
+QAT020;930;AHMED FATHY;Qatar;JOGADOR;Al Arabi SC (QAT);Meio-campo;RARA
+QAT021;931;SALAH ZAKARIA;Qatar;JOGADOR;Al Duhail SC (QAT);Goleiro;RARA
+QAT022;932;MESHAAL BARSHAM;Qatar;JOGADOR;Al Sadd SC (QAT);Goleiro;RARA
+QAT023;933;ASSIM MADIBO;Qatar;JOGADOR;Al Wakrah SC (QAT);Meio-campo;RARA
+QAT024;934;TAHSIN MOHAMMED;Qatar;JOGADOR;Al Duhail SC (QAT);Atacante;EPICA
+QAT025;935;ALHASHMI ALHUSSEIN;Qatar;JOGADOR;Al Arabi SC (QAT);Defensor;EPICA
+QAT026;936;MOHAMED MANAI;Qatar;JOGADOR;Al Shamal SC (QAT);Atacante;LENDARIA
+KSA001;937;NAWAF ALAQIDI;Saudi Arabia;JOGADOR;Al Nassr FC (KSA);Goleiro;COMUM
+KSA002;938;ALI MAJRASHI;Saudi Arabia;JOGADOR;Al Ahli FC (KSA);Defensor;COMUM
+KSA003;939;ALI LAJAMI;Saudi Arabia;JOGADOR;Al Hilal SC (KSA);Defensor;COMUM
+KSA004;940;ABDULELAH ALAMRI;Saudi Arabia;JOGADOR;Al Nassr FC (KSA);Defensor;COMUM
+KSA005;941;HASSAN ALTAMBAKTI;Saudi Arabia;JOGADOR;Al Hilal SC (KSA);Defensor;COMUM
+KSA006;942;NASSER ALDAWSARI;Saudi Arabia;JOGADOR;Al Hilal SC (KSA);Meio-campo;COMUM
+KSA007;943;MUSAB ALJUWAYR;Saudi Arabia;JOGADOR;Al Qadsiah FC (KSA);Meio-campo;COMUM
+KSA008;944;AIMAN YAHYA;Saudi Arabia;JOGADOR;Al Nassr FC (KSA);Atacante;COMUM
+KSA009;945;FERAS ALBRIKAN;Saudi Arabia;JOGADOR;Al Ahli FC (KSA);Atacante;COMUM
+KSA010;946;SALEM ALDAWSARI;Saudi Arabia;JOGADOR;Al Hilal SC (KSA);Atacante;COMUM
+KSA011;947;SALEH ALSHEHRI;Saudi Arabia;JOGADOR;Al Ittihad (KSA);Atacante;COMUM
+KSA012;948;SAUD ABDULHAMID;Saudi Arabia;JOGADOR;RC Lens (FRA);Defensor;COMUM
+KSA013;949;NAWAF BU WASHL;Saudi Arabia;JOGADOR;Al Nassr FC (KSA);Defensor;COMUM
+KSA014;950;HASSAN KADISH;Saudi Arabia;JOGADOR;Al Ittihad (KSA);Defensor;COMUM
+KSA015;951;ABDULLAH ALKHAIBARI;Saudi Arabia;JOGADOR;Al Nassr FC (KSA);Meio-campo;COMUM
+KSA016;952;ZIYAD ALJOHANI;Saudi Arabia;JOGADOR;Al Ahli FC (KSA);Meio-campo;COMUM
+KSA017;953;KHALID ALGHANNAM;Saudi Arabia;JOGADOR;Al Ettifaq FC (KSA);Atacante;COMUM
+KSA018;954;ALA ALHAJJI;Saudi Arabia;JOGADOR;Neom SC (KSA);Meio-campo;COMUM
+KSA019;955;ABDULLAH ALHAMDDAN;Saudi Arabia;JOGADOR;Al Nassr FC (KSA);Atacante;RARA
+KSA020;956;SULTAN MANDASH;Saudi Arabia;JOGADOR;Al Hilal SC (KSA);Atacante;RARA
+KSA021;957;MOHAMMED ALOWAIS;Saudi Arabia;JOGADOR;Al Ula Saudi FC (KSA);Goleiro;RARA
+KSA022;958;AHMED ALKASSAR;Saudi Arabia;JOGADOR;Al Qadsiah FC (KSA);Goleiro;RARA
+KSA023;959;MOHAMED KANNO;Saudi Arabia;JOGADOR;Al Hilal SC (KSA);Meio-campo;RARA
+KSA024;960;MOTEB ALHARBI;Saudi Arabia;JOGADOR;Al Hilal SC (KSA);Defensor;EPICA
+KSA025;961;JEHAD THIKRI;Saudi Arabia;JOGADOR;Al Qadsiah FC (KSA);Defensor;EPICA
+KSA026;962;MOHAMMED ABU ALSHAMAT;Saudi Arabia;JOGADOR;Al Qadsiah FC (KSA);Defensor;LENDARIA
+SCO001;963;GUNN Angus;Scotland;JOGADOR;Nottingham Forest FC (ENG);Goleiro;COMUM
+SCO002;964;HICKEY Aaron;Scotland;JOGADOR;Brentford FC (ENG);Defensor;COMUM
+SCO003;965;ROBERTSON Andy;Scotland;JOGADOR;Liverpool FC (ENG);Defensor;COMUM
+SCO004;966;McTOMINAY Scott;Scotland;JOGADOR;SSC Napoli (ITA);Meio-campo;COMUM
+SCO005;967;HANLEY Grant;Scotland;JOGADOR;Hibernian FC (SCO);Defensor;COMUM
+SCO006;968;TIERNEY Kieran;Scotland;JOGADOR;Celtic FC (SCO);Defensor;COMUM
+SCO007;969;McGINN John;Scotland;JOGADOR;Aston Villa FC (ENG);Meio-campo;COMUM
+SCO008;970;FLETCHER Tyler;Scotland;JOGADOR;Manchester United FC (ENG);Meio-campo;COMUM
+SCO009;971;DYKES Lyndon;Scotland;JOGADOR;Charlton Athletic FC (ENG);Atacante;COMUM
+SCO010;972;ADAMS Che;Scotland;JOGADOR;Torino FC (ITA);Atacante;COMUM
+SCO011;973;CHRISTIE Ryan;Scotland;JOGADOR;AFC Bournemouth (ENG);Meio-campo;COMUM
+SCO012;974;KELLY Liam;Scotland;JOGADOR;Rangers FC (SCO);Goleiro;COMUM
+SCO013;975;HENDRY Jack;Scotland;JOGADOR;Al Ettifaq FC (KSA);Defensor;COMUM
+SCO014;976;STEWART Ross;Scotland;JOGADOR;Southampton FC (ENG);Atacante;COMUM
+SCO015;977;SOUTTAR John;Scotland;JOGADOR;Rangers FC (SCO);Defensor;COMUM
+SCO016;978;HYAM Dominic;Scotland;JOGADOR;Wrexham AFC (WAL);Defensor;COMUM
+SCO017;979;GANNON-DOAK Ben;Scotland;JOGADOR;AFC Bournemouth (ENG);Atacante;COMUM
+SCO018;980;HIRST George;Scotland;JOGADOR;Ipswich Town FC (ENG);Atacante;COMUM
+SCO019;981;FERGUSON Lewis;Scotland;JOGADOR;Bologna FC (ITA);Meio-campo;RARA
+SCO020;982;SHANKLAND Lawrence;Scotland;JOGADOR;Heart Of Midlothian FC (SCO);Atacante;RARA
+SCO021;983;GORDON Craig;Scotland;JOGADOR;Heart Of Midlothian FC (SCO);Goleiro;RARA
+SCO022;984;PATTERSON Nathan;Scotland;JOGADOR;Everton FC (ENG);Defensor;RARA
+SCO023;985;McLEAN Kenny;Scotland;JOGADOR;Norwich City FC (ENG);Meio-campo;RARA
+SCO024;986;RALSTON Anthony;Scotland;JOGADOR;Celtic FC (SCO);Defensor;EPICA
+SCO025;987;CURTIS Findlay;Scotland;JOGADOR;Kilmarnock FC (SCO);Atacante;EPICA
+SCO026;988;McKENNA Scott;Scotland;JOGADOR;GNK Dinamo Zagreb (CRO);Defensor;LENDARIA
+SEN001;989;DIOUF Yehvann;Senegal;JOGADOR;OGC Nice (FRA);Goleiro;COMUM
+SEN002;990;SARR Mamadou;Senegal;JOGADOR;Chelsea FC (ENG);Defensor;COMUM
+SEN003;991;KOULIBALY Kalidou;Senegal;JOGADOR;Al Hilal SC (KSA);Defensor;COMUM
+SEN004;992;SECK Abdoulaye;Senegal;JOGADOR;Maccabi Haifa FC (ISR);Defensor;COMUM
+SEN005;993;GUEYE Idrissa Gana;Senegal;JOGADOR;Everton FC (ENG);Meio-campo;COMUM
+SEN006;994;CISS Pathe;Senegal;JOGADOR;Rayo Vallecano (ESP);Meio-campo;COMUM
+SEN007;995;DIAO Assane;Senegal;JOGADOR;Como (ITA);Atacante;COMUM
+SEN008;996;CAMARA Lamine;Senegal;JOGADOR;AS Monaco (FRA);Meio-campo;COMUM
+SEN009;997;DIENG Bamba;Senegal;JOGADOR;FC Lorient (FRA);Atacante;COMUM
+SEN010;998;MANE Sadio;Senegal;JOGADOR;Al Nassr FC (KSA);Atacante;COMUM
+SEN011;999;JACKSON Nicolas;Senegal;JOGADOR;FC Bayern München (GER);Atacante;COMUM
+SEN012;1000;NDIAYE Cherif;Senegal;JOGADOR;Samsunspor (TUR);Atacante;COMUM
+SEN013;1001;NDIAYE Iliman;Senegal;JOGADOR;Everton FC (ENG);Atacante;COMUM
+SEN014;1002;JAKOBS Ismail;Senegal;JOGADOR;Galatasaray SK (TUR);Defensor;COMUM
+SEN015;1003;DIATTA Krepin;Senegal;JOGADOR;AS Monaco (FRA);Defensor;COMUM
+SEN016;1004;MENDY Edouard;Senegal;JOGADOR;Al Ahli FC (KSA);Goleiro;COMUM
+SEN017;1005;SARR Pape Matar;Senegal;JOGADOR;Tottenham Hotspur FC (ENG);Meio-campo;COMUM
+SEN018;1006;SARR Ismaila;Senegal;JOGADOR;Crystal Palace FC (ENG);Atacante;COMUM
+SEN019;1007;NIAKHATE Moussa;Senegal;JOGADOR;Olympique Lyonnais (FRA);Defensor;RARA
+SEN020;1008;MBAYE Ibrahim;Senegal;JOGADOR;Paris Saint-Germain (FRA);Atacante;RARA
+SEN021;1009;DIARRA Habib;Senegal;JOGADOR;Sunderland AFC (ENG);Meio-campo;RARA
+SEN022;1010;NDIAYE Bara Sapoko;Senegal;JOGADOR;FC Bayern München (GER);Meio-campo;RARA
+SEN023;1011;DIAW Mory;Senegal;JOGADOR;Le Havre AC (FRA);Goleiro;RARA
+SEN024;1012;MENDY Antoine;Senegal;JOGADOR;OGC Nice (FRA);Defensor;EPICA
+SEN025;1013;DIOUF El Hadji Malick;Senegal;JOGADOR;West Ham United FC (ENG);Defensor;EPICA
+SEN026;1014;GUEYE Pape;Senegal;JOGADOR;Villarreal CF (ESP);Meio-campo;LENDARIA
+RSA001;1015;WILLIAMS Ronwen;South Africa;JOGADOR;Mamelodi Sundowns FC (RSA);Goleiro;COMUM
+RSA002;1016;MATULUDI Thabang;South Africa;JOGADOR;Polokwane City FC (RSA);Defensor;COMUM
+RSA003;1017;NDAMANE Khulumani;South Africa;JOGADOR;Mamelodi Sundowns FC (RSA);Defensor;COMUM
+RSA004;1018;MOKOENA Teboho;South Africa;JOGADOR;Mamelodi Sundowns FC (RSA);Meio-campo;COMUM
+RSA005;1019;MBATHA Thalente;South Africa;JOGADOR;Orlando Pirates FC (RSA);Meio-campo;COMUM
+RSA006;1020;MODIBA Aubrey;South Africa;JOGADOR;Mamelodi Sundowns FC (RSA);Defensor;COMUM
+RSA007;1021;APPOLLIS Oswin;South Africa;JOGADOR;Orlando Pirates FC (RSA);Atacante;COMUM
+RSA008;1022;MOREMI Tshepang;South Africa;JOGADOR;Orlando Pirates FC (RSA);Atacante;COMUM
+RSA009;1023;FOSTER Lyle;South Africa;JOGADOR;Burnley FC (ENG);Atacante;COMUM
+RSA010;1024;MOFOKENG Relebohile;South Africa;JOGADOR;Orlando Pirates FC (RSA);Atacante;COMUM
+RSA011;1025;ZWANE Themba;South Africa;JOGADOR;Mamelodi Sundowns FC (RSA);Meio-campo;COMUM
+RSA012;1026;MASEKO Thapelo;South Africa;JOGADOR;AEL Limassol (CYP);Atacante;COMUM
+RSA013;1027;SITHOLE Sphephelo;South Africa;JOGADOR;CD Tondela (POR);Meio-campo;COMUM
+RSA014;1028;MBOKAZI Mbekezeli;South Africa;JOGADOR;Chicago Fire FC (USA);Defensor;COMUM
+RSA015;1029;RAYNERS Iqraam;South Africa;JOGADOR;Mamelodi Sundowns FC (RSA);Atacante;COMUM
+RSA016;1030;CHAINE Sipho;South Africa;JOGADOR;Orlando Pirates FC (RSA);Goleiro;COMUM
+RSA017;1031;MAKGOPA Evidence;South Africa;JOGADOR;Orlando Pirates FC (RSA);Atacante;COMUM
+RSA018;1032;KABINI Samukele;South Africa;JOGADOR;Molde FK (NOR);Defensor;COMUM
+RSA019;1033;SIBISI Nkosinathi;South Africa;JOGADOR;Orlando Pirates FC (RSA);Defensor;RARA
+RSA020;1034;MUDAU Khuliso;South Africa;JOGADOR;Mamelodi Sundowns FC (RSA);Defensor;RARA
+RSA021;1035;OKON Ime;South Africa;JOGADOR;Hannover 96 (GER);Defensor;RARA
+RSA022;1036;GOSS Ricardo;South Africa;JOGADOR;Siwelele FC (RSA);Goleiro;RARA
+RSA023;1037;ADAMS Jayden;South Africa;JOGADOR;Mamelodi Sundowns FC (RSA);Meio-campo;RARA
+RSA024;1038;MAKHANYA Olwethu;South Africa;JOGADOR;Philadelphia Union (USA);Defensor;EPICA
+RSA025;1039;SEBELEBELE Kamogelo;South Africa;JOGADOR;Orlando Pirates FC (RSA);Atacante;EPICA
+RSA026;1040;CROSS Bradley;South Africa;JOGADOR;Kaizer Chiefs FC (RSA);Defensor;LENDARIA
+ESP001;1041;RAYA David;Spain;JOGADOR;Arsenal FC (ENG);Goleiro;COMUM
+ESP002;1042;PUBILL Marc;Spain;JOGADOR;Atlético De Madrid (ESP);Defensor;COMUM
+ESP003;1043;GRIMALDO Alex;Spain;JOGADOR;Bayer 04 Leverkusen (GER);Defensor;COMUM
+ESP004;1044;GARCIA Eric;Spain;JOGADOR;FC Barcelona (ESP);Defensor;COMUM
+ESP005;1045;LLORENTE Marcos;Spain;JOGADOR;Atlético De Madrid (ESP);Defensor;COMUM
+ESP006;1046;MERINO Mikel;Spain;JOGADOR;Arsenal FC (ENG);Meio-campo;COMUM
+ESP007;1047;TORRES Ferran;Spain;JOGADOR;FC Barcelona (ESP);Atacante;COMUM
+ESP008;1048;RUIZ Fabian;Spain;JOGADOR;Paris Saint-Germain (FRA);Meio-campo;COMUM
+ESP009;1049;GAVI;Spain;JOGADOR;FC Barcelona (ESP);Meio-campo;COMUM
+ESP010;1050;OLMO Dani;Spain;JOGADOR;FC Barcelona (ESP);Atacante;COMUM
+ESP011;1051;PINO Yeremy;Spain;JOGADOR;Crystal Palace FC (ENG);Atacante;COMUM
+ESP012;1052;PORRO Pedro;Spain;JOGADOR;Tottenham Hotspur FC (ENG);Defensor;COMUM
+ESP013;1053;GARCIA Joan;Spain;JOGADOR;FC Barcelona (ESP);Goleiro;COMUM
+ESP014;1054;LAPORTE Aymeric;Spain;JOGADOR;Athletic Club (ESP);Defensor;COMUM
+ESP015;1055;BAENA Alex;Spain;JOGADOR;Atlético De Madrid (ESP);Meio-campo;COMUM
+ESP016;1056;RODRI;Spain;JOGADOR;Manchester City FC (ENG);Meio-campo;COMUM
+ESP017;1057;WILLIAMS Nico;Spain;JOGADOR;Athletic Club (ESP);Atacante;COMUM
+ESP018;1058;ZUBIMENDI Martin;Spain;JOGADOR;Arsenal FC (ENG);Meio-campo;COMUM
+ESP019;1059;YAMAL Lamine;Spain;JOGADOR;FC Barcelona (ESP);Atacante;RARA
+ESP020;1060;PEDRI;Spain;JOGADOR;FC Barcelona (ESP);Meio-campo;RARA
+ESP021;1061;OYARZABAL Mikel;Spain;JOGADOR;Real Sociedad (ESP);Atacante;RARA
+ESP022;1062;CUBARSI Pau;Spain;JOGADOR;FC Barcelona (ESP);Defensor;RARA
+ESP023;1063;SIMON Unai;Spain;JOGADOR;Athletic Club (ESP);Goleiro;RARA
+ESP024;1064;CUCURELLA Marc;Spain;JOGADOR;Chelsea FC (ENG);Defensor;EPICA
+ESP025;1065;MUNOZ Victor;Spain;JOGADOR;CA Osasuna (ESP);Atacante;EPICA
+ESP026;1066;IGLESIAS Borja;Spain;JOGADOR;RC Celta Vigo (ESP);Atacante;LENDARIA
+SWE001;1067;WIDELL ZETTERSTROM Jacob;Sweden;JOGADOR;Derby County FC (ENG);Goleiro;COMUM
+SWE002;1068;LAGERBIELKE Gustaf;Sweden;JOGADOR;SC Braga (POR);Defensor;COMUM
+SWE003;1069;LINDELOF Victor;Sweden;JOGADOR;Aston Villa FC (ENG);Defensor;COMUM
+SWE004;1070;HIEN Isak;Sweden;JOGADOR;Atalanta Bergamo (ITA);Defensor;COMUM
+SWE005;1071;GUDMUNDSSON Gabriel;Sweden;JOGADOR;Leeds United FC (ENG);Defensor;COMUM
+SWE006;1072;JOHANSSON Herman;Sweden;JOGADOR;FC Dallas (USA);Defensor;COMUM
+SWE007;1073;BERGVALL Lucas;Sweden;JOGADOR;Tottenham Hotspur FC (ENG);Meio-campo;COMUM
+SWE008;1074;SVENSSON Daniel;Sweden;JOGADOR;Borussia Dortmund (GER);Defensor;COMUM
+SWE009;1075;ISAK Alexander;Sweden;JOGADOR;Liverpool FC (ENG);Atacante;COMUM
+SWE010;1076;NYGREN Benjamin;Sweden;JOGADOR;Celtic FC (SCO);Meio-campo;COMUM
+SWE011;1077;ELANGA Anthony;Sweden;JOGADOR;Newcastle United FC (ENG);Atacante;COMUM
+SWE012;1078;JOHANSSON Viktor;Sweden;JOGADOR;Stoke City FC (ENG);Goleiro;COMUM
+SWE013;1079;SEMA Ken;Sweden;JOGADOR;Pafos FC (CYP);Meio-campo;COMUM
+SWE014;1080;EKDAL Hjalmar;Sweden;JOGADOR;Burnley FC (ENG);Defensor;COMUM
+SWE015;1081;STARFELT Carl;Sweden;JOGADOR;RC Celta Vigo (ESP);Defensor;COMUM
+SWE016;1082;KARLSTROM Jesper;Sweden;JOGADOR;Udinese (ITA);Meio-campo;COMUM
+SWE017;1083;GYOKERES Viktor;Sweden;JOGADOR;Arsenal FC (ENG);Atacante;COMUM
+SWE018;1084;AYARI Yasin;Sweden;JOGADOR;Brighton & Hove Albion FC (ENG);Meio-campo;COMUM
+SWE019;1085;SVANBERG Mattias;Sweden;JOGADOR;VfL Wolfsburg (GER);Meio-campo;RARA
+SWE020;1086;SMITH Eric;Sweden;JOGADOR;FC St. Pauli (GER);Defensor;RARA
+SWE021;1087;BERNHARDSSON Alexander;Sweden;JOGADOR;Holstein Kiel (GER);Defensor;RARA
+SWE022;1088;ZENELI Besfort;Sweden;JOGADOR;Royale Union Saint-Gilloise (BEL);Meio-campo;RARA
+SWE023;1089;NORDFELDT Kristoffer;Sweden;JOGADOR;AIK Stockholm (SWE);Goleiro;RARA
+SWE024;1090;STROUD Elliot;Sweden;JOGADOR;Mjällby AIF (SWE);Defensor;EPICA
+SWE025;1091;NILSSON Gustaf;Sweden;JOGADOR;Club Brugge (BEL);Atacante;EPICA
+SWE026;1092;ALI Taha;Sweden;JOGADOR;Malmö FF (SWE);Atacante;LENDARIA
+SUI001;1093;KOBEL Gregor;Switzerland;JOGADOR;Borussia Dortmund (GER);Goleiro;COMUM
+SUI002;1094;MUHEIM Miro;Switzerland;JOGADOR;Hamburger SV (GER);Defensor;COMUM
+SUI003;1095;WIDMER Silvan;Switzerland;JOGADOR;1. FSV Mainz 05 (GER);Defensor;COMUM
+SUI004;1096;ELVEDI Nico;Switzerland;JOGADOR;Borussia Mönchengladbach (GER);Defensor;COMUM
+SUI005;1097;AKANJI Manuel;Switzerland;JOGADOR;FC Internazionale Milano (ITA);Defensor;COMUM
+SUI006;1098;ZAKARIA Denis;Switzerland;JOGADOR;AS Monaco (FRA);Meio-campo;COMUM
+SUI007;1099;EMBOLO Breel;Switzerland;JOGADOR;Stade Rennais FC (FRA);Atacante;COMUM
+SUI008;1100;FREULER Remo;Switzerland;JOGADOR;Bologna FC (ITA);Meio-campo;COMUM
+SUI009;1101;MANZAMBI Johan;Switzerland;JOGADOR;SC Freiburg (GER);Meio-campo;COMUM
+SUI010;1102;XHAKA Granit;Switzerland;JOGADOR;Sunderland AFC (ENG);Meio-campo;COMUM
+SUI011;1103;NDOYE Dan;Switzerland;JOGADOR;Nottingham Forest FC (ENG);Atacante;COMUM
+SUI012;1104;MVOGO Yvon;Switzerland;JOGADOR;FC Lorient (FRA);Goleiro;COMUM
+SUI013;1105;RODRIGUEZ Ricardo;Switzerland;JOGADOR;Real Betis (ESP);Defensor;COMUM
+SUI014;1106;JASHARI Ardon;Switzerland;JOGADOR;AC Milan (ITA);Meio-campo;COMUM
+SUI015;1107;SOW Djibril;Switzerland;JOGADOR;Sevilla FC (ESP);Meio-campo;COMUM
+SUI016;1108;FASSNACHT Christian;Switzerland;JOGADOR;BSC Young Boys (SUI);Atacante;COMUM
+SUI017;1109;VARGAS Ruben;Switzerland;JOGADOR;Sevilla FC (ESP);Atacante;COMUM
+SUI018;1110;COEMERT Eray;Switzerland;JOGADOR;Valencia CF (ESP);Defensor;COMUM
+SUI019;1111;OKAFOR Noah;Switzerland;JOGADOR;Leeds United FC (ENG);Atacante;RARA
+SUI020;1112;AEBISCHER Michel;Switzerland;JOGADOR;Pisa SC (ITA);Meio-campo;RARA
+SUI021;1113;KELLER Marvin;Switzerland;JOGADOR;BSC Young Boys (SUI);Goleiro;RARA
+SUI022;1114;RIEDER Fabian;Switzerland;JOGADOR;FC Augsburg (GER);Meio-campo;RARA
+SUI023;1115;AMDOUNI Zeki;Switzerland;JOGADOR;Burnley FC (ENG);Atacante;RARA
+SUI024;1116;AMENDA Aurele;Switzerland;JOGADOR;Eintracht Frankfurt (GER);Defensor;EPICA
+SUI025;1117;JAQUEZ Luca;Switzerland;JOGADOR;VfB Stuttgart (GER);Defensor;EPICA
+SUI026;1118;ITTEN Cedric;Switzerland;JOGADOR;Fortuna Düsseldorf (GER);Atacante;LENDARIA
+TUN001;1119;CHAMAKH Mouhib;Tunisia;JOGADOR;Club Africain (TUN);Goleiro;COMUM
+TUN002;1120;ABDI Ali;Tunisia;JOGADOR;OGC Nice (FRA);Defensor;COMUM
+TUN003;1121;TALBI Montassar;Tunisia;JOGADOR;FC Lorient (FRA);Defensor;COMUM
+TUN004;1122;REKIK Omar;Tunisia;JOGADOR;NK Maribor (SVN);Defensor;COMUM
+TUN005;1123;AROUS Adam;Tunisia;JOGADOR;Kasımpaşa SK (TUR);Defensor;COMUM
+TUN006;1124;BRONN Dylan;Tunisia;JOGADOR;Servette FC (SUI);Defensor;COMUM
+TUN007;1125;ACHOURI Elias;Tunisia;JOGADOR;FC København (DEN);Atacante;COMUM
+TUN008;1126;SAAD Elias;Tunisia;JOGADOR;Hannover 96 (GER);Atacante;COMUM
+TUN009;1127;MASTOURI Hazem;Tunisia;JOGADOR;FC Dynamo Makhachkala (RUS);Atacante;COMUM
+TUN010;1128;MEJBRI Hannibal;Tunisia;JOGADOR;Burnley FC (ENG);Meio-campo;COMUM
+TUN011;1129;GHARBI Ismael;Tunisia;JOGADOR;FC Augsburg (GER);Meio-campo;COMUM
+TUN012;1130;BEN OUANES Mortadha;Tunisia;JOGADOR;Kasımpaşa SK (TUR);Defensor;COMUM
+TUN013;1131;KHEDIRA Rani;Tunisia;JOGADOR;1. FC Union Berlin (GER);Meio-campo;COMUM
+TUN014;1132;AYARI Khalil;Tunisia;JOGADOR;Paris Saint-Germain (FRA);Meio-campo;COMUM
+TUN015;1133;HADJ MAHMOUD Mohamed;Tunisia;JOGADOR;FC Lugano (SUI);Meio-campo;COMUM
+TUN016;1134;DAHMEN Aymen;Tunisia;JOGADOR;CS Sfaxien (TUN);Goleiro;COMUM
+TUN017;1135;SKHIRI Ellyes;Tunisia;JOGADOR;Eintracht Frankfurt (GER);Meio-campo;COMUM
+TUN018;1136;ELLOUMI Rayan;Tunisia;JOGADOR;Vancouver Whitecaps FC (CAN);Atacante;COMUM
+TUN019;1137;CHAOUAT Firas;Tunisia;JOGADOR;Club Africain (TUN);Atacante;RARA
+TUN020;1138;VALERY Yan;Tunisia;JOGADOR;BSC Young Boys (SUI);Defensor;RARA
+TUN021;1139;BEN HMIDA Mohamed Amine;Tunisia;JOGADOR;Espérance De Tunisie (TUN);Defensor;RARA
+TUN022;1140;BEN HESSEN Sabri;Tunisia;JOGADOR;Étoile Du Sahel (TUN);Goleiro;RARA
+TUN023;1141;NEFFATI Moutaz;Tunisia;JOGADOR;IFK Norrköping FK (SWE);Defensor;RARA
+TUN024;1142;CHIKHAOUI Raed;Tunisia;JOGADOR;US Monastir (TUN);Defensor;EPICA
+TUN025;1143;SLIMANE Anis;Tunisia;JOGADOR;Norwich City FC (ENG);Meio-campo;EPICA
+TUN026;1144;TOUNEKTI Sebastian;Tunisia;JOGADOR;Celtic FC (SCO);Meio-campo;LENDARIA
+TUR001;1145;GUNOK Mert;Türkiye;JOGADOR;Fenerbahçe SK (TUR);Goleiro;COMUM
+TUR002;1146;CELIK Zeki;Türkiye;JOGADOR;AS Roma (ITA);Defensor;COMUM
+TUR003;1147;DEMIRAL Merih;Türkiye;JOGADOR;Al Ahli FC (KSA);Defensor;COMUM
+TUR004;1148;SOYUNCU Caglar;Türkiye;JOGADOR;Fenerbahçe SK (TUR);Defensor;COMUM
+TUR005;1149;OZCAN Salih;Türkiye;JOGADOR;Borussia Dortmund (GER);Meio-campo;COMUM
+TUR006;1150;KOKCU Orkun;Türkiye;JOGADOR;Beşiktaş JK (TUR);Meio-campo;COMUM
+TUR007;1151;AKTURKOGLU Kerem;Türkiye;JOGADOR;Fenerbahçe SK (TUR);Atacante;COMUM
+TUR008;1152;GULER Arda;Türkiye;JOGADOR;Real Madrid C. F. (ESP);Atacante;COMUM
+TUR009;1153;GUL Deniz;Türkiye;JOGADOR;FC Porto (POR);Atacante;COMUM
+TUR010;1154;CALHANOGLU Hakan;Türkiye;JOGADOR;FC Internazionale Milano (ITA);Meio-campo;COMUM
+TUR011;1155;YILDIZ Kenan;Türkiye;JOGADOR;Juventus FC (ITA);Atacante;COMUM
+TUR012;1156;BAYINDIR Altay;Türkiye;JOGADOR;Manchester United FC (ENG);Goleiro;COMUM
+TUR013;1157;ELMALI Eren;Türkiye;JOGADOR;Galatasaray SK (TUR);Defensor;COMUM
+TUR014;1158;BARDAKCI Abdulkerim;Türkiye;JOGADOR;Galatasaray SK (TUR);Defensor;COMUM
+TUR015;1159;KABAK Ozan;Türkiye;JOGADOR;TSG Hoffenheim (GER);Defensor;COMUM
+TUR016;1160;YUKSEK Ismail;Türkiye;JOGADOR;Fenerbahçe SK (TUR);Meio-campo;COMUM
+TUR017;1161;KAHVECI Irfan Can;Türkiye;JOGADOR;Kasımpaşa SK (TUR);Atacante;COMUM
+TUR018;1162;MULDUR Mert;Türkiye;JOGADOR;Fenerbahçe SK (TUR);Defensor;COMUM
+TUR019;1163;AKGUN Yunus;Türkiye;JOGADOR;Galatasaray SK (TUR);Atacante;RARA
+TUR020;1164;KADIOGLU Ferdi;Türkiye;JOGADOR;Brighton & Hove Albion FC (ENG);Defensor;RARA
+TUR021;1165;YILMAZ Baris Alper;Türkiye;JOGADOR;Galatasaray SK (TUR);Atacante;RARA
+TUR022;1166;AYHAN Kaan;Türkiye;JOGADOR;Galatasaray SK (TUR);Meio-campo;RARA
+TUR023;1167;CAKIR Ugurcan;Türkiye;JOGADOR;Galatasaray SK (TUR);Goleiro;RARA
+TUR024;1168;AYDIN Oguz;Türkiye;JOGADOR;Fenerbahçe SK (TUR);Atacante;EPICA
+TUR025;1169;AKAYDIN Samet;Türkiye;JOGADOR;Çaykur Rizespor (TUR);Defensor;EPICA
+TUR026;1170;UZUN Can;Türkiye;JOGADOR;Eintracht Frankfurt (GER);Atacante;LENDARIA
+URU001;1171;ROCHET Sergio;Uruguay;JOGADOR;SC Internacional (BRA);Goleiro;COMUM
+URU002;1172;GIMENEZ Jose Maria;Uruguay;JOGADOR;Atlético De Madrid (ESP);Defensor;COMUM
+URU003;1173;CACERES Sebastian;Uruguay;JOGADOR;Club América (MEX);Defensor;COMUM
+URU004;1174;ARAUJO Ronald;Uruguay;JOGADOR;FC Barcelona (ESP);Defensor;COMUM
+URU005;1175;UGARTE Manuel;Uruguay;JOGADOR;Manchester United FC (ENG);Meio-campo;COMUM
+URU006;1176;BENTANCUR Rodrigo;Uruguay;JOGADOR;Tottenham Hotspur FC (ENG);Meio-campo;COMUM
+URU007;1177;DE LA CRUZ Nicolas;Uruguay;JOGADOR;CR Flamengo (BRA);Meio-campo;COMUM
+URU008;1178;VALVERDE Federico;Uruguay;JOGADOR;Real Madrid C. F. (ESP);Meio-campo;COMUM
+URU009;1179;NUNEZ Darwin;Uruguay;JOGADOR;Al Hilal SC (KSA);Atacante;COMUM
+URU010;1180;DE ARRASCAETA Giorgian;Uruguay;JOGADOR;CR Flamengo (BRA);Meio-campo;COMUM
+URU011;1181;PELLISTRI Facundo;Uruguay;JOGADOR;Panathinaikos FC (GRE);Atacante;COMUM
+URU012;1182;MELE Santiago;Uruguay;JOGADOR;CF Monterrey (MEX);Goleiro;COMUM
+URU013;1183;VARELA Guillermo;Uruguay;JOGADOR;CR Flamengo (BRA);Defensor;COMUM
+URU014;1184;CANOBBIO Agustin;Uruguay;JOGADOR;Fluminense FC (BRA);Meio-campo;COMUM
+URU015;1185;MARTINEZ Emiliano;Uruguay;JOGADOR;SE Palmeiras (BRA);Meio-campo;COMUM
+URU016;1186;OLIVERA Mathias;Uruguay;JOGADOR;SSC Napoli (ITA);Defensor;COMUM
+URU017;1187;VINA Matias;Uruguay;JOGADOR;CA River Plate (ARG);Defensor;COMUM
+URU018;1188;RODRIGUEZ Brian;Uruguay;JOGADOR;Club América (MEX);Atacante;COMUM
+URU019;1189;AGUIRRE Rodrigo;Uruguay;JOGADOR;Tigres UANL (MEX);Atacante;RARA
+URU020;1190;ARAUJO Maxi;Uruguay;JOGADOR;Sporting CP (POR);Meio-campo;RARA
+URU021;1191;VINAS Federico;Uruguay;JOGADOR;Real Oviedo (ESP);Atacante;RARA
+URU022;1192;PIQUEREZ Joaquin;Uruguay;JOGADOR;SE Palmeiras (BRA);Meio-campo;RARA
+URU023;1193;MUSLERA Fernando;Uruguay;JOGADOR;Estudiantes LP (ARG);Goleiro;RARA
+URU024;1194;BUENO Santiago;Uruguay;JOGADOR;Wolverhampton Wanderers FC (ENG);Defensor;EPICA
+URU025;1195;SANABRIA Juan Manuel;Uruguay;JOGADOR;Real Salt Lake (USA);Meio-campo;EPICA
+URU026;1196;ZALAZAR Rodrigo;Uruguay;JOGADOR;SC Braga (POR);Meio-campo;LENDARIA
+USA001;1197;TURNER Matt;USA;JOGADOR;New England Revolution (USA);Goleiro;COMUM
+USA002;1198;DEST Sergino;USA;JOGADOR;PSV Eindhoven (NED);Defensor;COMUM
+USA003;1199;RICHARDS Chris;USA;JOGADOR;Crystal Palace FC (ENG);Defensor;COMUM
+USA004;1200;ADAMS Tyler;USA;JOGADOR;AFC Bournemouth (ENG);Meio-campo;COMUM
+USA005;1201;ROBINSON Antonee;USA;JOGADOR;Fulham FC (ENG);Defensor;COMUM
+USA006;1202;TRUSTY Auston;USA;JOGADOR;Celtic FC (SCO);Defensor;COMUM
+USA007;1203;REYNA Giovanni;USA;JOGADOR;Borussia Mönchengladbach (GER);Meio-campo;COMUM
+USA008;1204;McKENNIE Weston;USA;JOGADOR;Juventus FC (ITA);Meio-campo;COMUM
+USA009;1205;PEPI Ricardo;USA;JOGADOR;PSV Eindhoven (NED);Atacante;COMUM
+USA010;1206;PULISIC Christian;USA;JOGADOR;AC Milan (ITA);Atacante;COMUM
+USA011;1207;AARONSON Brenden;USA;JOGADOR;Leeds United FC (ENG);Atacante;COMUM
+USA012;1208;ROBINSON Miles;USA;JOGADOR;FC Cincinnatti (USA);Defensor;COMUM
+USA013;1209;REAM Tim;USA;JOGADOR;Charlotte FC (USA);Defensor;COMUM
+USA014;1210;BERHALTER Sebastian;USA;JOGADOR;Vancouver Whitecaps FC (CAN);Meio-campo;COMUM
+USA015;1211;ROLDAN Cristian;USA;JOGADOR;Seattle Sounders FC (USA);Meio-campo;COMUM
+USA016;1212;FREEMAN Alex;USA;JOGADOR;Villarreal CF (ESP);Defensor;COMUM
+USA017;1213;TILLMAN Malik;USA;JOGADOR;Bayer 04 Leverkusen (GER);Meio-campo;COMUM
+USA018;1214;ARFSTEN Max;USA;JOGADOR;Columbus Crew (USA);Defensor;COMUM
+USA019;1215;WRIGHT Haji;USA;JOGADOR;Coventry City FC (ENG);Atacante;RARA
+USA020;1216;BALOGUN Folarin;USA;JOGADOR;AS Monaco (FRA);Atacante;RARA
+USA021;1217;WEAH Timothy;USA;JOGADOR;Olympique Marseille (FRA);Atacante;RARA
+USA022;1218;McKENZIE Mark;USA;JOGADOR;Toulouse FC (FRA);Defensor;RARA
+USA023;1219;SCALLY Joe;USA;JOGADOR;Borussia Mönchengladbach (GER);Defensor;RARA
+USA024;1220;FREESE Matt;USA;JOGADOR;New York City FC (USA);Goleiro;EPICA
+USA025;1221;BRADY Chris;USA;JOGADOR;Chicago Fire FC (USA);Goleiro;EPICA
+USA026;1222;ZENDEJAS Alex;USA;JOGADOR;Club América (MEX);Atacante;LENDARIA
+UZB001;1223;YUSUPOV Utkir;Uzbekistan;JOGADOR;PFC Navbahor Namangan (UZB);Goleiro;COMUM
+UZB002;1224;KHUSANOV Abdukodir;Uzbekistan;JOGADOR;Manchester City FC (ENG);Defensor;COMUM
+UZB003;1225;ALIJONOV Khojiakbar;Uzbekistan;JOGADOR;Pakhtakor Tashkent FK (UZB);Defensor;COMUM
+UZB004;1226;SAYFIEV Farrukh;Uzbekistan;JOGADOR;FK Neftchi Farg'ona (UZB);Defensor;COMUM
+UZB005;1227;ASHURMATOV Rustam;Uzbekistan;JOGADOR;Esteghlal Tehran FC (IRN);Defensor;COMUM
+UZB006;1228;MOZGOVOY Akmal;Uzbekistan;JOGADOR;Pakhtakor Tashkent FK (UZB);Meio-campo;COMUM
+UZB007;1229;SHUKUROV Otabek;Uzbekistan;JOGADOR;Baniyas Club (UAE);Meio-campo;COMUM
+UZB008;1230;ISKANDEROV Jamshid;Uzbekistan;JOGADOR;FK Neftchi Farg'ona (UZB);Meio-campo;COMUM
+UZB009;1231;XAMROBEKOV Odiljon;Uzbekistan;JOGADOR;Tractor Sazi Tabriz FC (IRN);Meio-campo;COMUM
+UZB010;1232;JIYANOV Ruslanbek;Uzbekistan;JOGADOR;PFC Navbahor Namangan (UZB);Meio-campo;COMUM
+UZB011;1233;URUNOV Oston;Uzbekistan;JOGADOR;Persepolis FC (IRN);Meio-campo;COMUM
+UZB012;1234;NEMATOV Abduvohid;Uzbekistan;JOGADOR;Nasaf Qarshi FC (UZB);Goleiro;COMUM
+UZB013;1235;NASRULLAEV Sherzod;Uzbekistan;JOGADOR;Pakhtakor Tashkent FK (UZB);Defensor;COMUM
+UZB014;1236;SHOMURODOV Eldor;Uzbekistan;JOGADOR;Başakşehir FK (TUR);Atacante;COMUM
+UZB015;1237;ESHMURODOV Umar;Uzbekistan;JOGADOR;Nasaf Qarshi FC (UZB);Defensor;COMUM
+UZB016;1238;ERGASHEV Botirali;Uzbekistan;JOGADOR;FK Neftchi Farg'ona (UZB);Goleiro;COMUM
+UZB017;1239;KHAMDAMOV Dostonbek;Uzbekistan;JOGADOR;Pakhtakor Tashkent FK (UZB);Meio-campo;COMUM
+UZB018;1240;ABDULLAEV Abdulla;Uzbekistan;JOGADOR;Dibba FC (UAE);Defensor;COMUM
+UZB019;1241;GANIEV Azizjon;Uzbekistan;JOGADOR;Al Bataeh Club (UAE);Meio-campo;RARA
+UZB020;1242;AMONOV Azizbek;Uzbekistan;JOGADOR;FK Dinamo Samarkand (UZB);Atacante;RARA
+UZB021;1243;SERGEEV Igor;Uzbekistan;JOGADOR;Persepolis FC (IRN);Atacante;RARA
+UZB022;1244;FAYZULLAEV Abbosbek;Uzbekistan;JOGADOR;Başakşehir FK (TUR);Meio-campo;RARA
+UZB023;1245;ESANOV Sherzod;Uzbekistan;JOGADOR;FK Buxoro (UZB);Meio-campo;RARA
+UZB024;1246;KARIMOV Behruzjon;Uzbekistan;JOGADOR;Surkhon FK (UZB);Defensor;EPICA
+UZB025;1247;ULMASALIYEV Avazbek;Uzbekistan;JOGADOR;OKMK FK (UZB);Defensor;EPICA
+UZB026;1248;UROZOV Jakhongir;Uzbekistan;JOGADOR;FK Dinamo Samarkand (UZB);Defensor;LENDARIA
+ALG901;1249;Brasão - Algeria;Algeria;BRASAO;;;BRILHANTE
+ALG902;1250;Seleção - Algeria;Algeria;SELECAO;;;BRILHANTE
+ARG901;1251;Brasão - Argentina;Argentina;BRASAO;;;BRILHANTE
+ARG902;1252;Seleção - Argentina;Argentina;SELECAO;;;BRILHANTE
+AUS901;1253;Brasão - Australia;Australia;BRASAO;;;BRILHANTE
+AUS902;1254;Seleção - Australia;Australia;SELECAO;;;BRILHANTE
+AUT901;1255;Brasão - Austria;Austria;BRASAO;;;BRILHANTE
+AUT902;1256;Seleção - Austria;Austria;SELECAO;;;BRILHANTE
+BEL901;1257;Brasão - Belgium;Belgium;BRASAO;;;BRILHANTE
+BEL902;1258;Seleção - Belgium;Belgium;SELECAO;;;BRILHANTE
+BIH901;1259;Brasão - Bosnia And Herzegovina;Bosnia And Herzegovina;BRASAO;;;BRILHANTE
+BIH902;1260;Seleção - Bosnia And Herzegovina;Bosnia And Herzegovina;SELECAO;;;BRILHANTE
+BRA901;1261;Brasão - Brazil;Brazil;BRASAO;;;BRILHANTE
+BRA902;1262;Seleção - Brazil;Brazil;SELECAO;;;BRILHANTE
+CPV901;1263;Brasão - Cabo Verde;Cabo Verde;BRASAO;;;BRILHANTE
+CPV902;1264;Seleção - Cabo Verde;Cabo Verde;SELECAO;;;BRILHANTE
+CAN901;1265;Brasão - Canada;Canada;BRASAO;;;BRILHANTE
+CAN902;1266;Seleção - Canada;Canada;SELECAO;;;BRILHANTE
+COL901;1267;Brasão - Colombia;Colombia;BRASAO;;;BRILHANTE
+COL902;1268;Seleção - Colombia;Colombia;SELECAO;;;BRILHANTE
+COD901;1269;Brasão - Congo DR;Congo DR;BRASAO;;;BRILHANTE
+COD902;1270;Seleção - Congo DR;Congo DR;SELECAO;;;BRILHANTE
+CIV901;1271;Brasão - Côte D'Ivoire;Côte D'Ivoire;BRASAO;;;BRILHANTE
+CIV902;1272;Seleção - Côte D'Ivoire;Côte D'Ivoire;SELECAO;;;BRILHANTE
+CRO901;1273;Brasão - Croatia;Croatia;BRASAO;;;BRILHANTE
+CRO902;1274;Seleção - Croatia;Croatia;SELECAO;;;BRILHANTE
+CUW901;1275;Brasão - Curaçao;Curaçao;BRASAO;;;BRILHANTE
+CUW902;1276;Seleção - Curaçao;Curaçao;SELECAO;;;BRILHANTE
+CZE901;1277;Brasão - Czechia;Czechia;BRASAO;;;BRILHANTE
+CZE902;1278;Seleção - Czechia;Czechia;SELECAO;;;BRILHANTE
+ECU901;1279;Brasão - Ecuador;Ecuador;BRASAO;;;BRILHANTE
+ECU902;1280;Seleção - Ecuador;Ecuador;SELECAO;;;BRILHANTE
+EGY901;1281;Brasão - Egypt;Egypt;BRASAO;;;BRILHANTE
+EGY902;1282;Seleção - Egypt;Egypt;SELECAO;;;BRILHANTE
+ENG901;1283;Brasão - England;England;BRASAO;;;BRILHANTE
+ENG902;1284;Seleção - England;England;SELECAO;;;BRILHANTE
+FRA901;1285;Brasão - France;France;BRASAO;;;BRILHANTE
+FRA902;1286;Seleção - France;France;SELECAO;;;BRILHANTE
+GER901;1287;Brasão - Germany;Germany;BRASAO;;;BRILHANTE
+GER902;1288;Seleção - Germany;Germany;SELECAO;;;BRILHANTE
+GHA901;1289;Brasão - Ghana;Ghana;BRASAO;;;BRILHANTE
+GHA902;1290;Seleção - Ghana;Ghana;SELECAO;;;BRILHANTE
+HAI901;1291;Brasão - Haiti;Haiti;BRASAO;;;BRILHANTE
+HAI902;1292;Seleção - Haiti;Haiti;SELECAO;;;BRILHANTE
+IRN901;1293;Brasão - IR Iran;IR Iran;BRASAO;;;BRILHANTE
+IRN902;1294;Seleção - IR Iran;IR Iran;SELECAO;;;BRILHANTE
+IRQ901;1295;Brasão - Iraq;Iraq;BRASAO;;;BRILHANTE
+IRQ902;1296;Seleção - Iraq;Iraq;SELECAO;;;BRILHANTE
+JPN901;1297;Brasão - Japan;Japan;BRASAO;;;BRILHANTE
+JPN902;1298;Seleção - Japan;Japan;SELECAO;;;BRILHANTE
+JOR901;1299;Brasão - Jordan;Jordan;BRASAO;;;BRILHANTE
+JOR902;1300;Seleção - Jordan;Jordan;SELECAO;;;BRILHANTE
+KOR901;1301;Brasão - Korea Republic;Korea Republic;BRASAO;;;BRILHANTE
+KOR902;1302;Seleção - Korea Republic;Korea Republic;SELECAO;;;BRILHANTE
+MEX901;1303;Brasão - Mexico;Mexico;BRASAO;;;BRILHANTE
+MEX902;1304;Seleção - Mexico;Mexico;SELECAO;;;BRILHANTE
+MAR901;1305;Brasão - Morocco;Morocco;BRASAO;;;BRILHANTE
+MAR902;1306;Seleção - Morocco;Morocco;SELECAO;;;BRILHANTE
+NED901;1307;Brasão - Netherlands;Netherlands;BRASAO;;;BRILHANTE
+NED902;1308;Seleção - Netherlands;Netherlands;SELECAO;;;BRILHANTE
+NZL901;1309;Brasão - New Zealand;New Zealand;BRASAO;;;BRILHANTE
+NZL902;1310;Seleção - New Zealand;New Zealand;SELECAO;;;BRILHANTE
+NOR901;1311;Brasão - Norway;Norway;BRASAO;;;BRILHANTE
+NOR902;1312;Seleção - Norway;Norway;SELECAO;;;BRILHANTE
+PAN901;1313;Brasão - Panama;Panama;BRASAO;;;BRILHANTE
+PAN902;1314;Seleção - Panama;Panama;SELECAO;;;BRILHANTE
+PAR901;1315;Brasão - Paraguay;Paraguay;BRASAO;;;BRILHANTE
+PAR902;1316;Seleção - Paraguay;Paraguay;SELECAO;;;BRILHANTE
+POR901;1317;Brasão - Portugal;Portugal;BRASAO;;;BRILHANTE
+POR902;1318;Seleção - Portugal;Portugal;SELECAO;;;BRILHANTE
+QAT901;1319;Brasão - Qatar;Qatar;BRASAO;;;BRILHANTE
+QAT902;1320;Seleção - Qatar;Qatar;SELECAO;;;BRILHANTE
+KSA901;1321;Brasão - Saudi Arabia;Saudi Arabia;BRASAO;;;BRILHANTE
+KSA902;1322;Seleção - Saudi Arabia;Saudi Arabia;SELECAO;;;BRILHANTE
+SCO901;1323;Brasão - Scotland;Scotland;BRASAO;;;BRILHANTE
+SCO902;1324;Seleção - Scotland;Scotland;SELECAO;;;BRILHANTE
+SEN901;1325;Brasão - Senegal;Senegal;BRASAO;;;BRILHANTE
+SEN902;1326;Seleção - Senegal;Senegal;SELECAO;;;BRILHANTE
+RSA901;1327;Brasão - South Africa;South Africa;BRASAO;;;BRILHANTE
+RSA902;1328;Seleção - South Africa;South Africa;SELECAO;;;BRILHANTE
+ESP901;1329;Brasão - Spain;Spain;BRASAO;;;BRILHANTE
+ESP902;1330;Seleção - Spain;Spain;SELECAO;;;BRILHANTE
+SWE901;1331;Brasão - Sweden;Sweden;BRASAO;;;BRILHANTE
+SWE902;1332;Seleção - Sweden;Sweden;SELECAO;;;BRILHANTE
+SUI901;1333;Brasão - Switzerland;Switzerland;BRASAO;;;BRILHANTE
+SUI902;1334;Seleção - Switzerland;Switzerland;SELECAO;;;BRILHANTE
+TUN901;1335;Brasão - Tunisia;Tunisia;BRASAO;;;BRILHANTE
+TUN902;1336;Seleção - Tunisia;Tunisia;SELECAO;;;BRILHANTE
+TUR901;1337;Brasão - Türkiye;Türkiye;BRASAO;;;BRILHANTE
+TUR902;1338;Seleção - Türkiye;Türkiye;SELECAO;;;BRILHANTE
+URU901;1339;Brasão - Uruguay;Uruguay;BRASAO;;;BRILHANTE
+URU902;1340;Seleção - Uruguay;Uruguay;SELECAO;;;BRILHANTE
+USA901;1341;Brasão - USA;USA;BRASAO;;;BRILHANTE
+USA902;1342;Seleção - USA;USA;SELECAO;;;BRILHANTE
+UZB901;1343;Brasão - Uzbekistan;Uzbekistan;BRASAO;;;BRILHANTE
+UZB902;1344;Seleção - Uzbekistan;Uzbekistan;SELECAO;;;BRILHANTE
+EST001;1345;Arrowhead Stadium;Copa 2026;ESTADIO;;;BRILHANTE
+EST002;1346;AT&T Stadium;Copa 2026;ESTADIO;;;BRILHANTE
+EST003;1347;BC Place;Copa 2026;ESTADIO;;;BRILHANTE
+EST004;1348;BMO Field;Copa 2026;ESTADIO;;;BRILHANTE
+EST005;1349;Estadio Akron;Copa 2026;ESTADIO;;;BRILHANTE
+EST006;1350;Estadio Azteca;Copa 2026;ESTADIO;;;BRILHANTE
+EST007;1351;Estadio BBVA;Copa 2026;ESTADIO;;;BRILHANTE
+EST008;1352;Gillette Stadium;Copa 2026;ESTADIO;;;BRILHANTE
+EST009;1353;Hard Rock Stadium;Copa 2026;ESTADIO;;;BRILHANTE
+EST010;1354;Levi's Stadium;Copa 2026;ESTADIO;;;BRILHANTE
+EST011;1355;Lincoln Financial Field;Copa 2026;ESTADIO;;;BRILHANTE
+EST012;1356;Lumen Field;Copa 2026;ESTADIO;;;BRILHANTE
+EST013;1357;Mercedes-Benz Stadium;Copa 2026;ESTADIO;;;BRILHANTE
+EST014;1358;MetLife Stadium;Copa 2026;ESTADIO;;;BRILHANTE
+EST015;1359;NRG Stadium;Copa 2026;ESTADIO;;;BRILHANTE
+EST016;1360;SoFi Stadium;Copa 2026;ESTADIO;;;BRILHANTE

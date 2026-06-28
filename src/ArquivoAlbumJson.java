@@ -1,112 +1,137 @@
 package src;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class ArquivoAlbumJson {
 
-    private static final String ARQUIVO = "album.json";
+    private static final Path ARQUIVO = Paths.get("data", "album.json");
+
+    private ArquivoAlbumJson() {
+        // Classe utilitária.
+    }
+
+    public static Album carregarOuCriarPadrao() {
+        return GerenciadorAlbumCatalogo.carregarAlbum();
+    }
+
+    public static Album carregar() {
+        return GerenciadorAlbumCatalogo.carregarAlbum();
+    }
 
     public static void salvar(Album album) {
+        try {
+            Files.createDirectories(ARQUIVO.getParent());
+            Files.writeString(ARQUIVO, montarJson(album), StandardCharsets.UTF_8);
+        } catch (IOException e) {
+            throw new RuntimeException("Não foi possível salvar o álbum em JSON.", e);
+        }
+    }
 
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(ARQUIVO))) {
-
-            writer.write("{\n");
-            writer.write("  \"proprietario\": {\n");
-            writer.write("    \"nome\": \"" + escaparJson(album.getProprietario().getNome()) + "\",\n");
-            writer.write("    \"email\": \"" + escaparJson(album.getProprietario().getEmail()) + "\"\n");
-            writer.write("  },\n");
-            writer.write("  \"figurinhas\": [\n");
-
-            for (int i = 0; i < album.getFigurinhas().size(); i++) {
-
-                Figurinha figurinha = album.getFigurinhas().get(i);
-
-                writer.write("    {\n");
-                writer.write("      \"tipo\": \"" + figurinha.getTipo() + "\",\n");
-                writer.write("      \"id\": " + figurinha.getId() + ",\n");
-                writer.write("      \"nome\": \"" + escaparJson(figurinha.getNome()) + "\",\n");
-                writer.write("      \"selecao\": {\n");
-                writer.write("        \"nome\": \"" + escaparJson(figurinha.getSelecao().getNome()) + "\",\n");
-                writer.write("        \"pais\": \"" + escaparJson(figurinha.getSelecao().getPais()) + "\"\n");
-                writer.write("      },\n");
-                writer.write("      \"raridade\": \"" + figurinha.getRaridade() + "\",\n");
-                writer.write("      \"colada\": " + figurinha.isColada() + ",\n");
-                writer.write("      \"quantidadeRepetida\": " + figurinha.getQuantidadeRepetida());
-
-                if (figurinha instanceof FigurinhaJogador) {
-
-                    FigurinhaJogador jogador = (FigurinhaJogador) figurinha;
-
-                    writer.write(",\n");
-                    writer.write("      \"altura\": " + jogador.getAltura() + ",\n");
-                    writer.write("      \"peso\": " + jogador.getPeso() + ",\n");
-                    writer.write("      \"clube\": \"" + escaparJson(jogador.getClube()) + "\",\n");
-                    writer.write("      \"posicao\": \"" + escaparJson(jogador.getPosicao()) + "\",\n");
-                    writer.write("      \"idade\": " + jogador.getIdade() + ",\n");
-                    writer.write("      \"numeroCamisa\": " + jogador.getNumeroCamisa());
-
-                } else if (figurinha instanceof FigurinhaSelecao) {
-
-                    FigurinhaSelecao selecao = (FigurinhaSelecao) figurinha;
-
-                    writer.write(",\n");
-                    writer.write("      \"tecnico\": \"" + escaparJson(selecao.getTecnico()) + "\",\n");
-                    writer.write("      \"titulos\": " + selecao.getTitulos());
-
-                }
-
-                writer.write("\n    }");
-
-                if (i < album.getFigurinhas().size() - 1) {
-                    writer.write(",");
-                }
-
-                writer.write("\n");
-
+    public static void carregarProgresso(Album album) {
+        try {
+            if (!Files.exists(ARQUIVO)) {
+                salvar(album);
+                return;
             }
 
-            writer.write("  ]\n");
-            writer.write("}\n");
-
-            System.out.println("Álbum salvo em JSON com sucesso!");
-
+            String conteudo = Files.readString(ARQUIVO, StandardCharsets.UTF_8);
+            aplicarJsonNoAlbum(album, conteudo);
         } catch (IOException e) {
-            System.out.println("Erro ao salvar arquivo JSON.");
+            throw new RuntimeException("Não foi possível carregar o progresso do álbum.", e);
         }
-
     }
 
     public static void mostrarArquivo() {
-
-        try (BufferedReader reader = new BufferedReader(new FileReader(ARQUIVO))) {
-
-            String linha;
-
-            while ((linha = reader.readLine()) != null) {
-                System.out.println(linha);
+        try {
+            if (!Files.exists(ARQUIVO)) {
+                System.out.println("Arquivo JSON ainda não existe. Use a opção de salvar primeiro.");
+                return;
             }
 
+            String conteudo = Files.readString(ARQUIVO, StandardCharsets.UTF_8);
+            System.out.println(conteudo);
         } catch (IOException e) {
-            System.out.println("Arquivo JSON não encontrado.");
+            throw new RuntimeException("Não foi possível ler o arquivo JSON.", e);
         }
-
     }
 
-    private static String escaparJson(String valor) {
+    private static String montarJson(Album album) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("[\n");
 
-        if (valor == null) {
-            return "";
+        boolean primeiro = true;
+
+        for (Figurinha figurinha : album.getFigurinhas()) {
+            if (!figurinha.isColada() && figurinha.getQuantidadeRepetida() == 0) {
+                continue;
+            }
+
+            if (!primeiro) {
+                sb.append(",\n");
+            }
+
+            sb.append("  {\n");
+            sb.append("    \"codigo\": \"").append(escapar(figurinha.getCodigo())).append("\",\n");
+            sb.append("    \"colada\": ").append(figurinha.isColada()).append(",\n");
+            sb.append("    \"repetidas\": ").append(figurinha.getQuantidadeRepetida()).append("\n");
+            sb.append("  }");
+
+            primeiro = false;
         }
 
-        return valor.replace("\\", "\\\\")
-                .replace("\"", "\\\"")
-                .replace("\n", "\\n")
-                .replace("\r", "\\r");
-
+        sb.append("\n]\n");
+        return sb.toString();
     }
 
+    private static void aplicarJsonNoAlbum(Album album, String json) {
+        Pattern objetoPattern = Pattern.compile("\\{([^}]*)\\}", Pattern.DOTALL);
+        Matcher objetoMatcher = objetoPattern.matcher(json);
+
+        while (objetoMatcher.find()) {
+            String objeto = objetoMatcher.group(1);
+            String codigo = extrairString(objeto, "codigo");
+            boolean colada = extrairBoolean(objeto, "colada");
+            int repetidas = extrairInt(objeto, "repetidas");
+
+            if (codigo == null || codigo.trim().isEmpty()) {
+                continue;
+            }
+
+            try {
+                Figurinha figurinha = album.buscarFigurinhaPorCodigo(codigo);
+                figurinha.setColada(colada);
+                figurinha.setQuantidadeRepetida(repetidas);
+            } catch (IllegalArgumentException e) {
+                // Ignora progresso antigo de código que não existe mais no catálogo.
+            }
+        }
+    }
+
+    private static String extrairString(String objeto, String campo) {
+        Pattern pattern = Pattern.compile("\\\"" + campo + "\\\"\\s*:\\s*\\\"([^\\\"]*)\\\"");
+        Matcher matcher = pattern.matcher(objeto);
+        return matcher.find() ? matcher.group(1) : null;
+    }
+
+    private static boolean extrairBoolean(String objeto, String campo) {
+        Pattern pattern = Pattern.compile("\\\"" + campo + "\\\"\\s*:\\s*(true|false)");
+        Matcher matcher = pattern.matcher(objeto);
+        return matcher.find() && Boolean.parseBoolean(matcher.group(1));
+    }
+
+    private static int extrairInt(String objeto, String campo) {
+        Pattern pattern = Pattern.compile("\\\"" + campo + "\\\"\\s*:\\s*(\\d+)");
+        Matcher matcher = pattern.matcher(objeto);
+        return matcher.find() ? Integer.parseInt(matcher.group(1)) : 0;
+    }
+
+    private static String escapar(String texto) {
+        return texto.replace("\\", "\\\\").replace("\"", "\\\"");
+    }
 }
