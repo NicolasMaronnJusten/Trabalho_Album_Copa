@@ -10,8 +10,8 @@ public class TelaPrincipal extends JFrame {
     private JPanel painelPrincipal;
     private JTextArea areaResultado;
 
-    // Depois tu coloca o caminho das imagens aqui.
-    private static final String CAMINHO_CAPA_ALBUM = "";
+    
+    private static final String CAMINHO_CAPA_ALBUM = "data/capa_album.jpg";
     private static final String CAMINHO_ALBUM_ABERTO = "";
 
     public TelaPrincipal(Album album) {
