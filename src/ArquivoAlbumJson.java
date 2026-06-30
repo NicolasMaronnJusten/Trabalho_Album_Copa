@@ -13,7 +13,7 @@ public class ArquivoAlbumJson {
     private static final Path ARQUIVO = Paths.get("data", "album.json");
 
     private ArquivoAlbumJson() {
-        // Classe utilitária.
+        
     }
 
     public static Album carregarOuCriarPadrao() {

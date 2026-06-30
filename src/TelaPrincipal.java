@@ -12,7 +12,7 @@ public class TelaPrincipal extends JFrame {
 
     
     private static final String CAMINHO_CAPA_ALBUM = "data/capa_album.jpg";
-    private static final String CAMINHO_ALBUM_ABERTO = "";
+    private static final String CAMINHO_ALBUM_ABERTO = "data/album_aberto.jpg";
 
     public TelaPrincipal(Album album) {
         this.album = album;
@@ -93,7 +93,6 @@ public class TelaPrincipal extends JFrame {
         JButton botaoFaltantes = new JButton("Faltantes");
         JButton botaoRepetidas = new JButton("Repetidas");
         JButton botaoBuscar = new JButton("Buscar");
-        JButton botaoConsultar = new JButton("Consultar");
         JButton botaoColar = new JButton("Colar");
         JButton botaoRepetida = new JButton("Repetida");
         JButton botaoVoltar = new JButton("Voltar");
@@ -102,7 +101,6 @@ public class TelaPrincipal extends JFrame {
         botaoFaltantes.addActionListener(e -> areaResultado.setText(album.listarFaltantesComoTexto()));
         botaoRepetidas.addActionListener(e -> areaResultado.setText(album.listarRepetidasComoTexto()));
         botaoBuscar.addActionListener(e -> buscarFigurinha());
-        botaoConsultar.addActionListener(e -> consultarCodigo());
         botaoColar.addActionListener(e -> colarFigurinha());
         botaoRepetida.addActionListener(e -> marcarRepetida());
         botaoVoltar.addActionListener(e -> cardLayout.show(painelPrincipal, "inicio"));
@@ -111,7 +109,6 @@ public class TelaPrincipal extends JFrame {
         painel.add(botaoFaltantes);
         painel.add(botaoRepetidas);
         painel.add(botaoBuscar);
-        painel.add(botaoConsultar);
         painel.add(botaoColar);
         painel.add(botaoRepetida);
         painel.add(botaoVoltar);
@@ -129,19 +126,7 @@ public class TelaPrincipal extends JFrame {
         areaResultado.setText(album.consultarFigurinhaComoTexto(busca));
     }
 
-    private void consultarCodigo() {
-        String entrada = JOptionPane.showInputDialog(this, "Digite o código, ID ou nome da figurinha:");
 
-        if (entrada == null || entrada.trim().isEmpty()) {
-            return;
-        }
-
-        try {
-            areaResultado.setText(album.consultarFigurinhaComoTexto(entrada));
-        } catch (Exception e) {
-            areaResultado.setText("Erro: " + e.getMessage());
-        }
-    }
 
     private void colarFigurinha() {
         String entrada = JOptionPane.showInputDialog(this, "Digite o código, ID ou nome da figurinha para colar:");
