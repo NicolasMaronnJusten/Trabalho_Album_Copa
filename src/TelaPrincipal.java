@@ -94,9 +94,9 @@ public class TelaPrincipal extends JFrame {
         JButton botaoRepetidas = new JButton("Repetidas");
         JButton botaoJogadores = new JButton("Jogadores");
         JButton botaoBuscar = new JButton("Buscar");
-        JButton botaoConsultar = new JButton("Consultar código");
-        JButton botaoColar = new JButton("Colar código");
-        JButton botaoRepetida = new JButton("Repetida código");
+        JButton botaoConsultar = new JButton("Consultar");
+        JButton botaoColar = new JButton("Colar");
+        JButton botaoRepetida = new JButton("Repetida");
         JButton botaoSalvar = new JButton("Salvar");
         JButton botaoVoltar = new JButton("Voltar");
 
@@ -126,7 +126,7 @@ public class TelaPrincipal extends JFrame {
     }
 
     private void buscarJogador() {
-        String busca = JOptionPane.showInputDialog(this, "Digite nome, seleção, posição, código ou clube:");
+        String busca = JOptionPane.showInputDialog(this, "Digite nome, seleção, posição, código, ID ou clube:");
 
         if (busca == null || busca.trim().isEmpty()) {
             return;
@@ -136,28 +136,33 @@ public class TelaPrincipal extends JFrame {
     }
 
     private void consultarCodigo() {
-        String codigo = JOptionPane.showInputDialog(this, "Digite o código oficial da figurinha:");
+        String entrada = JOptionPane.showInputDialog(this, "Digite o código, ID ou nome da figurinha:");
 
-        if (codigo == null || codigo.trim().isEmpty()) {
+        if (entrada == null || entrada.trim().isEmpty()) {
             return;
         }
 
         try {
-            areaResultado.setText(album.consultarFigurinhaComoTexto(codigo));
+            areaResultado.setText(album.consultarFigurinhaComoTexto(entrada));
         } catch (Exception e) {
             areaResultado.setText("Erro: " + e.getMessage());
         }
     }
 
     private void colarFigurinha() {
-        String codigo = JOptionPane.showInputDialog(this, "Digite o código oficial da figurinha para colar:");
+        String entrada = JOptionPane.showInputDialog(this, "Digite o código, ID ou nome da figurinha para colar:");
 
-        if (codigo == null || codigo.trim().isEmpty()) {
+        if (entrada == null || entrada.trim().isEmpty()) {
             return;
         }
 
         try {
-            Figurinha figurinha = album.buscarFigurinhaPorCodigo(codigo);
+            Figurinha figurinha = escolherFigurinhaPorEntrada(entrada, "Escolha a figurinha para colar");
+
+            if (figurinha == null) {
+                return;
+            }
+
             int confirmacao = JOptionPane.showConfirmDialog(
                     this,
                     "Figurinha encontrada:\n" + figurinha + "\nDeseja colar?",
@@ -166,7 +171,7 @@ public class TelaPrincipal extends JFrame {
             );
 
             if (confirmacao == JOptionPane.YES_OPTION) {
-                album.registrarFigurinhaColada(codigo);
+                album.registrarFigurinhaColada(figurinha.getCodigo());
                 ArquivoAlbumJson.salvar(album);
                 areaResultado.setText("Figurinha " + figurinha.getCodigo() + " colada com sucesso!\n\n" + figurinha);
             }
@@ -176,14 +181,19 @@ public class TelaPrincipal extends JFrame {
     }
 
     private void marcarRepetida() {
-        String codigo = JOptionPane.showInputDialog(this, "Digite o código oficial da figurinha repetida:");
+        String entrada = JOptionPane.showInputDialog(this, "Digite o código, ID ou nome da figurinha repetida:");
 
-        if (codigo == null || codigo.trim().isEmpty()) {
+        if (entrada == null || entrada.trim().isEmpty()) {
             return;
         }
 
         try {
-            Figurinha figurinha = album.buscarFigurinhaPorCodigo(codigo);
+            Figurinha figurinha = escolherFigurinhaPorEntrada(entrada, "Escolha a figurinha repetida");
+
+            if (figurinha == null) {
+                return;
+            }
+
             int confirmacao = JOptionPane.showConfirmDialog(
                     this,
                     "Figurinha encontrada:\n" + figurinha + "\nDeseja marcar como repetida?",
@@ -192,13 +202,37 @@ public class TelaPrincipal extends JFrame {
             );
 
             if (confirmacao == JOptionPane.YES_OPTION) {
-                album.registrarFigurinhaRepetida(codigo);
+                album.registrarFigurinhaRepetida(figurinha.getCodigo());
                 ArquivoAlbumJson.salvar(album);
                 areaResultado.setText("Figurinha " + figurinha.getCodigo() + " registrada como repetida!\n\n" + figurinha);
             }
         } catch (Exception e) {
             areaResultado.setText("Erro: " + e.getMessage());
         }
+    }
+
+    private Figurinha escolherFigurinhaPorEntrada(String entrada, String titulo) {
+        java.util.List<Figurinha> encontradas = album.buscarFigurinhasPorEntrada(entrada);
+
+        if (encontradas.isEmpty()) {
+            throw new IllegalArgumentException("Nenhuma figurinha encontrada para: " + entrada);
+        }
+
+        if (encontradas.size() == 1) {
+            return encontradas.get(0);
+        }
+
+        Object escolhida = JOptionPane.showInputDialog(
+                this,
+                "Encontrei mais de uma figurinha. Selecione a correta:",
+                titulo,
+                JOptionPane.QUESTION_MESSAGE,
+                null,
+                encontradas.toArray(),
+                encontradas.get(0)
+        );
+
+        return (Figurinha) escolhida;
     }
 
     private void salvarAlbum() {

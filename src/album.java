@@ -349,18 +349,77 @@ public class Album {
     public String buscarJogadoresGeralComoTexto(String busca) {
         return converterListaParaTexto(buscarJogadoresGeral(busca), "Nenhum jogador encontrado para: " + busca);
     }
-    public List<Figurinha> BuscarPorNome(String nome) {
-    List<Figurinha> resultado = new ArrayList<>();
-    for (Figurinha f : figurinhas) {
-        if (f.getNome().toLowerCase().contains(nome.toLowerCase())) {
 
-            resultado.add(f);
+    public List<Figurinha> buscarFigurinhasPorEntrada(String entrada) {
+        List<Figurinha> resultado = new ArrayList<>();
+        String buscaCodigo = normalizarCodigo(entrada);
+        String buscaTexto = normalizarBusca(entrada);
+
+        if (buscaTexto.isEmpty()) {
+            return resultado;
         }
+
+        for (Figurinha f : figurinhas) {
+            if (normalizarCodigo(f.getCodigo()).equals(buscaCodigo)) {
+                resultado.add(f);
+                return resultado;
+            }
+        }
+
+        try {
+            int id = Integer.parseInt(entrada.trim());
+
+            for (Figurinha f : figurinhas) {
+                if (f.getId() == id) {
+                    resultado.add(f);
+                    return resultado;
+                }
+            }
+        } catch (NumberFormatException e) {
+            // Se não for número, ignora e continua a busca pelo nome.
+        }
+
+        for (Figurinha f : figurinhas) {
+            if (normalizarBusca(f.getNome()).equals(buscaTexto)) {
+                resultado.add(f);
+            }
+        }
+
+        if (!resultado.isEmpty()) {
+            return resultado;
+        }
+
+        for (Figurinha f : figurinhas) {
+            if (normalizarBusca(f.getNome()).contains(buscaTexto)) {
+                resultado.add(f);
+            }
+        }
+
+        return resultado;
     }
-    return resultado;
+
+    public Figurinha buscarFigurinhaPorEntrada(String entrada) {
+        List<Figurinha> resultado = buscarFigurinhasPorEntrada(entrada);
+
+        if (resultado.isEmpty()) {
+            throw new IllegalArgumentException("Nenhuma figurinha encontrada para: " + entrada);
+        }
+
+        if (resultado.size() > 1) {
+            throw new IllegalArgumentException("Mais de uma figurinha encontrada. Seja mais específico.");
+        }
+
+        return resultado.get(0);
     }
-    public String consultarFigurinhaComoTexto(String codigo) {
-        return buscarFigurinhaPorCodigo(codigo).toString();
+
+    public String consultarFigurinhaComoTexto(String entrada) {
+        List<Figurinha> resultado = buscarFigurinhasPorEntrada(entrada);
+
+        if (resultado.isEmpty()) {
+            return "Nenhuma figurinha encontrada para: " + entrada;
+        }
+
+        return converterListaParaTexto(resultado, "Nenhuma figurinha encontrada.");
     }
 
     private String converterListaParaTexto(List<?> lista, String mensagemVazia) {
