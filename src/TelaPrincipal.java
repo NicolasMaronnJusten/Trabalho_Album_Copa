@@ -92,47 +92,41 @@ public class TelaPrincipal extends JFrame {
         JButton botaoResumo = new JButton("Resumo");
         JButton botaoFaltantes = new JButton("Faltantes");
         JButton botaoRepetidas = new JButton("Repetidas");
-        JButton botaoJogadores = new JButton("Jogadores");
         JButton botaoBuscar = new JButton("Buscar");
         JButton botaoConsultar = new JButton("Consultar");
         JButton botaoColar = new JButton("Colar");
         JButton botaoRepetida = new JButton("Repetida");
-        JButton botaoSalvar = new JButton("Salvar");
         JButton botaoVoltar = new JButton("Voltar");
 
         botaoResumo.addActionListener(e -> areaResultado.setText(album.gerarResumo()));
         botaoFaltantes.addActionListener(e -> areaResultado.setText(album.listarFaltantesComoTexto()));
         botaoRepetidas.addActionListener(e -> areaResultado.setText(album.listarRepetidasComoTexto()));
-        botaoJogadores.addActionListener(e -> areaResultado.setText(album.listarJogadoresComoTexto()));
-        botaoBuscar.addActionListener(e -> buscarJogador());
+        botaoBuscar.addActionListener(e -> buscarFigurinha());
         botaoConsultar.addActionListener(e -> consultarCodigo());
         botaoColar.addActionListener(e -> colarFigurinha());
         botaoRepetida.addActionListener(e -> marcarRepetida());
-        botaoSalvar.addActionListener(e -> salvarAlbum());
         botaoVoltar.addActionListener(e -> cardLayout.show(painelPrincipal, "inicio"));
 
         painel.add(botaoResumo);
         painel.add(botaoFaltantes);
         painel.add(botaoRepetidas);
-        painel.add(botaoJogadores);
         painel.add(botaoBuscar);
         painel.add(botaoConsultar);
         painel.add(botaoColar);
         painel.add(botaoRepetida);
-        painel.add(botaoSalvar);
         painel.add(botaoVoltar);
 
         return painel;
     }
 
-    private void buscarJogador() {
-        String busca = JOptionPane.showInputDialog(this, "Digite nome, seleção, posição, código, ID ou clube:");
+    private void buscarFigurinha() {
+        String busca = JOptionPane.showInputDialog(this, "Digite nome, código ou ID da figurinha:");
 
         if (busca == null || busca.trim().isEmpty()) {
             return;
         }
 
-        areaResultado.setText(album.buscarJogadoresGeralComoTexto(busca));
+        areaResultado.setText(album.consultarFigurinhaComoTexto(busca));
     }
 
     private void consultarCodigo() {
@@ -235,10 +229,6 @@ public class TelaPrincipal extends JFrame {
         return (Figurinha) escolhida;
     }
 
-    private void salvarAlbum() {
-        ArquivoAlbumJson.salvar(album);
-        areaResultado.setText("Álbum salvo com sucesso!");
-    }
 
     private JLabel criarImagemOuTexto(String caminho, String textoAlternativo, int largura, int altura) {
         JLabel label = new JLabel(textoAlternativo, SwingConstants.CENTER);

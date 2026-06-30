@@ -128,6 +128,12 @@ public class Album {
 
         return total;
     }
+    public void resetarAlbum() {
+    for (Figurinha f : figurinhas) {
+        f.descolar();
+        f.setQuantidadeRepetida(0);
+        }
+    }
 
     public List<Figurinha> listarFaltantes() {
         List<Figurinha> lista = new ArrayList<>();
