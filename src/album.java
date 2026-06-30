@@ -349,7 +349,16 @@ public class Album {
     public String buscarJogadoresGeralComoTexto(String busca) {
         return converterListaParaTexto(buscarJogadoresGeral(busca), "Nenhum jogador encontrado para: " + busca);
     }
+    public List<Figurinha> BuscarPorNome(String nome) {
+    List<Figurinha> resultado = new ArrayList<>();
+    for (Figurinha f : figurinhas) {
+        if (f.getNome().toLowerCase().contains(nome.toLowerCase())) {
 
+            resultado.add(f);
+        }
+    }
+    return resultado;
+    }
     public String consultarFigurinhaComoTexto(String codigo) {
         return buscarFigurinhaPorCodigo(codigo).toString();
     }
@@ -386,4 +395,6 @@ public class Album {
 
         return normalizado.trim().toLowerCase();
     }
+
 }
+

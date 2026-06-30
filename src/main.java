@@ -103,6 +103,7 @@ public class Main {
         System.out.println("\n==============================");
         System.out.println("ÁLBUM COPA DO MUNDO 2026");
         System.out.println("==============================");
+        System.out.println("0 - Nome do jogador");
         System.out.println("1 - Colar figurinha por código");
         System.out.println("2 - Registrar repetida por código");
         System.out.println("3 - Consultar figurinha por código");
@@ -122,7 +123,7 @@ public class Main {
         System.out.println("17 - Buscar jogadores");
         System.out.println("18 - Recarregar álbum");
         System.out.println("19 - Abrir interface gráfica");
-        System.out.println("0 - Sair");
+        System.out.println("20 - Sair");
     }
 
     private static void colarFigurinha(Scanner sc, Album album) {
@@ -246,7 +247,19 @@ public class Main {
                 break;
             default:
                 System.out.println("Opção inválida.");
-        }
+            case 6:
+                System.out.print("Nome do jogador: ");
+                String nome = sc.nextLine();
+                List<Figurinha> resultado = album.BuscarPorNome(nome);
+                if(resultado.isEmpty()){
+                System.out.println("Nenhuma figurinha encontrada.");
+                    }else{
+                        for(Figurinha f : resultado){
+                        System.out.println(f);
+                        }
+                    }
+                    break;
+    }     
     }
 
     private static void abrirInterfaceGrafica(Album album) {
