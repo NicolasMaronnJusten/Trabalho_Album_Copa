@@ -113,28 +113,34 @@ public class ArquivoAlbumJson {
     
 
     private static void aplicarJsonNoAlbum(Album album, String json) {
-        Pattern objetoPattern = Pattern.compile("\\{([^}]*)\\}", Pattern.DOTALL);
-        Matcher objetoMatcher = objetoPattern.matcher(json);
+    String nomeProprietario = extrairString(json, "proprietario");
 
-        while (objetoMatcher.find()) {
-            String objeto = objetoMatcher.group(1);
-            String codigo = extrairString(objeto, "codigo");
-            boolean colada = extrairBoolean(objeto, "colada");
-            int repetidas = extrairInt(objeto, "repetidas");
+    if (nomeProprietario != null && !nomeProprietario.trim().isEmpty()) {
+        album.getProprietario().setNome(nomeProprietario);
+    }
 
-            if (codigo == null || codigo.trim().isEmpty()) {
-                continue;
-            }
+    Pattern objetoPattern = Pattern.compile("\\{([^}]*)\\}", Pattern.DOTALL);
+    Matcher objetoMatcher = objetoPattern.matcher(json);
 
-            try {
-                Figurinha figurinha = album.buscarFigurinhaPorCodigo(codigo);
-                figurinha.setColada(colada);
-                figurinha.setQuantidadeRepetida(repetidas);
-            } catch (IllegalArgumentException e) {
-                // Ignora progresso antigo de código que não existe mais no catálogo.
-            }
+    while (objetoMatcher.find()) {
+        String objeto = objetoMatcher.group(1);
+        String codigo = extrairString(objeto, "codigo");
+        boolean colada = extrairBoolean(objeto, "colada");
+        int repetidas = extrairInt(objeto, "repetidas");
+
+        if (codigo == null || codigo.trim().isEmpty()) {
+            continue;
+        }
+
+        try {
+            Figurinha figurinha = album.buscarFigurinhaPorCodigo(codigo);
+            figurinha.setColada(colada);
+            figurinha.setQuantidadeRepetida(repetidas);
+        } catch (IllegalArgumentException e) {
+            System.err.println("Aviso: Figurinha com código '" + codigo + "' não encontrada no álbum. Ignorando.");
         }
     }
+}
 
     private static String extrairString(String objeto, String campo) {
         Pattern pattern = Pattern.compile("\\\"" + campo + "\\\"\\s*:\\s*\\\"([^\\\"]*)\\\"");

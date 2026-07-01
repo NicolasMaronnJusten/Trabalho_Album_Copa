@@ -7,7 +7,15 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Album album = GerenciadorAlbumCatalogo.carregarAlbum();
+
+        String nomeProprietario = "";
+
+        if (ArquivoAlbumJson.precisaNomeProprietario()) {
+            System.out.print("Digite o nome do proprietário do álbum: ");
+            nomeProprietario = sc.nextLine();
+        }
+
+        Album album = GerenciadorAlbumCatalogo.carregarAlbum(nomeProprietario);
         String opcao = "";
 
         while (!opcao.equals("0")) {
