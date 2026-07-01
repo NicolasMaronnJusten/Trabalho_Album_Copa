@@ -32,6 +32,20 @@ public class ArquivoAlbumJson {
             throw new RuntimeException("Não foi possível salvar o álbum em JSON.", e);
         }
     }
+    public static boolean precisaNomeProprietario() {
+    try {
+        if (!Files.exists(ARQUIVO)) {
+            return true;
+        }
+
+        String conteudo = Files.readString(ARQUIVO, StandardCharsets.UTF_8);
+        String proprietario = extrairString(conteudo, "proprietario");
+
+        return proprietario == null || proprietario.trim().isEmpty();
+        } catch (IOException e) {
+        return true;
+        }
+    }
 
     public static void carregarProgresso(Album album) {
         try {
@@ -62,32 +76,41 @@ public class ArquivoAlbumJson {
     }
 
     private static String montarJson(Album album) {
-        StringBuilder sb = new StringBuilder();
-        sb.append("[\n");
+    StringBuilder sb = new StringBuilder();
 
-        boolean primeiro = true;
+    sb.append("{\n");
+    sb.append("  \"proprietario\": \"")
+      .append(escapar(album.getProprietario().getNome()))
+      .append("\",\n");
 
-        for (Figurinha figurinha : album.getFigurinhas()) {
-            if (!figurinha.isColada() && figurinha.getQuantidadeRepetida() == 0) {
-                continue;
-            }
+    sb.append("  \"figurinhas\": [\n");
 
-            if (!primeiro) {
-                sb.append(",\n");
-            }
+    boolean primeiro = true;
 
-            sb.append("  {\n");
-            sb.append("    \"codigo\": \"").append(escapar(figurinha.getCodigo())).append("\",\n");
-            sb.append("    \"colada\": ").append(figurinha.isColada()).append(",\n");
-            sb.append("    \"repetidas\": ").append(figurinha.getQuantidadeRepetida()).append("\n");
-            sb.append("  }");
+    for (Figurinha figurinha : album.getFigurinhas()) {
+        if (!figurinha.isColada() && figurinha.getQuantidadeRepetida() == 0) {
+            continue;
+        }
+
+        if (!primeiro) {
+            sb.append(",\n");
+        }
+
+            sb.append("    {\n");
+            sb.append("      \"codigo\": \"").append(escapar(figurinha.getCodigo())).append("\",\n");
+            sb.append("      \"colada\": ").append(figurinha.isColada()).append(",\n");
+            sb.append("      \"repetidas\": ").append(figurinha.getQuantidadeRepetida()).append("\n");
+            sb.append("    }");
 
             primeiro = false;
         }
 
-        sb.append("\n]\n");
+        sb.append("\n  ]\n");
+        sb.append("}\n");
+
         return sb.toString();
     }
+    
 
     private static void aplicarJsonNoAlbum(Album album, String json) {
         Pattern objetoPattern = Pattern.compile("\\{([^}]*)\\}", Pattern.DOTALL);
