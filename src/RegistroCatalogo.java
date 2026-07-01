@@ -1,7 +1,7 @@
 package src;
 
-public class RegistroCatalogo {
-
+public class RegistroCatalogo { // classe que representa um registro do catálogo de figurinhas
+ 
     private String codigo;
     private int id;
     private String nome;
@@ -62,7 +62,7 @@ public class RegistroCatalogo {
     }
 
     @Override
-    public String toString() {
+    public String toString() { // retorna uma string com as informações do registro
         return "Código: " + codigo +
                 " | ID: " + id +
                 " | Nome: " + nome +
